@@ -9,9 +9,11 @@ import {
   Dumbbell,
   LayoutDashboard,
   Users,
+  X,
 } from "lucide-react";
 
 import { SignOutButton } from "@/components/auth/sign-out-button";
+import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 
@@ -59,23 +61,54 @@ const navItems = [
   },
 ] as const;
 
-export function DashboardSidebar() {
+type DashboardSidebarProps = {
+  className?: string;
+  onNavigate?: () => void;
+  showCloseButton?: boolean;
+  onClose?: () => void;
+};
+
+export function DashboardSidebar({
+  className,
+  onNavigate,
+  showCloseButton = false,
+  onClose,
+}: DashboardSidebarProps) {
   const pathname = usePathname();
 
   return (
-    <aside className="flex h-full w-64 shrink-0 flex-col border-r border-sidebar-border bg-sidebar text-sidebar-foreground">
-      <div className="px-5 py-6">
-        <p className="text-xs font-medium tracking-[0.18em] text-muted-foreground uppercase">
-          Panel clínico
-        </p>
-        <h1 className="mt-1 text-lg font-semibold tracking-tight text-foreground">
-          AR Readaptación
-        </h1>
+    <aside
+      className={cn(
+        "flex h-full w-64 shrink-0 flex-col border-r border-sidebar-border bg-sidebar text-sidebar-foreground",
+        className
+      )}
+    >
+      <div className="flex items-start justify-between gap-2 px-5 py-6">
+        <div>
+          <p className="text-xs font-medium tracking-[0.18em] text-muted-foreground uppercase">
+            Panel clínico
+          </p>
+          <h1 className="mt-1 text-lg font-semibold tracking-tight text-foreground">
+            AR Readaptación
+          </h1>
+        </div>
+        {showCloseButton ? (
+          <Button
+            type="button"
+            variant="ghost"
+            size="icon-sm"
+            className="mt-0.5 shrink-0"
+            onClick={onClose}
+            aria-label="Cerrar menú"
+          >
+            <X className="size-4" />
+          </Button>
+        ) : null}
       </div>
 
       <Separator />
 
-      <nav className="flex flex-1 flex-col gap-1 p-3">
+      <nav className="flex flex-1 flex-col gap-1 overflow-y-auto p-3">
         {navItems.map((item) => {
           const Icon = item.icon;
           const active = item.isActive(pathname);
@@ -84,8 +117,9 @@ export function DashboardSidebar() {
             <Link
               key={item.href}
               href={item.href}
+              onClick={onNavigate}
               className={cn(
-                "flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium transition-colors",
+                "flex items-center gap-2.5 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
                 active
                   ? "bg-sidebar-accent text-sidebar-accent-foreground"
                   : "text-muted-foreground hover:bg-sidebar-accent/70 hover:text-foreground"
