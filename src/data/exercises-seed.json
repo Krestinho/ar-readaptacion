@@ -1,0 +1,1514 @@
+[
+  {
+    "code": "001-NERVE-SLIDE-FLOSS-SCIATIC",
+    "title": "Nerve slide floss Sciatic",
+    "description": "Lleva la cabeza hacia atrás mientras extiendes la rodilla Después lleva la cabeza hacia delante y flex rodilla",
+    "video_url": null
+  },
+  {
+    "code": "002-MASAJE-MIOFASCIAL-DE-PLANTA-",
+    "title": "Masaje miofascial de planta del pie con pelota",
+    "description": "Masajea lentamente Puedes pararte y presionar sobre los puntos de mayor tensión",
+    "video_url": null
+  },
+  {
+    "code": "003-TOE-FINGER-ELEPHANT-WALK",
+    "title": "Toe finger elephant walk",
+    "description": "Moviliza de manera dinámica los dos pies, uno se apoya y el otro de puntillas, estirando el dedo “gordo de los pies. A diferencia del video puedes apoyar los brazos en un banco",
+    "video_url": null
+  },
+  {
+    "code": "004-MASAJE-MIOFASCIAL-DE-SOLEO",
+    "title": "Masaje miofascial de soleo",
+    "description": "Masajea lentamente Puedes pararte y presionar sobre los puntos de mayor tensión",
+    "video_url": null
+  },
+  {
+    "code": "005-ANKLE-INVERSION-EVERSION",
+    "title": "Ankle Inversión-eversion",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "006-ANKLE-INVERSION-EVERSION-TOW",
+    "title": "Ankle inversión-eversion towel or slider",
+    "description": "Rota el tobillo sobre una toalla o slider",
+    "video_url": null
+  },
+  {
+    "code": "007-HEEL-SLIDES-DORSIFLEXION",
+    "title": "Heel slides dorsiflexion",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "008-ANKLE-BANDED-ADDUCTION",
+    "title": "Ankle banded adduction",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "009-PLANTAR-FLEXION",
+    "title": "Plantar flexion",
+    "description": "No superar los 0º(que la punta del pie llegue a pauntar hacia el techo pero no hacia ti)",
+    "video_url": null
+  },
+  {
+    "code": "010-SEATED-HEEL-RAISES",
+    "title": "Seated heel raises",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "011-STANDING-SINGLE-LEG-SOLEUS-R",
+    "title": "Standing single leg soleus raise",
+    "description": "Apoya las manos sobre una silla o pared; mantén flexionada la rodilla de apoyo y eleva el talón",
+    "video_url": null
+  },
+  {
+    "code": "012-POSTERIOR-TIBIALIS-CALF-RAIS",
+    "title": "Posterior tibialis calf raise",
+    "description": "Coloca la pelota debajo de tus maleolos Sujetando la pelota eleva y desciende los pies",
+    "video_url": null
+  },
+  {
+    "code": "013-PERONE-PERONEOS-GOMA-ELASTIC",
+    "title": "Perone Peroneos goma elástica",
+    "description": "Dejar que la resistencia lleve el pie hacia “dentro” para después llevarlo hacia “afuera Evita rotar la pierna, mueve solo el tobillo Soleo Soleus machine Sentado en máquina elevar el tobillo y aguantar la posición durante el tiempo indicado",
+    "video_url": null
+  },
+  {
+    "code": "014-1-LEG-SOLEUS-ISOMETRIC-HOLD",
+    "title": "1 leg soleus isometric hold",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "015-1-LEG-SOLEUS-RAISE",
+    "title": "1 leg soleus raise",
+    "description": "Mantén la rodilla flexionada mientras elevas y desciendes el tobillo",
+    "video_url": null
+  },
+  {
+    "code": "016-GEMELO-1LEG-ISO-CALF-RAISE",
+    "title": "Gemelo 1leg iso calf raise",
+    "description": "Alcanza la máxima altura que pueda Trata de ir retirando las manos de la pared",
+    "video_url": null
+  },
+  {
+    "code": "017-ECCENTRIC-ACCENTUATED-CALF-R",
+    "title": "Eccentric accentuated calf raise",
+    "description": "Elévate apoyando los dos pies y baja solo con uno Si lo necesitas apoya las manos en la pared",
+    "video_url": null
+  },
+  {
+    "code": "018-1-LEG-CALF-RAISE-PRESS-MACHI",
+    "title": "1 leg calf raise press machine",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "019-FOAM-ROLLER-CUADRICEPS",
+    "title": "Foam roller cuadriceps",
+    "description": "Masajea lentamente Puedes pararte y presionar sobre los puntos de mayor tensión",
+    "video_url": null
+  },
+  {
+    "code": "020-ISOMETRIC-KNEE-EXTENSION",
+    "title": "Isometric knee extension",
+    "description": "Empuja en isometrico Ángulo de 90º",
+    "video_url": null
+  },
+  {
+    "code": "021-ECC-1LEG-HAMSTRING-CURL-MACH",
+    "title": "ECC 1leg hamstring curl machine",
+    "description": "Flexionar con las dos piernas y extender con una Controlar la extensión",
+    "video_url": null
+  },
+  {
+    "code": "022-MASAJE-MIOFASCIAL-DE-ABDUCTO",
+    "title": "Masaje miofascial de abductores",
+    "description": "Masajea lentamente Puedes pararte y presionar sobre los puntos de mayor tensión",
+    "video_url": null
+  },
+  {
+    "code": "023-MASAJE-MIOFASCIAL-DE-ADUCTOR",
+    "title": "Masaje miofascial de aductores",
+    "description": "Masajea lentamente Puedes pararte y presionar sobre los puntos de mayor tensión",
+    "video_url": null
+  },
+  {
+    "code": "024-RESIETED-BOX-ELEPHANT-WALK",
+    "title": "Resieted box elephant walk",
+    "description": "Trata de mantener la cadera en anteversión, extiendes lentamente las rodillas de manera alternativa",
+    "video_url": null
+  },
+  {
+    "code": "025-ELEPHANT-WALK",
+    "title": "Elephant walk",
+    "description": "Trata de mantener la cadera en anteversión, extiendes lentamente las rodillas de manera alternativa",
+    "video_url": null
+  },
+  {
+    "code": "026-LYING-CROSSOVER-REACH",
+    "title": "Lying crossover reach",
+    "description": "Eleva los glúteos del suelo; desde ahí extiende rodilla lo que puedas y eleva brazo contrario; en esa posición realiza respiraciones porfundas",
+    "video_url": null
+  },
+  {
+    "code": "027-ADD-CUADRUPED-CIRCLE-ADD",
+    "title": "ADD Cuadruped circle ADD",
+    "description": "Deslizar lentamente el slider alejándolo del cuerpo",
+    "video_url": null
+  },
+  {
+    "code": "028-ROCKBACK",
+    "title": "Rockback",
+    "description": "Apoya el dedo gordo de cada pie tratando que este flexionado",
+    "video_url": null
+  },
+  {
+    "code": "029-HALF-KNEELING-OPEN-HIP",
+    "title": "Half kneeling open hip",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "030-IR-90-90-INTERNAL-ROTATION",
+    "title": "IR 90/90 internal rotation",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "031-LATERAL-HIP-BANDED-DISTRACTI",
+    "title": "Lateral Hip Banded Distraction",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "032-HIP-HINGE-1-HIP-BANDED",
+    "title": "Hip Hinge 1 hip Banded",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "033-0-43",
+    "title": "(0:43)",
+    "description": "EXT Glute bridge full foot Activar glúteos justo antes de iniciar movimientos Mantener glúteos activos durante todo el movimiento Elevar y bajar el culo APOYANDO TODA LA PLANTA PIE",
+    "video_url": null
+  },
+  {
+    "code": "034-PUENTE-GLUTEO-TALON",
+    "title": "Puente glúteo talón",
+    "description": "Activar glúteos justo antes de iniciar movimientos Mantener glúteos activos durante todo el movimiento Elevar y bajar el culo mientras apoyamos los talones",
+    "video_url": null
+  },
+  {
+    "code": "035-1LEG-PIRATE-GLUTE-BRIDGE",
+    "title": "1leg pirate glute bridge",
+    "description": "Activar glúteo justo antes de iniciar movimiento Mantener glúteo activo durante todo el movimiento Tratar de extender la rodilla de la pierna estirada max",
+    "video_url": null
+  },
+  {
+    "code": "036-DB-GLUTE-GRIDGE",
+    "title": "DB Glute gridge",
+    "description": "Activar glúteos justo antes de iniciar movimientos Mantener glúteos activos durante todo el movimiento Apoyar talones, a diferencia de como en el video",
+    "video_url": null
+  },
+  {
+    "code": "037-ECC-GLUTE-BRIDGE-SLIDER",
+    "title": "ECC glute bridge slider",
+    "description": "Mantener activos glúteos y core Para alcanzar la intensidad del ..% se puede utilizar una pesa sobre la cadera",
+    "video_url": null
+  },
+  {
+    "code": "038-1-LEG-ACENTUATED-GLUTE-BRIDG",
+    "title": "1 leg acentuated glute bridge slider",
+    "description": "Mantener activos glúteos y core Para alcanzar la intensidad del ..% se puede utilizar una pesa sobre la cadera",
+    "video_url": null
+  },
+  {
+    "code": "039-PELVIC",
+    "title": "Pelvic",
+    "description": "tilt 90 90 hip lift Rodillas y caderas a 90º; una pelota o bloque entre las rodillas 1ro inhala por la nariz; expande las costillas; empuja la pared y aprieta la pelota 2do exhala; realiza retroversión; levanta la cadera del suelo ligeramente",
+    "video_url": null
+  },
+  {
+    "code": "040-FLEX-ECC-PSOAS-LOADING",
+    "title": "FLEX ECC psoas loading",
+    "description": "No perder la curvatura lumbar activando core Un peso liviano que no suponga sobreesfuerzo",
+    "video_url": null
+  },
+  {
+    "code": "041-KB-PSOAS-FLEX",
+    "title": "KB Psoas flex",
+    "description": "No perder la curvatura lumbar activando core Un peso liviano que no suponga sobreesfuerzo",
+    "video_url": null
+  },
+  {
+    "code": "042-STANDING-BAND-RESISTED-HIP-F",
+    "title": "Standing band resisted hip flex",
+    "description": "A core, evitar durante todo el movimiento que se pierda la curvatura lumbar Activar el glúteo de la pierna apoyada",
+    "video_url": null
+  },
+  {
+    "code": "043-ABD-ISOMETRIC-SIDE-LYING-HIP",
+    "title": "ABD Isometric side lying hip abduction",
+    "description": "Elevar la pierna y mantener la posición",
+    "video_url": null
+  },
+  {
+    "code": "044-ABD-FLOOR-CLAMSHELL-BANDED",
+    "title": "ABD Floor clamshell banded",
+    "description": "Espalda alineada Activar glúteo durante el movimiento y activar core",
+    "video_url": null
+  },
+  {
+    "code": "045-ABD-ABD-MACHINE",
+    "title": "ABD ABD machine",
+    "description": "No perder la curvatura lumbar durante el ejercicio",
+    "video_url": null
+  },
+  {
+    "code": "046-ADD-HIP-ADDUTOR-MACHINE",
+    "title": "ADD Hip addutor machine",
+    "description": "Mantener espalda alineada",
+    "video_url": null
+  },
+  {
+    "code": "047-HIP-ADDUCTION-ISO",
+    "title": "Hip adduction iso",
+    "description": "Mantener espalda alineada",
+    "video_url": null
+  },
+  {
+    "code": "048-SUPINE-HIP-ADDUCTION-ISO",
+    "title": "Supine Hip adduction iso",
+    "description": "Apoyar talones a diferencia de como se muestra en el",
+    "video_url": null
+  },
+  {
+    "code": "049-ADDUCTOR-SIDE-PLANK",
+    "title": "Adductor side plank",
+    "description": "Activa core y manetén la espalda alineada",
+    "video_url": null
+  },
+  {
+    "code": "050-KNEELING-COPENHAGEN-PLANK",
+    "title": "Kneeling copenhagen plank",
+    "description": "Activa core y manetén la espalda alineada Dinamic kneeling copenhagen plank Activa core y manetén la espalda alineada",
+    "video_url": null
+  },
+  {
+    "code": "051-COPENHAGEN-PLANK",
+    "title": "Copenhagen plank",
+    "description": "Activa core y manetén la espalda alineada Dinamic copenhagen plank Activa core y manetén la espalda alineada",
+    "video_url": null
+  },
+  {
+    "code": "052-PELVIS",
+    "title": "Pelvis",
+    "description": "side lying scissor slides Acostado de lado con caderas flexionadas 90º colocar en muslos un foam roller o pelota; deslizar la pierna de arriba sobre el roller",
+    "video_url": null
+  },
+  {
+    "code": "053-FOAM-ROLLER-SACRO-ILIACA",
+    "title": "Foam roller sacro iliaca",
+    "description": "Percibir la presión sobre los puntos de tensión No deslizar rápidamente",
+    "video_url": null
+  },
+  {
+    "code": "054-SACROILIAC-MOBILIZATION",
+    "title": "Sacroiliac mobilization",
+    "description": "Con las caderas semiflexionadas y pies apoyados lleva las rodillas a un lado y al otro",
+    "video_url": null
+  },
+  {
+    "code": "055-ER-ISO-WALL-SHOULDER-EXTERNA",
+    "title": "ER Iso wall shoulder external rotation",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "056-ABD-ISOMETRIC-WALL-SHOULDER-",
+    "title": "ABD Isometric wall shoulder abducion",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "057-BELLY-PRESS-IR",
+    "title": "Belly press IR",
+    "description": "En la posición de la imagen empuja la mano contra la zona abdominal IR Band isometric internal rotation Flexionar codo a 90º Colocar una toalla o similar entre codo y tronco Mantener la posición sin que te venza la goma",
+    "video_url": null
+  },
+  {
+    "code": "058-ESCAPULA",
+    "title": "Escápula",
+    "description": "Prone scapular A retraction Sin utilizar los brazos concéntrate en realizar a la vez los dos movimientos de la izquierda (abajo y centro) con las escápulas",
+    "video_url": null
+  },
+  {
+    "code": "059-RESISTED-A-SCAPULAR-RETRACTI",
+    "title": "Resisted A scapular retraction",
+    "description": "Sin utilizar los brazos concéntrate en realizar a la vez los dos movimientos de la izquierda (abajo y centro) con las escápulas",
+    "video_url": null
+  },
+  {
+    "code": "060-SERRATO-SERRATUS-PUNCH-BAND",
+    "title": "Serrato Serratus punch band",
+    "description": "Evita arquear la espalda o adelantar cabeza, a-core",
+    "video_url": null
+  },
+  {
+    "code": "061-ISOMETRIC-WALL-SQUAT",
+    "title": "Isometric wall squat",
+    "description": "Piernas a la anchura de las caderas Flexionado a 90º empujar contra la pared Isometric 1 leg wall squat",
+    "video_url": null
+  },
+  {
+    "code": "062-1-LEG-ISOMETRIC-CALF-90",
+    "title": "1 leg isometric calf 90º",
+    "description": "Asegurarse que el talón no sobrepasa la línea del apoyo generando un ángulo más cerrado para el tobillo",
+    "video_url": null
+  },
+  {
+    "code": "063-FRONTAL-SIDE-WALL-ISO-PUSH",
+    "title": "frontal Side wall iso push",
+    "description": "No extender del todo la pierna de apoyo La fuerza viene del empuje contra el suelo",
+    "video_url": null
+  },
+  {
+    "code": "064-CLPC",
+    "title": "CLPC",
+    "description": "Hip mobility 360º",
+    "video_url": null
+  },
+  {
+    "code": "065-CLOSED-CHAIN-HIP-LOCK",
+    "title": "Closed chain hip lock",
+    "description": "Activa core durante todo el movimiento; trata de mantener alineada la espalda",
+    "video_url": null
+  },
+  {
+    "code": "066-TALL-KNEELING-LMN-HIP-EXTENS",
+    "title": "Tall kneeling LMN hip extension",
+    "description": "Muñecas rígidas y y a-core Activa gluteos",
+    "video_url": null
+  },
+  {
+    "code": "067-RAQUIS",
+    "title": "Raquis",
+    "description": "Draw in supino Acostado boca arriba con las rodillas flexionadas Piensa en llevar el ombligo al suelo todo lo que puedas y aguanta la posición",
+    "video_url": null
+  },
+  {
+    "code": "068-KB-BOTTOM-UP",
+    "title": "KB bottom up",
+    "description": "Mantener brazo a 90º con un peso que te permita que la KB no caiga hacia los lados No pierdas la curvatura lumbar No adelantar cabeza, mantener la muñeca firme y A-core",
+    "video_url": null
+  },
+  {
+    "code": "069-HALF-KNEELING-KB-BOTTOM-UP",
+    "title": "Half kneeling KB bottom up",
+    "description": "KB no caiga hacia los lados No pierdas la curvatura lumbar No adelantar cabeza, mantener la muñeca firme y A-core",
+    "video_url": null
+  },
+  {
+    "code": "070-KB-BOTTOM-UP-PRESS",
+    "title": "KB bottom up press",
+    "description": "KB no caiga hacia los lados No pierdas la curvatura lumbar No adelantar cabeza, mantener la muñeca firme y A-core",
+    "video_url": null
+  },
+  {
+    "code": "071-ALTERNATIVE-KB-BOTTOM-UP-PRE",
+    "title": "Alternative KB bottom up press",
+    "description": "KB no caiga hacia los lados No pierdas la curvatura lumbar No adelantar cabeza, mantener la muñeca firme y A-core",
+    "video_url": null
+  },
+  {
+    "code": "072-AIR-HALF-KNEELING-A-RETRACTI",
+    "title": "Air half kneeling A retraction",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "073-ASOCIATIVOS",
+    "title": "ASOCIATIVOS",
+    "description": "Miembro Pierna Fase 1: CCC con carga/descarga Sagital Resisted knee extensión Dejarse vencer por la fuerza y de la goma y después vencerla extendiendo rodilla",
+    "video_url": null
+  },
+  {
+    "code": "074-POSTERIOR",
+    "title": "posterior",
+    "description": "Posterior ball Calf raises Sujeta la pelota presionando con los tobillos y realiza mientras elevaciones de talón",
+    "video_url": null
+  },
+  {
+    "code": "075-FRONTAL-FIRE-HYDRANT-ISO-HOL",
+    "title": "Frontal Fire Hydrant ISO hold",
+    "description": "Eleva la pierna lo justo para no perder la posición simétrica de la cadera Mantén la espalda alineada y A-Core ADD Puente glúteo excentrico + isométrico de aductores Utiliza una pelota, un bloque o algo similar para apretar juntando” piernas Activa glúteos y core durante todo el movimiento Controla la bajada",
+    "video_url": null
+  },
+  {
+    "code": "076-0-20",
+    "title": "0:20",
+    "description": "ABD Isometric hip abduction Genera estabilidad desde el apoyo en el suelo y a-core Empujar la pelota tratando de llevar la pierna hacia la pared",
+    "video_url": null
+  },
+  {
+    "code": "077-BRIDGE-PSOAS-MARCH",
+    "title": "Bridge psoas march",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "078-PELVIC-TILT",
+    "title": "Pelvic tilt",
+    "description": "Knee ext 90/90 knee rolls Aprieta el roller pelota o lo que utilices; Eleva el glúteo del suelo; Deliza sobre el roller alternando la elevación de rodillas",
+    "video_url": null
+  },
+  {
+    "code": "079-FASE-2-ESTABILIZACION-TRANSI",
+    "title": "Fase 2: Estabilización transicional",
+    "description": "Bisagra de cadera con pica Mantener espalda alineada Activa glúteos y core en todo el movimiento Ve desplazando el glúteo hacia atrás manteniéndolo activo y cuando no avance más detén la bajada",
+    "video_url": null
+  },
+  {
+    "code": "080-LUNGE-FOOT-OVER-PLATE",
+    "title": "Lunge foot over plate",
+    "description": "Mantener el tobillo a 90º, no como en el video",
+    "video_url": null
+  },
+  {
+    "code": "081-FASE-3-ESTABILIZACION-DINAMI",
+    "title": "Fase 3: estabilización dinámica",
+    "description": "Fase 1: CCC con carga/descarga All four abs Desde posición de cuadrupedia curva la espalda tanto como puedas hacia arriba; inclínate hacia delante y desde ahí toma aire agrandando el espacio entre escápulas; después sopla fuerte llevando el ombligo hacia dentro.",
+    "video_url": null
+  },
+  {
+    "code": "082-BISAGRA-DE-CADERA-CON-RODILL",
+    "title": "Bisagra de cadera con rodilla sobre banco",
+    "description": "Mantener espalda alineada Activa glúteos y core en todo el movimiento Ve desplazando el glúteo hacia atrás manteniéndolo activo, cuando no avance más detén la bajada 2x15 Lado",
+    "video_url": null
+  },
+  {
+    "code": "083-ANTI-EXT-BIRD-DOG",
+    "title": "Anti Ext Bird dog",
+    "description": "Mantener espalda alineada Activa el glúteo de pierna elevada y A-core Hazlo lento y controlado 2x12",
+    "video_url": null
+  },
+  {
+    "code": "084-1-40",
+    "title": "1:40",
+    "description": "Kneeling elasctic high anti extension Mantener espalda alineada; No adelantar cabeza Activa el glúteos y A-core ; Hazlo lento y controlado",
+    "video_url": null
+  },
+  {
+    "code": "085-ROLL-OUT",
+    "title": "Roll out",
+    "description": "Mantener espalda alineada Que no “caiga el culo Lento y controlado Body saws Comienza desde una posición de plancha frontal Mueve el cuerpo hacia delante y atrás sobre las puntas de tus pies. A-core durante todo el ejercicio",
+    "video_url": null
+  },
+  {
+    "code": "086-HOLLOW-HOLD",
+    "title": "Hollow hold",
+    "description": "A-Core, flexionar cadera",
+    "video_url": null
+  },
+  {
+    "code": "087-HOLLOW-ROCKS",
+    "title": "Hollow rocks",
+    "description": "A-Core, flexionar cadera y balancearse",
+    "video_url": null
+  },
+  {
+    "code": "088-ISOMETRIC-DEADBUG-PUSH",
+    "title": "Isometric deadbug push",
+    "description": "No pierdas la curvatura lumbar Empuja fuerte las piernas contra los brazos A-core",
+    "video_url": null
+  },
+  {
+    "code": "089-CROSS-DEADBUG-PUSH",
+    "title": "Cross deadbug push",
+    "description": "No pierdas la curvatura lumbar Empuja fuerte las pierna contra el brazo contrario A-core",
+    "video_url": null
+  },
+  {
+    "code": "090-PELVIC-TILT-BANDED-DEADBUG",
+    "title": "Pelvic tilt Banded deadbug",
+    "description": "No pierdas la curvatura lumbar A-core",
+    "video_url": null
+  },
+  {
+    "code": "091-WAITER-WALK-SINGLE-ARM-CARRY",
+    "title": "Waiter walk single arm carry",
+    "description": "No pierdas la alineación del raquis Mantén todo el cuerpo, incluida cabeza en línea A-core",
+    "video_url": null
+  },
+  {
+    "code": "092-ANTI",
+    "title": "Anti",
+    "description": "Flex 1 leg glute bridge w tennis ball Coloca una pelota de tenis en tu cadera y sujétala flexionándola; realiza un puede glúteo a una pierna",
+    "video_url": null
+  },
+  {
+    "code": "093-KNEELING-SIDE-PLANK",
+    "title": "Kneeling Side Plank",
+    "description": "No pierdas la alineación del raquis Mantén todo el cuerpo, incluida cabeza en línea A-core Side Plank No pierdas la alineación del raquis Mantén todo el cuerpo, incluida cabeza en línea A-core Star plank No pierdas la alineación del raquis; a-core Mantén todo el cuerpo, incluida cabeza en línea Half kneeling raised anti inclination No pierdas la alineación del raquis; a-core Mantén todo el cuerpo, incluida cabeza en línea",
+    "video_url": null
+  },
+  {
+    "code": "094-DA-VINCI-PLANK",
+    "title": "Da vinci plank",
+    "description": "No pierdas la alineación del raquis Mantén todo el cuerpo, incluida cabeza en línea A-core",
+    "video_url": null
+  },
+  {
+    "code": "095-SEG-6",
+    "title": "(seg 6)",
+    "description": "Dynamic Pallof Press Piernas a altura de caderas; a-core; empuja brazos hacia delante y mantén 2 segundos antes de volver",
+    "video_url": null
+  },
+  {
+    "code": "096-TALL-KNEELING-ANTI-ROT",
+    "title": "Tall kneeling anti rot",
+    "description": "Mantén la espalda alineada, evita que el tronco rote No adelantar cabeza A-core",
+    "video_url": null
+  },
+  {
+    "code": "097-INCLINACION",
+    "title": "Inclinación",
+    "description": "+ rotatión Plank KB Pull Through Mantén la espalda alineada A-core",
+    "video_url": null
+  },
+  {
+    "code": "098-QUADRUPED-SHOULDER-EXT",
+    "title": "Quadruped shoulder ext",
+    "description": "Activar core",
+    "video_url": null
+  },
+  {
+    "code": "099-QUAD-SHOULDER-FLEX-CONTRALAT",
+    "title": "Quad shoulder flex + contralateral hip ext",
+    "description": "Mantener espalda alineada Evita que se rote el cuerpo",
+    "video_url": null
+  },
+  {
+    "code": "100-PUSH-UP-PLUS",
+    "title": "Push up plus",
+    "description": "Mantener espalda alineada Sin flexionar los codos acercarse y alejarse del suelo con los brazos",
+    "video_url": null
+  },
+  {
+    "code": "101-FRONTAL",
+    "title": "Frontal",
+    "description": "ER Side Lying Press Trata de elevar la pesa lo más “recta” posible",
+    "video_url": null
+  },
+  {
+    "code": "102-SIDE-PLANK-PRESS",
+    "title": "Side plank press",
+    "description": "Mantener espalda alineada Trata de elevar la pesa lo más “recta” posible",
+    "video_url": null
+  },
+  {
+    "code": "103-IR-SIDE-LYING-SHOULDER-EXTER",
+    "title": "IR Side Lying Shoulder external rotation",
+    "description": "Lleva la pesa hacia tu pecho",
+    "video_url": null
+  },
+  {
+    "code": "104-HALF-KNEELING-KETTLEBELL-WIN",
+    "title": "Half kneeling kettlebell windmill",
+    "description": "Activa core; realiza el movimientolento y controlado",
+    "video_url": null
+  },
+  {
+    "code": "105-CADENA",
+    "title": "Cadena",
+    "description": "Apoyo Fase 1: CCC con carga/descarga ISO cross step wall drill",
+    "video_url": null
+  },
+  {
+    "code": "106-SPLIT-STANCE-ROTATIONAL-LAND",
+    "title": "Split-Stance Rotational Landmine Press",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "107-2-LEGS-POGOS",
+    "title": "2 legs pogos",
+    "description": "Suelo quema” debes tocar el suelo poco tiempo No llegues a tocar con el talón el suelo IMPORTANTE: en aire debes llevar las puntas hacia arriba",
+    "video_url": null
+  },
+  {
+    "code": "108-ANKLE-EXTENSIVE-LINEAR-POGOS",
+    "title": "Ankle extensive linear pogos",
+    "description": "Suelo quema” debes tocar el suelo poco tiempo No llegues a tocar con el talón el suelo IMPORTANTE: en aire debes llevar las puntas hacia arriba",
+    "video_url": null
+  },
+  {
+    "code": "109-FORWARD-BACKWARDS-POGO-JUMPS",
+    "title": "Forward Backwards Pogo Jumps (delante detrás)",
+    "description": "Suelo quema” debes tocar el suelo poco tiempo No llegues a tocar con el talón el suelo IMPORTANTE: en aire debes llevar las puntas hacia arriba",
+    "video_url": null
+  },
+  {
+    "code": "110-FRONTAL-2-LEGS-SIDE-POGOS-DE",
+    "title": "Frontal 2 legs side pogos ( de lado a lado)",
+    "description": "Suelo quema” debes tocar el suelo poco tiempo No llegues a tocar con el talón el suelo IMPORTANTE: en aire debes llevar puntas hacia arriba",
+    "video_url": null
+  },
+  {
+    "code": "111-ANKLE-AISMETRIC-EXTENSIVE-PO",
+    "title": "Ankle aismetric extensive pogos",
+    "description": "Suelo quema” debes tocar el suelo poco tiempo No llegues a tocar con el talón el suelo IMPORTANTE: en aire debes llevar las puntas hacia arriba",
+    "video_url": null
+  },
+  {
+    "code": "112-KNEE-EXTENSIVE-PLYOS-1-LEG-B",
+    "title": "Knee extensive plyos 1 leg box",
+    "description": "Haz saltos pequeños manteniendo alineados tobillo rodilla y cadera",
+    "video_url": null
+  },
+  {
+    "code": "113-FARMER-WALK",
+    "title": "Farmer walk",
+    "description": "Trata de mantener activo core Hazlo relativamente lento Manipulaciones Fase 1: CCC con carga/descarga Fase 2: Estabilización transicional Turkish Get Up - Step 1-2",
+    "video_url": null
+  },
+  {
+    "code": "114-TURKISH-GET-UP-STEP-3",
+    "title": "Turkish Get Up - Step 3",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "115-TURKISH-GET-UP-STEP-4",
+    "title": "Turkish Get Up - Step 4",
+    "description": "Manteniendo elevada la KB nos levantamos a-core",
+    "video_url": null
+  },
+  {
+    "code": "116-1-ARM-ROTATIONAL-TWX-ROW",
+    "title": "1 arm rotational TWX row",
+    "description": "Realizar el movimiento lento a-core Durante la tracción realizar retracción escapular",
+    "video_url": null
+  },
+  {
+    "code": "117-LMN-KNEELING-LATERAL-PRESS",
+    "title": "LMN Kneeling Lateral Press",
+    "description": "Tratar de mantener alineado el brazo con el tronco durante todo el movimiento A-core",
+    "video_url": null
+  },
+  {
+    "code": "118-1-LEG-RDL-ROTATION-4-POSITIO",
+    "title": "1 leg RDL rotation + 4 position",
+    "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas",
+    "video_url": null
+  },
+  {
+    "code": "119-1-LEG-KB-HALO",
+    "title": "1 leg KB halo",
+    "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas Rodilla elevada a la altura de la cadera sin arquear zona lumbar",
+    "video_url": null
+  },
+  {
+    "code": "120-KB-SINGLE-LEG-CALF-RAISE-ISO",
+    "title": "KB Single Leg Calf Raise Isometric Hold 90º",
+    "description": "Mantener el tobillo a 90º; con un brazo te sujetas a pared o Rack para estabilizar; sujeta una KB con el otro y mantén la posición - Movimiento libre o Mecánica Skippng Flow Seguir instrucciones",
+    "video_url": null
+  },
+  {
+    "code": "121-HIP",
+    "title": "Hip",
+    "description": "Ankle Wall hip lock Desde arriba con tobillo y caderas extendidas bajas llevando la cadera hacia atrás y llevando el tobillo al suelo dejando el espacio de una tarjeta de crédito del talón al suelo",
+    "video_url": null
+  },
+  {
+    "code": "122-O-CONTEXTO",
+    "title": "o Contexto",
+    "description": "o Realidad PRINCIPALES Empuje horizontal One arm press elastic resitance Mantén el tronco alineado A-core Push up elastic resistance Mantén el tronco alineado; forma una “A” con los brazos; A-core Empuje horizontal Asegúrate de llegar a todo el rango con ambos brazos Mantén las muñecas “vivas”(que no se extiendan) DB Bench press Generar separación de codos respecto al tronco de 45º Muñecas rígidas y por encima de los codos y a-core Los brazos no se acercan demasiado al cuerpo",
+    "video_url": null
+  },
+  {
+    "code": "123-INCLINED-DB-BENCH-PRESS",
+    "title": "Inclined DB Bench press",
+    "description": "Generar separación de codos respecto al tronco de 45º Muñecas rígidas y por encima de los codos y a-core Los brazos no se acercan demasiado al cuerpo",
+    "video_url": null
+  },
+  {
+    "code": "124-BENCH-PRESS",
+    "title": "Bench press",
+    "description": "Pierde poca velocidad en concéntrico a lo largo de las repeticiones Muñecas rígidas y directamente por encima de los codos y a-core Los brazos no se acercan demasiado al cuerpo",
+    "video_url": null
+  },
+  {
+    "code": "125-SEATED-1-ARM-CABLE-PRESS",
+    "title": "Seated 1 arm cable press",
+    "description": "Muñeca rígida, no se extiende Codo cercano al cuerpo No adelantar cabeza manteniendo espalda alineada",
+    "video_url": null
+  },
+  {
+    "code": "126-1-ARM-CABLE-PRESS-SPLIT-STAN",
+    "title": "1 arm cable press Split stance",
+    "description": "Muñeca rígida, no se extiende Codo cercano al cuerpo No adelantar cabeza manteniendo espalda alineada",
+    "video_url": null
+  },
+  {
+    "code": "127-HALF-KNEELING-LMN-PRESS",
+    "title": "Half kneeling LMN press",
+    "description": "No adelantar cabeza manteniendo espalda alineada",
+    "video_url": null
+  },
+  {
+    "code": "128-SPLIT-LMN-PRESS",
+    "title": "Split LMN press",
+    "description": "Mover solo el brazo, manteniendo estable el resto del cuerpo",
+    "video_url": null
+  },
+  {
+    "code": "129-TRACCION-HORIZONTAL",
+    "title": "Tracción horizontal",
+    "description": "Bent over row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Stand row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución TRX row Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución 1arm plank row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Con mano apoyada sujeta la zona de la goma que necesites para alcanzar la intensidad necesaria Split stance cable row El tronco no se deja llevar hacia delante ni hacia atrás con el movimiento (controlar la carga para evitar) Al tirar realiza retracción escapular, A-core y mantén alineada la espalda",
+    "video_url": null
+  },
+  {
+    "code": "130-SINGLE-ARM-SINGLE-LEG-CABLE-",
+    "title": "Single Arm Single Leg Cable Row",
+    "description": "El tronco no se deja llevar hacia delante ni hacia atrás con el movimiento (controlar la carga para evitar)",
+    "video_url": null
+  },
+  {
+    "code": "131-TRACCION-HORIZONTAL-ASCENDEN",
+    "title": "Tracción horizontal ascendente",
+    "description": "Haz la retracción escapular antes de tirar Al tirar el codo puede quedar a la altura del tronco A-core",
+    "video_url": null
+  },
+  {
+    "code": "132-REMO-INVERTIDO-SUPINO",
+    "title": "Remo invertido supino",
+    "description": "Haz la retracción escapular antes de tirar a-core",
+    "video_url": null
+  },
+  {
+    "code": "133-SEATED-ROW",
+    "title": "Seated row",
+    "description": "Mantén la espalda alineada, a-core, no adelantar cabeza Al tirar acompaña el movimiento de una retracción escapular",
+    "video_url": null
+  },
+  {
+    "code": "134-1-ARM-BD-ROW",
+    "title": "1 arm BD row",
+    "description": "Mantén la espalda alineada, a-core, no adelantar cabeza Al tirar acompaña el movimiento de una retracción escapular",
+    "video_url": null
+  },
+  {
+    "code": "135-DUAL-DB-PRONE-ROW",
+    "title": "Dual DB prone row",
+    "description": "No llevar los codos más arriba de la espalda",
+    "video_url": null
+  },
+  {
+    "code": "136-INCLINED-DB-ROW",
+    "title": "Inclined DB row",
+    "description": "Mantén la espalda alineada, a-core, no adelantar cabeza Al tirar acompaña el movimiento de una retracción escapular",
+    "video_url": null
+  },
+  {
+    "code": "137-DB-BENT-OVER-ROW",
+    "title": "DB bent over row",
+    "description": "Mantén la espalda alineada, a-core, no adelantar cabeza Al tirar acompaña el movimiento de una retracción escapular",
+    "video_url": null
+  },
+  {
+    "code": "138-BANDED-BENT-OVER-ROW",
+    "title": "Banded Bent over row",
+    "description": "Mantén la espalda alineada, a-core, no adelantar cabeza Al tirar acompaña el movimiento de una retracción escapular. Activa glúteos",
+    "video_url": null
+  },
+  {
+    "code": "139-EMPUJE-VERTICAL",
+    "title": "Empuje vertical",
+    "description": "Kneeling shoulder press Mantén el tronco alineado; A-core Seated shoulder press Mantén el tronco alineado; A-core Vertical push Asegúrate de llegar a todo el rango con ambos brazos Mantén las muñecas “vivas”(que no se extiendan) Neutral grip DB shoulder press No pierdas la curvatura lumbar, contrae los abdominales para evitarlo No adelantar cabeza A-core",
+    "video_url": null
+  },
+  {
+    "code": "140-1-ARM-90-SHOULDER-PRESS",
+    "title": "1 arm 90º shoulder press",
+    "description": "Posicionar el hombro y codo a 90º, no bajar de ahí Mantener espalda alineada No adelantar cabeza",
+    "video_url": null
+  },
+  {
+    "code": "141-STANDING-NEUTRAL-GRIP-SHOULD",
+    "title": "Standing neutral grip shoulder press",
+    "description": "No pierdas la curvatura lumbar, contrae los abdominales para evitarlo No adelantar cabeza A-core",
+    "video_url": null
+  },
+  {
+    "code": "142-SHOULDER-PRESS-BB",
+    "title": "Shoulder press BB",
+    "description": "Mantener espalda alineada (att. Cuando BB esta arriba) No adelantar cabeza Muñecas activas, no “caen hacia atrás” y A-Core",
+    "video_url": null
+  },
+  {
+    "code": "143-TRACCION-VERTICAL",
+    "title": "Tracción vertical",
+    "description": "Half Kneeling Inlined 1arm row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Half Kneeling Inlined row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Seated vertical row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Neutral grip vertical pull Inclínate un poco hacia atrás para realizar el ejercicio; no en cada repetición si no de manera continua Vertical pull Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Kneeling inclined single arm cable row Pierde poca velocidad en concéntrico a lo largo de las repeticiones Al tirar realiza retracción escapular, A-core y mantén alineada la espalda",
+    "video_url": null
+  },
+  {
+    "code": "144-BAND-ASISTED-PULL-UP",
+    "title": "Band asisted pull up",
+    "description": "Pierde poca velocidad en concéntrico a lo largo de las repeticiones Si no hay máquina utilizar elástico como en el video Retracción escapular previa",
+    "video_url": null
+  },
+  {
+    "code": "145-ECCENTRIC-ACENTUATED-CHIN-UP",
+    "title": "Eccentric acentuated Chin Ups",
+    "description": "Elévate sobre una superficie para comenzar desde arriba en la barra y bajar poco a poco",
+    "video_url": null
+  },
+  {
+    "code": "146-DOMINANTES-RODILLA",
+    "title": "Dominantes rodilla",
+    "description": "Elastic Front squat elastic resistance Sujeta con los dedos al lado de los hombros, codos arriba Bajar hasta el punto previo a perder la curvatura lumbar A-core Front split squat elastic resistance Sujeta con los dedos al lado de los hombros, codos arriba Bajar hasta el punto previo a perder la curvatura lumbar A-core Triangle squat elastic resistance No hace falta subir la goma tanto como en la imagen Pese a la rotación tratar de mantener alineado tronco A-core Isometric press machine Posicionar rodillas a 90º y ejercer fuerza contra una carga que no puedas desplazar En este caso debes ejercer un empuje a una intensidad % Isometric hack machine Posicionar rodillas a XXº y ejercer fuerza contra una carga que no puedas desplazar En este caso debes ejercer un empuje a una intensidad %",
+    "video_url": null
+  },
+  {
+    "code": "147-ECCENTRIC-PRESS-MACHINE",
+    "title": "Eccentric press machine",
+    "description": "Concéntrate en tardar los … segundos de la dosis la bajar",
+    "video_url": null
+  },
+  {
+    "code": "148-1-LEG-ACENTUATED-ECC-PRESS-M",
+    "title": "1 leg acentuated ecc press machine",
+    "description": "Mueve la carga con dos piernas y resiste en excéntrico con una sola pierna",
+    "video_url": null
+  },
+  {
+    "code": "149-2-LEGS-PRESS-MACHINE",
+    "title": "2 legs press machine",
+    "description": "Isometric Rack Back Squat Pies simétricos, espalda alineada, A-Core Asegúrate de no perder curva lumbar",
+    "video_url": null
+  },
+  {
+    "code": "150-ISOMETRIC-SPANISH-SQUAT",
+    "title": "Isometric spanish squat",
+    "description": "Colocar la goma en la parte posterior de las piernas Tomar la posición de la imagen (no hace falta adelantar brazos) Evita inclinar el tronco",
+    "video_url": null
+  },
+  {
+    "code": "151-ISO-WEIGHTED-SPANISH-SQUAT",
+    "title": "Iso weighted Spanish squat",
+    "description": "Colocar la goma en la parte posterior de las piernas Tomar la posición de la imagen, evita inclinar el tronco USA UNA KB SOBRE CADERA PARA LOGRAR EL %",
+    "video_url": null
+  },
+  {
+    "code": "152-WEIGHTED-SPANISH-SQUAT",
+    "title": "Weighted Spanish squat",
+    "description": "Colocar la goma en la parte posterior de las piernas",
+    "video_url": null
+  },
+  {
+    "code": "153-1-LEG-TRX-SQUAT",
+    "title": "1 leg TRX squat",
+    "description": "Trata de mantenerte erguido durante todo el ejercicio Procure que las rodillas no se acerquen la una a la otra",
+    "video_url": null
+  },
+  {
+    "code": "154-KB-2-HANDS-CLEAN",
+    "title": "KB 2 hands clean",
+    "description": "Ve desplazando los glúteos hacia atrás manteniéndolos activos, cuando no avance más detén la bajada Ver como cambia el agarre durante la ejecución en el video, la KB cerca del cuerpo Activa glúteos y core",
+    "video_url": null
+  },
+  {
+    "code": "155-MIN-1-00",
+    "title": "min 1:00",
+    "description": "Single-leg squat Trata de mantenerte erguido durante todo el ejercicio; Procure que las rodillas no se acerquen la una a la otra; No hace falta que estiras la pierna adelantada, puedes flexionar la cadera elevando la rodilla",
+    "video_url": null
+  },
+  {
+    "code": "156-SPLIT-BACK-SQUAT",
+    "title": "Split back squat",
+    "description": "Mantener en todo momento curvatura lumbar; a-core La mayor parte de la fuerza se realiza con la pierna adelantada",
+    "video_url": null
+  },
+  {
+    "code": "157-BACK-SQUAT",
+    "title": "Back squat",
+    "description": "Bajar hasta el punto previo a perder la curvatura lumbar A-core",
+    "video_url": null
+  },
+  {
+    "code": "158-GOBLET-SQUAT",
+    "title": "Goblet squat",
+    "description": "Bajar hasta el punto previo a perder la curvatura lumbar A-core y espalda alineada, vigila zona torácica",
+    "video_url": null
+  },
+  {
+    "code": "159-SLIP-FRONT-SQUAT",
+    "title": "Slip Front squat",
+    "description": "Sujeta con los dedos al lado de los hombros, codos arriba Bajar hasta el punto previo a perder la curvatura lumbar A-core. La fuerza la realizas con la pierna adelantada",
+    "video_url": null
+  },
+  {
+    "code": "160-FRONT-SQUAT",
+    "title": "Front squat",
+    "description": "Sujeta con los dedos al lado de los hombros, codos arriba Bajar hasta el punto previo a perder la curvatura lumbar A-core",
+    "video_url": null
+  },
+  {
+    "code": "161-HACK-MACHINE-SQUAT",
+    "title": "Hack machine squat",
+    "description": "Posicionar rodillas a la altura de las caderas",
+    "video_url": null
+  },
+  {
+    "code": "162-FRONTAL-ISOMETRIC-LATERAL-SQ",
+    "title": "Frontal Isometric lateral squat + 2 KB",
+    "description": "Punta del pie alejado apunta hacia delante Mantener alineación del tronco a-core Lado",
+    "video_url": null
+  },
+  {
+    "code": "163-GOBLET-TRIANGLE-SQUAT",
+    "title": "Goblet triangle squat",
+    "description": "Punta del pie alejado apunta hacia delante Mantener alineación del tronco a-core Lado",
+    "video_url": null
+  },
+  {
+    "code": "164-DB-TRIANGLE-SQUAT",
+    "title": "DB triangle squat",
+    "description": "Punta del pie alejado apunta hacia delante Mantener alineación del tronco a-core",
+    "video_url": null
+  },
+  {
+    "code": "165-LMN-LATERAL-REVERSE-LUNGE",
+    "title": "LMN Lateral Reverse Lunge",
+    "description": "La pierna adelantada es la que produce la fuerza empujando el suelo; Mantener correcta alineación del tronco sin llevar la cadera hacia los lados Lado",
+    "video_url": null
+  },
+  {
+    "code": "166-LMN-LATERAL-SQUAT",
+    "title": "LMN Lateral Squat",
+    "description": "La pierna adelantada es la que produce la fuerza empujando el suelo; Mantener correcta alineación del tronco Lado",
+    "video_url": null
+  },
+  {
+    "code": "167-LMN-TRIANGLE-SQUAT",
+    "title": "LMN triangle Squat",
+    "description": "Los pies siempre apuntando hacia delante; Mantener correcta alineación del tronco",
+    "video_url": null
+  },
+  {
+    "code": "168-LMN-TRIANGLE-LUNGE-LOW-GRIP",
+    "title": "LMN triangle Lunge Low grip",
+    "description": "Los pies siempre apuntando hacia delante; Mantener correcta alineación del tronco; Empuja el suelo fuerte para volver a posición inicial Lado",
+    "video_url": null
+  },
+  {
+    "code": "169-COSSACK-SQUAT",
+    "title": "Cossack squat",
+    "description": "Utiliza un rack para cargar la barra no como en el video",
+    "video_url": null
+  },
+  {
+    "code": "170-LMN-TRIANGLE-LUNGE-TO-PUSH-P",
+    "title": "LMN Triangle Lunge to Push Press Lado",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "171-DOMINANTES-CADERA",
+    "title": "Dominantes cadera",
+    "description": "Romanian elastic resistance Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core Mantén la espalda alineada en todo el movimiento Deadlift elastic resistance Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core Mantén la espalda alineada en todo el movimiento KB romanian Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core Mantén la espalda alineada en todo el movimiento",
+    "video_url": null
+  },
+  {
+    "code": "172-SINGLE-ARM-KB-DEADLIFT",
+    "title": "Single arm KB deadlift",
+    "description": "Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core,espalda alineada, evita rotar el tronco",
+    "video_url": null
+  },
+  {
+    "code": "173-SINGLE-LEG-ROMANIAN-VIDEO-DE",
+    "title": "Single leg romanian (video de la derecha)",
+    "description": "La pierna que se desplaza hacia atrás lo hace como una pata de palo”. La apoyada desplaza el glúteo hacia atrás y delante con la rodilla algo flexionada. A-core Mantén la espalda alineada en todo el movimiento",
+    "video_url": null
+  },
+  {
+    "code": "174-SPLIT-ROMANIAN-VIDEO-DE-LA-D",
+    "title": "Split Romanian (video de la derecha)",
+    "description": "En posición asimétrica el glúteo se desplaza hacia delante y atrás con rodilla algo flexionada, A-core Mantén la espalda alineada en todo el movimiento La fuerza la realizas con la pierna adelantada",
+    "video_url": null
+  },
+  {
+    "code": "175-ROMANIAN-BAJAR-HASTA-EL-FINA",
+    "title": "Romanian (Bajar hasta el final de la rodilla)(En el video es el 2do ej)",
+    "description": "Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core Mantén la espalda alineada en todo el movimiento",
+    "video_url": null
+  },
+  {
+    "code": "176-BANDED-DEALIFT",
+    "title": "Banded dealift",
+    "description": "Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core Mantén la espalda alineada en todo el movimiento",
+    "video_url": null
+  },
+  {
+    "code": "177-ISO-ISOMETRIC-KB-SUMO-SQUAT",
+    "title": "ISO Isometric KB sumo squat",
+    "description": "Separar piernas y bajar quedando la KB por debajo de las rodillas Mantener alineada la espalda",
+    "video_url": null
+  },
+  {
+    "code": "178-PIMA",
+    "title": "PIMA",
+    "description": "Natera 1leg hip ISO push",
+    "video_url": null
+  },
+  {
+    "code": "179-ISO-1LEG-FLOOR-HIP-ISO-PUSH",
+    "title": "ISO 1leg floor hip iso push",
+    "description": "Activar glúteo y core antes de iniciar el empuje Apoyar solo el talón del pie",
+    "video_url": null
+  },
+  {
+    "code": "180-ISO-1-LEG-BENCH-ISO-HIP-THRU",
+    "title": "ISO 1 leg bench iso hip thrust",
+    "description": "Gluteo y core active durante todo el ejercicio USA UNA KB SOBRE CADERA PARA LOGRAR EL % Apoyar solo el talón y no elevar cabeza",
+    "video_url": null
+  },
+  {
+    "code": "181-ISO-ISOMETRIC-WALL-SINGLE-LE",
+    "title": "ISO Isometric Wall Single Leg RDL",
+    "description": "Mantener espalda alineada y a-core Mantener glúteo de pierna apoyada activo",
+    "video_url": null
+  },
+  {
+    "code": "182-FLOOR-HIP-THRUST",
+    "title": "Floor hip thrust",
+    "description": "Activa glúteos antes de iniciar ejercicio mantenlos ac A-core",
+    "video_url": null
+  },
+  {
+    "code": "183-HIP-THRUST",
+    "title": "Hip thrust",
+    "description": "Mantener alineada la espalda durante todo el ejercicio A-Core y glúteos; “subir y bajar como una bisagra",
+    "video_url": null
+  },
+  {
+    "code": "184-1LEG-HIP-THRUST",
+    "title": "1leg Hip thrust",
+    "description": "Mantener alineada la espalda durante todo el ejercicio A-Core y glúteos; “subir y bajar como una bisagra",
+    "video_url": null
+  },
+  {
+    "code": "185-HEXA-BAR-SQUAT",
+    "title": "Hexa bar squat",
+    "description": "Pies a la altura de las caderas Mantener alineada la espalda, cabeza incluida en todo momento, a-core",
+    "video_url": null
+  },
+  {
+    "code": "186-KANG-SQUAT",
+    "title": "Kang squat",
+    "description": "Pies a la altura de las caderas Mantener alineada la espalda, Llevar glúteos hacia atrás, abajo, atrás y arriba",
+    "video_url": null
+  },
+  {
+    "code": "187-LUNGES",
+    "title": "Lunges",
+    "description": "Lunge crossed elastic resistance Mantén la posición de la espalda alineada Al bajar para mantener la posición hacerlo como un ascensor, de manera que no nos inclinemos Lunge crossed elastic resistance Mantén la posición de la espalda alineada Al bajar para mantener la posición hacerlo como un ascensor, de manera que no nos inclinemos Isometric lunge Mantén la posición de la espalda alineada",
+    "video_url": null
+  },
+  {
+    "code": "188-ISOMETRIC-BULGARIAN",
+    "title": "Isometric Bulgarian",
+    "description": "Mantén la posición de la espalda alineada Al bajar para mantener la posición hacerlo como un ascensor, de manera que te nos inclinemos Bulgarian Smith machine Mantén la posición de la espalda alineada Al bajar para mantener la posición hacerlo como un ascensor, de manera que no te inclinemos",
+    "video_url": null
+  },
+  {
+    "code": "189-ISOMETRIC-STEP-UP",
+    "title": "Isometric step up",
+    "description": "SUJETA UN PESO QUE TE PERMITA ALCANZAR LA DOSIS",
+    "video_url": null
+  },
+  {
+    "code": "190-TIBA",
+    "title": "Tiba",
+    "description": "neutral Static lunge Evita que la rodilla adelantada de desplace hacia delante",
+    "video_url": null
+  },
+  {
+    "code": "191-DB-LUNGE",
+    "title": "DB Lunge",
+    "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas durante la zancada",
+    "video_url": null
+  },
+  {
+    "code": "192-TALL-KNEELING-TO-STANDING-KB",
+    "title": "Tall kneeling to standing KB rack",
+    "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas durante la zancada",
+    "video_url": null
+  },
+  {
+    "code": "193-REVERSE-LUNGE-KB-RACK",
+    "title": "Reverse lunge KB rack",
+    "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas",
+    "video_url": null
+  },
+  {
+    "code": "194-CURTSY-SQUAT",
+    "title": "Curtsy squat",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "195-STEP",
+    "title": "Step",
+    "description": "ups Alternating step ups Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas",
+    "video_url": null
+  },
+  {
+    "code": "196-DB-STEP-UP",
+    "title": "DB step up",
+    "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas",
+    "video_url": null
+  },
+  {
+    "code": "197-SIDE-STEP-UP",
+    "title": "Side step up",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "198-FRONTAL-LMN-LATERAL",
+    "title": "Frontal LMN lateral",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "199-OLIMPICOS-DERIVADOS-E-ISO-RF",
+    "title": "OLIMPICOS, derivados e iso(RFD)",
+    "description": "Pime Natera knee iso push Parte MEDIA pie bajo barra con hombros caderas- tobillos alineados, barra sobre trapecios Rodilla flex 140-145º Caderas flex 160-165º Ángulo tronco entre 10-15º",
+    "video_url": null
+  },
+  {
+    "code": "200-NATERA-ANKLE-ISO-PUSH",
+    "title": "Natera ankle iso push",
+    "description": "Parte delantera pie bajo barra, rodilla extendida Ligera inclinación tronco hacia delante 5º Tobillo ligeramente dorsiflex 5º CDM hacia delante Ligera elevación del talón, 5º plantar flex",
+    "video_url": null
+  },
+  {
+    "code": "201-CLEAN-KB-2-HANDS-CLEAN",
+    "title": "Clean KB 2 hands clean",
+    "description": "Ve desplazando los glúteos hacia atrás manteniéndolos activos, cuando no avance más detén la bajada Ver como cambia el agarre durante la ejecución en el video, la KB cerca del cuerpo Activa glúteos y core",
+    "video_url": null
+  },
+  {
+    "code": "202-SNATCH-DB-SPLIT-LUNGE-SNATCH",
+    "title": "Snatch DB split lunge snatch",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "203-DB-SNATCH",
+    "title": "DB snatch",
+    "description": "Supe la mancuerna cerca del cuerpo como si quisieras quitarte la camiseta A-core",
+    "video_url": null
+  },
+  {
+    "code": "204-PUSHPRES-DB-PUSH-OFF-PRESS",
+    "title": "PushPres DB push off press",
+    "description": "Aprovecha el impulso empujando con las piernas Cuando este DB arriba estas descansan sobre los hombros No adelantar cabeza, mantener espalda alineada",
+    "video_url": null
+  },
+  {
+    "code": "205-BB-JUMPS",
+    "title": "BB jumps",
+    "description": "Sujeta bien la barra contra los trapecios asegurando que no se “despegue” durante el salto para evitar que esta nos golpee",
+    "video_url": null
+  },
+  {
+    "code": "206-HEXABAR-HIGH-PULL",
+    "title": "Hexabar high pull",
+    "description": "Mantener alineada la espalda durante todo el ejercicio A-core",
+    "video_url": null
+  },
+  {
+    "code": "207-BOX-JUMP",
+    "title": "Box jump",
+    "description": "Salta hacia el cajón cayendo sobre este con las rodillas y caderas extendidas como en la muestra 2 del video, NO la uno",
+    "video_url": null
+  },
+  {
+    "code": "208-JUMP-FLEX-OVER-BOX",
+    "title": "Jump flex over box",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "209-WEIGHTED-BOX-JUMP",
+    "title": "Weighted box jump",
+    "description": "Utiliza un peso que te permita saltar sobre un cajón de 20cm. Trata de llegar al cajón con las piernas extendidas",
+    "video_url": null
+  },
+  {
+    "code": "210-FRONT-CMJ-STOP",
+    "title": "Front CMJ & stop",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "211-STEP-UP-JUMP",
+    "title": "Step up jump",
+    "description": "Salta lo más alto que puedas frontal Lateral box jump Salta hacia el cajón cayendo sobre este con las rodillas y caderas extendidas",
+    "video_url": null
+  },
+  {
+    "code": "212-SIDE-TO-SIDE-FLEX-BOX-JUMP",
+    "title": "Side to side flex box jump",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "213-KB-LATERAL-DROP-CATCH-TO-LUN",
+    "title": "KB Lateral Drop-Catch to Lunge",
+    "description": "Mantén alineada la espalda a-core",
+    "video_url": null
+  },
+  {
+    "code": "214-TRANSVERS-SIDE-TO-SIDE-1LEG-",
+    "title": "transvers Side to side 1leg box jump",
+    "description": "Controla la alineación del tronco, NO utilizar un cajón demasiado alto",
+    "video_url": null
+  },
+  {
+    "code": "215-WALLBALL-PUNCH-THROW",
+    "title": "Wallball punch throw",
+    "description": "Concéntrate en transmitir la fuerza empujando contra el suelo Máxima velocidad",
+    "video_url": null
+  },
+  {
+    "code": "216-LMN-PUSH-PRESS",
+    "title": "LMN push press",
+    "description": "Empuja el suelo fuerte para llevar la barra arriba",
+    "video_url": null
+  },
+  {
+    "code": "217-STEP-BACK-1-ARM-CABLE-ROW",
+    "title": "Step back 1 arm cable row",
+    "description": "Manten la espalda alineada Empuja el suelo con la pierna adelantada",
+    "video_url": null
+  },
+  {
+    "code": "218-SHOCK-DROP-JUMP",
+    "title": "Shock Drop jump",
+    "description": "Trata de pasar el mínimo tiempo en el suelo",
+    "video_url": null
+  },
+  {
+    "code": "219-INFRA-ASSISTED-JUMPS",
+    "title": "Infra Assisted jumps",
+    "description": "Ayúdate de un elástico para saltar más Elevate rápido al tocar el suelo",
+    "video_url": null
+  },
+  {
+    "code": "220-SALTOS",
+    "title": "Saltos",
+    "description": "Mecanic Decelerations 2:2 Colócate de puntillas con los brazos arriba; después baja fuerte ayudándote de los brazos para bajar más rápido",
+    "video_url": null
+  },
+  {
+    "code": "221-DECELERATIONS-2-1",
+    "title": "Decelerations 2:1",
+    "description": "Colócate de puntillas con los brazos arriba; después baja fuerte ayudándote de los brazos para bajar más rápido",
+    "video_url": null
+  },
+  {
+    "code": "222-DROP-JUMP-DECELERATION",
+    "title": "Drop jump deceleration",
+    "description": "Déjate caer, no hace falta que extiendas la pierna tanto come el video, amortigua y quédate como una estatua",
+    "video_url": null
+  },
+  {
+    "code": "223-CMJ-DECELERATION",
+    "title": "CMJ deceleration",
+    "description": "Salta ayudándote de los brazos y al caer vas amortiguando la caída hasta quedar como una estatua",
+    "video_url": null
+  },
+  {
+    "code": "224-1-2-FRONT-JUMP",
+    "title": "1:2 front jump",
+    "description": "Realiza un salto a una pierna; vigila estabilizar el cuerpo tras amortiguar la caída",
+    "video_url": null
+  },
+  {
+    "code": "225-1-1-FRONT-JUMP",
+    "title": "1:1 front jump",
+    "description": "Realiza un salto a una pierna; vigila estabilizar el cuerpo tras amortiguar la caída",
+    "video_url": null
+  },
+  {
+    "code": "226-REVERSE-LUNGE-TO-JUMP",
+    "title": "Reverse lunge to jump",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "227-1-1-SIDE-JUMP",
+    "title": "1:1 Side jump",
+    "description": "Al aterrizar aguantar 3 segundos antes de volver a salta",
+    "video_url": null
+  },
+  {
+    "code": "228-1-1-90-JUMP",
+    "title": "1:1 90º jump",
+    "description": "Al aterrizar aguantar 3 segundos antes de volver a salta",
+    "video_url": null
+  },
+  {
+    "code": "229-DROPS-SPLIT-REACTIVE-JUMP",
+    "title": "Drops Split Reactive jump",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "230-SPLIT-BOX-DROP-JUMP",
+    "title": "Split Box Drop jump",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "231-SINGLE-LEG-DROP-JUMP",
+    "title": "Single leg drop jump",
+    "description": null,
+    "video_url": null
+  },
+  {
+    "code": "232-PLYO-EXTENSIVA",
+    "title": "PLYO Extensiva",
+    "description": "Off load cocontration Foam roller glute brige Apoya la parte media y delantera del pie sobre el roller; ponlo a una distancia que te permita alcanzar bien la dosis",
+    "video_url": null
+  },
+  {
+    "code": "233-ISOMETRIC-1LEG-FOAM-ROLLER-G",
+    "title": "Isometric 1leg Foam roller glute brige",
+    "description": "Apoya la parte media y delantera del pie sobre el roller; ponlo a una distancia que te permita alcanzar bien la dosis",
+    "video_url": null
+  },
+  {
+    "code": "234-FOAM-ROLLER-BRIGE-MARCH",
+    "title": "Foam roller brige march",
+    "description": "Apoya la parte media y delantera del pie sobre el roller; ponlo a una distancia que te permita alcanzar bien la dosis",
+    "video_url": null
+  },
+  {
+    "code": "235-AQUILLES",
+    "title": "Aquilles",
+    "description": "tolerance store & reléase energy Calf Pulses - Straight Knee Apoya la parte delantera del pie sobre el disco y comienza a hacer subidas y bajas con ritmo",
+    "video_url": null
+  },
+  {
+    "code": "236-LOW-LOAD",
+    "title": "Low load",
+    "description": "cocontration Penguin march Trata de llevar pa punta del pie lo más al techo posible mientras con la otra apoyas todo el pie a excepción del talón; golpeas el suelo para elevarte",
+    "video_url": null
+  },
+  {
+    "code": "237-0-32",
+    "title": "0:32",
+    "description": "90/90 single leg pogo Trata de llevar la punta del pie “hacia tu cabeza Golpea el suelo rápido “la pared quema",
+    "video_url": null
+  },
+  {
+    "code": "238-ASSISTED-1LEG-POGO",
+    "title": "Assisted 1leg pogo",
+    "description": "Sujétate a algo con el brazo, concéntrate en sacar la fuerza del tobillo, deja espacio de “tarjeta crédito Trata de llevar la punta del pie “hacia arriba Golpea el suelo rápido “el suelo quema",
+    "video_url": null
+  },
+  {
+    "code": "239-ASSISTED-1LEG-FRONT-BACK-POG",
+    "title": "Assisted 1leg front & back pogo",
+    "description": "Sujétate a algo con el brazo, concéntrate en sacar la fuerza del tobillo, deja espacio de “tarjeta crédito Trata de llevar la punta del pie “hacia arriba Golpea el suelo rápido “el suelo quema",
+    "video_url": null
+  },
+  {
+    "code": "240-SPLIT-STANCE-POGO-HOPS",
+    "title": "Split stance pogo hops",
+    "description": "Realizar los saltos a MENOR ALTURA QUE EL VIDEO Saltos cortos muy reactivos",
+    "video_url": null
+  },
+  {
+    "code": "241-LATERAL-DROP-JUMP-20CM",
+    "title": "Lateral Drop Jump 20cm",
+    "description": "Al caer se debe subir muy rápidamente “el suelo quema",
+    "video_url": null
+  },
+  {
+    "code": "242-STEP-BACK-UP-2-LEGS",
+    "title": "Step back&up 2 legs",
+    "description": "Al caer se debe subir muy rápidamente “el suelo quema",
+    "video_url": null
+  },
+  {
+    "code": "243-KNEE-STEP-UP-DOWN",
+    "title": "knee Step up&down",
+    "description": "Al caer se debe subir muy rápidamente “el suelo quema",
+    "video_url": null
+  },
+  {
+    "code": "244-STEP-SIDE-DOWN-UP-1LEG",
+    "title": "Step side down&up 1leg",
+    "description": "Al caer se debe subir muy rápidamente “el suelo quema",
+    "video_url": null
+  },
+  {
+    "code": "245-KNEE-PREP-OVER-STEP-KNEE",
+    "title": "Knee Prep over step knee",
+    "description": "Con rodilla flexionada tratar de “golpear” el suelo rápidamente “el suelo quema",
+    "video_url": null
+  },
+  {
+    "code": "246-PLYO-INTENSIVA",
+    "title": "PLYO Intensiva",
+    "description": "Box 40cm CMJ depth jump 2egs side CONTINUOUS Al caer puedes amortiguar un poco la caída, no es totalmente reactivo",
+    "video_url": null
+  },
+  {
+    "code": "247-MED-TUCK-JUMP",
+    "title": "Med Tuck jump",
+    "description": "Estar poco tiempo en el suelo Saltar lo + alto posible flexionando las caderas",
+    "video_url": null
+  },
+  {
+    "code": "248-MED",
+    "title": "Med-",
+    "description": "high Lateral skater hops",
+    "video_url": null
+  },
+  {
+    "code": "249-HIGH",
+    "title": "High-",
+    "description": "very H ?? Massai jumps No bloquear completamente la rodilla Concentrarse en saltar LO + ALTO POSIBLE con los tobillos",
+    "video_url": null
+  },
+  {
+    "code": "250-VERY",
+    "title": "Very",
+    "description": "high 1 leg hop jumps",
+    "video_url": null
+  },
+  {
+    "code": "251-MECANICAS",
+    "title": "MECÁNICAS",
+    "description": "Empuje lento de trineo A-core; empuja desde el suelo extendiendo pierna sin mover brazos",
+    "video_url": null
+  },
+  {
+    "code": "252-EMPUJE-PESADO-INTENCION-RAPI",
+    "title": "Empuje pesado intención rápida",
+    "description": "A-core; concéntrate en empujar suelo sin mover brazos",
+    "video_url": null
+  }
+]
