@@ -2,1513 +2,1737 @@
   {
     "code": "001-NERVE-SLIDE-FLOSS-SCIATIC",
     "title": "Nerve slide floss Sciatic",
+    "group_name": "NEURODINÁMIA",
     "description": "Lleva la cabeza hacia atrás mientras extiendes la rodilla Después lleva la cabeza hacia delante y flex rodilla",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=YOyNNR1aA6A&list=PLtGV4MaQl1MMNH-8T9yIYOKv3n6IJDANb"
   },
   {
     "code": "002-MASAJE-MIOFASCIAL-DE-PLANTA-",
     "title": "Masaje miofascial de planta del pie con pelota",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "Masajea lentamente Puedes pararte y presionar sobre los puntos de mayor tensión",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=zcjwyoErHBM"
   },
   {
     "code": "003-TOE-FINGER-ELEPHANT-WALK",
     "title": "Toe finger elephant walk",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": "Moviliza de manera dinámica los dos pies, uno se apoya y el otro de puntillas, estirando el dedo “gordo de los pies. A diferencia del video puedes apoyar los brazos en un banco",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=Y5e4z1LSweQ"
   },
   {
     "code": "004-MASAJE-MIOFASCIAL-DE-SOLEO",
     "title": "Masaje miofascial de soleo",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "Masajea lentamente Puedes pararte y presionar sobre los puntos de mayor tensión",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=bQIYwuXqX8U"
   },
   {
     "code": "005-ANKLE-INVERSION-EVERSION",
     "title": "Ankle Inversión-eversion",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=FyNalC6TKE0"
   },
   {
     "code": "006-ANKLE-INVERSION-EVERSION-TOW",
     "title": "Ankle inversión-eversion towel or slider",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": "Rota el tobillo sobre una toalla o slider",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=-4FBchsD2nM"
   },
   {
     "code": "007-HEEL-SLIDES-DORSIFLEXION",
     "title": "Heel slides dorsiflexion",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=8uExtPIZibA"
   },
   {
     "code": "008-ANKLE-BANDED-ADDUCTION",
     "title": "Ankle banded adduction",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=v_zjz5mOvuY"
   },
   {
     "code": "009-PLANTAR-FLEXION",
     "title": "Plantar flexion",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "No superar los 0º(que la punta del pie llegue a pauntar hacia el techo pero no hacia ti)",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=KxfFzSOAT7g&t=11s"
   },
   {
     "code": "010-SEATED-HEEL-RAISES",
     "title": "Seated heel raises",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=HYYi5jYGZ70"
   },
   {
     "code": "011-STANDING-SINGLE-LEG-SOLEUS-R",
     "title": "Standing single leg soleus raise",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Apoya las manos sobre una silla o pared; mantén flexionada la rodilla de apoyo y eleva el talón",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/XgmKbcBy77g"
   },
   {
     "code": "012-POSTERIOR-TIBIALIS-CALF-RAIS",
     "title": "Posterior tibialis calf raise",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Coloca la pelota debajo de tus maleolos Sujetando la pelota eleva y desciende los pies",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/4uSNBVlB_SE"
   },
   {
     "code": "013-PERONE-PERONEOS-GOMA-ELASTIC",
     "title": "Perone Peroneos goma elástica",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Dejar que la resistencia lleve el pie hacia “dentro” para después llevarlo hacia “afuera Evita rotar la pierna, mueve solo el tobillo Soleo Soleus machine Sentado en máquina elevar el tobillo y aguantar la posición durante el tiempo indicado",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=zWkOOjiPKuo"
   },
   {
     "code": "014-1-LEG-SOLEUS-ISOMETRIC-HOLD",
     "title": "1 leg soleus isometric hold",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/J9PZ9_-zQXU"
   },
   {
     "code": "015-1-LEG-SOLEUS-RAISE",
     "title": "1 leg soleus raise",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Mantén la rodilla flexionada mientras elevas y desciendes el tobillo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/cNfTqm87-54"
   },
   {
     "code": "016-GEMELO-1LEG-ISO-CALF-RAISE",
     "title": "Gemelo 1leg iso calf raise",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Alcanza la máxima altura que pueda Trata de ir retirando las manos de la pared",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/RHJIiWflo_s"
   },
   {
     "code": "017-ECCENTRIC-ACCENTUATED-CALF-R",
     "title": "Eccentric accentuated calf raise",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Elévate apoyando los dos pies y baja solo con uno Si lo necesitas apoya las manos en la pared",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/k9JQTJeQXl0"
   },
   {
     "code": "018-1-LEG-CALF-RAISE-PRESS-MACHI",
     "title": "1 leg calf raise press machine",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=Wr6Bik6Lrp4"
   },
   {
     "code": "019-FOAM-ROLLER-CUADRICEPS",
     "title": "Foam roller cuadriceps",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "Masajea lentamente Puedes pararte y presionar sobre los puntos de mayor tensión",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/ZPHvUThC1Bc"
   },
   {
     "code": "020-ISOMETRIC-KNEE-EXTENSION",
     "title": "Isometric knee extension",
+    "group_name": "ANALÍTICOS · PNF",
     "description": "Empuja en isometrico Ángulo de 90º",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=JyW_wiKq4K0"
   },
   {
-    "code": "021-ECC-1LEG-HAMSTRING-CURL-MACH",
-    "title": "ECC 1leg hamstring curl machine",
+    "code": "021-1LEG-HAMSTRING-CURL-MACHINE",
+    "title": "1leg hamstring curl machine",
+    "group_name": "ANALÍTICOS · PNF",
     "description": "Flexionar con las dos piernas y extender con una Controlar la extensión",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=sXBMmZu2vVs"
   },
   {
     "code": "022-MASAJE-MIOFASCIAL-DE-ABDUCTO",
     "title": "Masaje miofascial de abductores",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "Masajea lentamente Puedes pararte y presionar sobre los puntos de mayor tensión",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/W6EHuTfa78g"
   },
   {
     "code": "023-MASAJE-MIOFASCIAL-DE-ADUCTOR",
     "title": "Masaje miofascial de aductores",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "Masajea lentamente Puedes pararte y presionar sobre los puntos de mayor tensión",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=kQaRvdg7e3Q"
   },
   {
     "code": "024-RESIETED-BOX-ELEPHANT-WALK",
     "title": "Resieted box elephant walk",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": "Trata de mantener la cadera en anteversión, extiendes lentamente las rodillas de manera alternativa",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=XWlPZU9b75Y"
   },
   {
     "code": "025-ELEPHANT-WALK",
     "title": "Elephant walk",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": "Trata de mantener la cadera en anteversión, extiendes lentamente las rodillas de manera alternativa",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=yKcrskOi8o0"
   },
   {
     "code": "026-LYING-CROSSOVER-REACH",
     "title": "Lying crossover reach",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": "Eleva los glúteos del suelo; desde ahí extiende rodilla lo que puedas y eleva brazo contrario; en esa posición realiza respiraciones porfundas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=L61-GbXECTo"
   },
   {
-    "code": "027-ADD-CUADRUPED-CIRCLE-ADD",
-    "title": "ADD Cuadruped circle ADD",
+    "code": "027-CUADRUPED-CIRCLE-ADD",
+    "title": "Cuadruped circle ADD",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": "Deslizar lentamente el slider alejándolo del cuerpo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=jCGvpPzVOZ4&list=PLoFsFo4ifAEHkYZxyCNFJC3E3zFRG7NDr&index=5"
   },
   {
     "code": "028-ROCKBACK",
     "title": "Rockback",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": "Apoya el dedo gordo de cada pie tratando que este flexionado",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/QxImKz0sKzo"
   },
   {
     "code": "029-HALF-KNEELING-OPEN-HIP",
     "title": "Half kneeling open hip",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=SvlIm3KCr4A&list=PLoFsFo4ifAEHkYZxyCNFJC3E3zFRG7NDr&index=22"
   },
   {
-    "code": "030-IR-90-90-INTERNAL-ROTATION",
-    "title": "IR 90/90 internal rotation",
+    "code": "030-90-90-INTERNAL-ROTATION",
+    "title": "90/90 internal rotation",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/f1wOPnBDQ6A"
   },
   {
     "code": "031-LATERAL-HIP-BANDED-DISTRACTI",
     "title": "Lateral Hip Banded Distraction",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=sM7YIkKWPl4"
   },
   {
     "code": "032-HIP-HINGE-1-HIP-BANDED",
     "title": "Hip Hinge 1 hip Banded",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=ye9lrkmsXnU"
   },
   {
-    "code": "033-0-43",
-    "title": "(0:43)",
+    "code": "033-PLANOS",
+    "title": "PLANOS",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "EXT Glute bridge full foot Activar glúteos justo antes de iniciar movimientos Mantener glúteos activos durante todo el movimiento Elevar y bajar el culo APOYANDO TODA LA PLANTA PIE",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=tqp5XQPpTxY"
   },
   {
     "code": "034-PUENTE-GLUTEO-TALON",
     "title": "Puente glúteo talón",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Activar glúteos justo antes de iniciar movimientos Mantener glúteos activos durante todo el movimiento Elevar y bajar el culo mientras apoyamos los talones",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=WtilA9IJX1c"
   },
   {
     "code": "035-1LEG-PIRATE-GLUTE-BRIDGE",
     "title": "1leg pirate glute bridge",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Activar glúteo justo antes de iniciar movimiento Mantener glúteo activo durante todo el movimiento Tratar de extender la rodilla de la pierna estirada max",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=3NXv0Nany-Q"
   },
   {
-    "code": "036-DB-GLUTE-GRIDGE",
-    "title": "DB Glute gridge",
+    "code": "036-GLUTE-GRIDGE",
+    "title": "Glute gridge",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Activar glúteos justo antes de iniciar movimientos Mantener glúteos activos durante todo el movimiento Apoyar talones, a diferencia de como en el video",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=JpDDoINkrog&t=9s"
   },
   {
-    "code": "037-ECC-GLUTE-BRIDGE-SLIDER",
-    "title": "ECC glute bridge slider",
+    "code": "037-GLUTE-BRIDGE-SLIDER",
+    "title": "glute bridge slider",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Mantener activos glúteos y core Para alcanzar la intensidad del ..% se puede utilizar una pesa sobre la cadera",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=bp0xTjOzMYs"
   },
   {
     "code": "038-1-LEG-ACENTUATED-GLUTE-BRIDG",
     "title": "1 leg acentuated glute bridge slider",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Mantener activos glúteos y core Para alcanzar la intensidad del ..% se puede utilizar una pesa sobre la cadera",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/v0tp1B_JmBo"
   },
   {
     "code": "039-PELVIC",
     "title": "Pelvic",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "tilt 90 90 hip lift Rodillas y caderas a 90º; una pelota o bloque entre las rodillas 1ro inhala por la nariz; expande las costillas; empuja la pared y aprieta la pelota 2do exhala; realiza retroversión; levanta la cadera del suelo ligeramente",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=I_hVwRHnxgU&t=155s"
   },
   {
-    "code": "040-FLEX-ECC-PSOAS-LOADING",
-    "title": "FLEX ECC psoas loading",
+    "code": "040-ECC-PSOAS-LOADING",
+    "title": "ECC psoas loading",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "No perder la curvatura lumbar activando core Un peso liviano que no suponga sobreesfuerzo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=BmZ0U7DShPA"
   },
   {
-    "code": "041-KB-PSOAS-FLEX",
-    "title": "KB Psoas flex",
+    "code": "041-PSOAS-FLEX",
+    "title": "Psoas flex",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "No perder la curvatura lumbar activando core Un peso liviano que no suponga sobreesfuerzo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/KoQrZsENTNQ"
   },
   {
     "code": "042-STANDING-BAND-RESISTED-HIP-F",
     "title": "Standing band resisted hip flex",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "A core, evitar durante todo el movimiento que se pierda la curvatura lumbar Activar el glúteo de la pierna apoyada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=0QX04asWdws"
   },
   {
-    "code": "043-ABD-ISOMETRIC-SIDE-LYING-HIP",
-    "title": "ABD Isometric side lying hip abduction",
+    "code": "043-ISOMETRIC-SIDE-LYING-HIP-ABD",
+    "title": "Isometric side lying hip abduction",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Elevar la pierna y mantener la posición",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=g9FtnmsIYgI"
   },
   {
-    "code": "044-ABD-FLOOR-CLAMSHELL-BANDED",
-    "title": "ABD Floor clamshell banded",
+    "code": "044-FLOOR-CLAMSHELL-BANDED",
+    "title": "Floor clamshell banded",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Espalda alineada Activar glúteo durante el movimiento y activar core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=CiqvDV8pzRk"
   },
   {
-    "code": "045-ABD-ABD-MACHINE",
-    "title": "ABD ABD machine",
+    "code": "045-ABD-MACHINE",
+    "title": "ABD machine",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "No perder la curvatura lumbar durante el ejercicio",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=RHP7HhCyu1s"
   },
   {
-    "code": "046-ADD-HIP-ADDUTOR-MACHINE",
-    "title": "ADD Hip addutor machine",
+    "code": "046-HIP-ADDUTOR-MACHINE",
+    "title": "Hip addutor machine",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Mantener espalda alineada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=3DaEZ0Er6cU"
   },
   {
     "code": "047-HIP-ADDUCTION-ISO",
     "title": "Hip adduction iso",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Mantener espalda alineada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=inC8AKp31Dg"
   },
   {
     "code": "048-SUPINE-HIP-ADDUCTION-ISO",
     "title": "Supine Hip adduction iso",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Apoyar talones a diferencia de como se muestra en el",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=zOMrudaGHFQ"
   },
   {
     "code": "049-ADDUCTOR-SIDE-PLANK",
     "title": "Adductor side plank",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Activa core y manetén la espalda alineada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/v1qoeouWQKU"
   },
   {
     "code": "050-KNEELING-COPENHAGEN-PLANK",
     "title": "Kneeling copenhagen plank",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Activa core y manetén la espalda alineada Dinamic kneeling copenhagen plank Activa core y manetén la espalda alineada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=tOgqffVm-Vg"
   },
   {
     "code": "051-COPENHAGEN-PLANK",
     "title": "Copenhagen plank",
+    "group_name": "ANALÍTICOS · Estabilidad (bajo carga)> fuerza analítica",
     "description": "Activa core y manetén la espalda alineada Dinamic copenhagen plank Activa core y manetén la espalda alineada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/M_WgkMQvxiY"
   },
   {
-    "code": "052-PELVIS",
-    "title": "Pelvis",
-    "description": "side lying scissor slides Acostado de lado con caderas flexionadas 90º colocar en muslos un foam roller o pelota; deslizar la pierna de arriba sobre el roller",
-    "video_url": null
-  },
-  {
-    "code": "053-FOAM-ROLLER-SACRO-ILIACA",
+    "code": "052-FOAM-ROLLER-SACRO-ILIACA",
     "title": "Foam roller sacro iliaca",
+    "group_name": "ANALÍTICOS · Estiramiento dinámico",
     "description": "Percibir la presión sobre los puntos de tensión No deslizar rápidamente",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=6OBWHXpAh3Y"
   },
   {
-    "code": "054-SACROILIAC-MOBILIZATION",
+    "code": "053-SACROILIAC-MOBILIZATION",
     "title": "Sacroiliac mobilization",
+    "group_name": "ANALÍTICOS · Estiramiento estático activo",
     "description": "Con las caderas semiflexionadas y pies apoyados lleva las rodillas a un lado y al otro",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=rSd5LiTVbC0"
   },
   {
-    "code": "055-ER-ISO-WALL-SHOULDER-EXTERNA",
-    "title": "ER Iso wall shoulder external rotation",
+    "code": "054-ISO-WALL-SHOULDER-EXTERNAL-R",
+    "title": "Iso wall shoulder external rotation",
+    "group_name": "ANALÍTICOS · PNF",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=8ugjLvoSC1A"
   },
   {
-    "code": "056-ABD-ISOMETRIC-WALL-SHOULDER-",
-    "title": "ABD Isometric wall shoulder abducion",
+    "code": "055-ISOMETRIC-WALL-SHOULDER-ABDU",
+    "title": "Isometric wall shoulder abducion",
+    "group_name": "ANALÍTICOS · PNF",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=W47y8FWicf0&t=1s"
   },
   {
-    "code": "057-BELLY-PRESS-IR",
+    "code": "056-BELLY-PRESS-IR",
     "title": "Belly press IR",
+    "group_name": "ANALÍTICOS · PNF",
     "description": "En la posición de la imagen empuja la mano contra la zona abdominal IR Band isometric internal rotation Flexionar codo a 90º Colocar una toalla o similar entre codo y tronco Mantener la posición sin que te venza la goma",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=XU9GuyAttoQ"
   },
   {
-    "code": "058-ESCAPULA",
-    "title": "Escápula",
-    "description": "Prone scapular A retraction Sin utilizar los brazos concéntrate en realizar a la vez los dos movimientos de la izquierda (abajo y centro) con las escápulas",
-    "video_url": null
-  },
-  {
-    "code": "059-RESISTED-A-SCAPULAR-RETRACTI",
+    "code": "057-RESISTED-A-SCAPULAR-RETRACTI",
     "title": "Resisted A scapular retraction",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "Sin utilizar los brazos concéntrate en realizar a la vez los dos movimientos de la izquierda (abajo y centro) con las escápulas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/hFd5mWzIQ_s"
   },
   {
-    "code": "060-SERRATO-SERRATUS-PUNCH-BAND",
+    "code": "058-SERRATO-SERRATUS-PUNCH-BAND",
     "title": "Serrato Serratus punch band",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "Evita arquear la espalda o adelantar cabeza, a-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=NkTWEsXgDlY"
   },
   {
-    "code": "061-ISOMETRIC-WALL-SQUAT",
+    "code": "059-ISOMETRIC-WALL-SQUAT",
     "title": "Isometric wall squat",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "Piernas a la anchura de las caderas Flexionado a 90º empujar contra la pared Isometric 1 leg wall squat",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/ML4z30HCgvM"
   },
   {
-    "code": "062-1-LEG-ISOMETRIC-CALF-90",
+    "code": "060-1-LEG-ISOMETRIC-CALF-90",
     "title": "1 leg isometric calf 90º",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "Asegurarse que el talón no sobrepasa la línea del apoyo generando un ángulo más cerrado para el tobillo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=zF3zKHgQzso"
   },
   {
-    "code": "063-FRONTAL-SIDE-WALL-ISO-PUSH",
+    "code": "061-FRONTAL-SIDE-WALL-ISO-PUSH",
     "title": "frontal Side wall iso push",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "No extender del todo la pierna de apoyo La fuerza viene del empuje contra el suelo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?app=desktop&v=_pzxor3-wOk"
   },
   {
-    "code": "064-CLPC",
-    "title": "CLPC",
-    "description": "Hip mobility 360º",
-    "video_url": null
+    "code": "062-HIP-MOBILITY-360",
+    "title": "Hip mobility 360º",
+    "group_name": "ANALÍTICOS · Foam",
+    "description": null,
+    "video_url": "https://www.youtube.com/watch?v=Vh91f9j2CLU&list=PLoFsFo4ifAEFd7YsNYKddNYmEpmLEa6Zc&index=4"
   },
   {
-    "code": "065-CLOSED-CHAIN-HIP-LOCK",
+    "code": "063-CLOSED-CHAIN-HIP-LOCK",
     "title": "Closed chain hip lock",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "Activa core durante todo el movimiento; trata de mantener alineada la espalda",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/XqtgINrTDgs"
   },
   {
-    "code": "066-TALL-KNEELING-LMN-HIP-EXTENS",
+    "code": "064-TALL-KNEELING-LMN-HIP-EXTENS",
     "title": "Tall kneeling LMN hip extension",
+    "group_name": "ANALÍTICOS · Foam",
     "description": "Muñecas rígidas y y a-core Activa gluteos",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=GGT6ZXPUwr0"
   },
   {
-    "code": "067-RAQUIS",
-    "title": "Raquis",
-    "description": "Draw in supino Acostado boca arriba con las rodillas flexionadas Piensa en llevar el ombligo al suelo todo lo que puedas y aguanta la posición",
-    "video_url": null
+    "code": "065-DRAW-IN-SUPINO",
+    "title": "Draw in supino",
+    "group_name": "ANALÍTICOS · Foam",
+    "description": "Acostado boca arriba con las rodillas flexionadas Piensa en llevar el ombligo al suelo todo lo que puedas y aguanta la posición",
+    "video_url": "https://www.youtube.com/watch?v=CXNapjVW7pc"
   },
   {
-    "code": "068-KB-BOTTOM-UP",
+    "code": "066-KB-BOTTOM-UP",
     "title": "KB bottom up",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener brazo a 90º con un peso que te permita que la KB no caiga hacia los lados No pierdas la curvatura lumbar No adelantar cabeza, mantener la muñeca firme y A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=V3FjmLsXRBU"
   },
   {
-    "code": "069-HALF-KNEELING-KB-BOTTOM-UP",
+    "code": "067-HALF-KNEELING-KB-BOTTOM-UP",
     "title": "Half kneeling KB bottom up",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "KB no caiga hacia los lados No pierdas la curvatura lumbar No adelantar cabeza, mantener la muñeca firme y A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/ogRsAq4YAzY"
   },
   {
-    "code": "070-KB-BOTTOM-UP-PRESS",
-    "title": "KB bottom up press",
+    "code": "068-BOTTOM-UP-PRESS",
+    "title": "bottom up press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "KB no caiga hacia los lados No pierdas la curvatura lumbar No adelantar cabeza, mantener la muñeca firme y A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=k5PcL_WIx94"
   },
   {
-    "code": "071-ALTERNATIVE-KB-BOTTOM-UP-PRE",
+    "code": "069-ALTERNATIVE-KB-BOTTOM-UP-PRE",
     "title": "Alternative KB bottom up press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "KB no caiga hacia los lados No pierdas la curvatura lumbar No adelantar cabeza, mantener la muñeca firme y A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=OtE-QCrXxOE&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=6"
   },
   {
-    "code": "072-AIR-HALF-KNEELING-A-RETRACTI",
+    "code": "070-AIR-HALF-KNEELING-A-RETRACTI",
     "title": "Air half kneeling A retraction",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=L4KsyVWROvU&list=PLoFsFo4ifAEEuJHbIM-pElaBVK1NfgLb5&index=11"
   },
   {
-    "code": "073-ASOCIATIVOS",
-    "title": "ASOCIATIVOS",
-    "description": "Miembro Pierna Fase 1: CCC con carga/descarga Sagital Resisted knee extensión Dejarse vencer por la fuerza y de la goma y después vencerla extendiendo rodilla",
-    "video_url": null
-  },
-  {
-    "code": "074-POSTERIOR",
+    "code": "071-POSTERIOR",
     "title": "posterior",
-    "description": "Posterior ball Calf raises Sujeta la pelota presionando con los tobillos y realiza mientras elevaciones de talón",
-    "video_url": null
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "ball Calf raises Sujeta la pelota presionando con los tobillos y realiza mientras elevaciones de talón",
+    "video_url": "https://www.youtube.com/shorts/Vip0iCb6Wnk"
   },
   {
-    "code": "075-FRONTAL-FIRE-HYDRANT-ISO-HOL",
+    "code": "072-FRONTAL-FIRE-HYDRANT-ISO-HOL",
     "title": "Frontal Fire Hydrant ISO hold",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Eleva la pierna lo justo para no perder la posición simétrica de la cadera Mantén la espalda alineada y A-Core ADD Puente glúteo excentrico + isométrico de aductores Utiliza una pelota, un bloque o algo similar para apretar juntando” piernas Activa glúteos y core durante todo el movimiento Controla la bajada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=fVyh12TV9vo"
   },
   {
-    "code": "076-0-20",
+    "code": "073-0-20",
     "title": "0:20",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "ABD Isometric hip abduction Genera estabilidad desde el apoyo en el suelo y a-core Empujar la pelota tratando de llevar la pierna hacia la pared",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=_9zl95E1b6Q"
   },
   {
-    "code": "077-BRIDGE-PSOAS-MARCH",
+    "code": "074-BRIDGE-PSOAS-MARCH",
     "title": "Bridge psoas march",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=uN1ecndDsCk&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=2"
   },
   {
-    "code": "078-PELVIC-TILT",
+    "code": "075-PELVIC-TILT",
     "title": "Pelvic tilt",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Knee ext 90/90 knee rolls Aprieta el roller pelota o lo que utilices; Eleva el glúteo del suelo; Deliza sobre el roller alternando la elevación de rodillas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=5tKYGAfCsgs"
   },
   {
-    "code": "079-FASE-2-ESTABILIZACION-TRANSI",
-    "title": "Fase 2: Estabilización transicional",
-    "description": "Bisagra de cadera con pica Mantener espalda alineada Activa glúteos y core en todo el movimiento Ve desplazando el glúteo hacia atrás manteniéndolo activo y cuando no avance más detén la bajada",
-    "video_url": null
+    "code": "076-BISAGRA-DE-CADERA-CON-PICA",
+    "title": "Bisagra de cadera con pica",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "Mantener espalda alineada Activa glúteos y core en todo el movimiento Ve desplazando el glúteo hacia atrás manteniéndolo activo y cuando no avance más detén la bajada",
+    "video_url": "https://www.youtube.com/watch?v=Qcs3wF5mtkE"
   },
   {
-    "code": "080-LUNGE-FOOT-OVER-PLATE",
+    "code": "077-LUNGE-FOOT-OVER-PLATE",
     "title": "Lunge foot over plate",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener el tobillo a 90º, no como en el video",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/mwA3gZw68WQ"
   },
   {
-    "code": "081-FASE-3-ESTABILIZACION-DINAMI",
-    "title": "Fase 3: estabilización dinámica",
-    "description": "Fase 1: CCC con carga/descarga All four abs Desde posición de cuadrupedia curva la espalda tanto como puedas hacia arriba; inclínate hacia delante y desde ahí toma aire agrandando el espacio entre escápulas; después sopla fuerte llevando el ombligo hacia dentro.",
-    "video_url": null
-  },
-  {
-    "code": "082-BISAGRA-DE-CADERA-CON-RODILL",
+    "code": "078-BISAGRA-DE-CADERA-CON-RODILL",
     "title": "Bisagra de cadera con rodilla sobre banco",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener espalda alineada Activa glúteos y core en todo el movimiento Ve desplazando el glúteo hacia atrás manteniéndolo activo, cuando no avance más detén la bajada 2x15 Lado",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=yOrnnlUt5zw"
   },
   {
-    "code": "083-ANTI-EXT-BIRD-DOG",
+    "code": "079-ANTI-EXT-BIRD-DOG",
     "title": "Anti Ext Bird dog",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener espalda alineada Activa el glúteo de pierna elevada y A-core Hazlo lento y controlado 2x12",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=h4XMCaH_qd8"
   },
   {
-    "code": "084-1-40",
+    "code": "080-1-40",
     "title": "1:40",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Kneeling elasctic high anti extension Mantener espalda alineada; No adelantar cabeza Activa el glúteos y A-core ; Hazlo lento y controlado",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=IFYu1Kq2Agg"
   },
   {
-    "code": "085-ROLL-OUT",
+    "code": "081-ROLL-OUT",
     "title": "Roll out",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener espalda alineada Que no “caiga el culo Lento y controlado Body saws Comienza desde una posición de plancha frontal Mueve el cuerpo hacia delante y atrás sobre las puntas de tus pies. A-core durante todo el ejercicio",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=FGLRgxgG084"
   },
   {
-    "code": "086-HOLLOW-HOLD",
+    "code": "082-HOLLOW-HOLD",
     "title": "Hollow hold",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "A-Core, flexionar cadera",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=4xRpGgttca8&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=56"
   },
   {
-    "code": "087-HOLLOW-ROCKS",
+    "code": "083-HOLLOW-ROCKS",
     "title": "Hollow rocks",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "A-Core, flexionar cadera y balancearse",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=6Qdh8qzxFY8&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=55"
   },
   {
-    "code": "088-ISOMETRIC-DEADBUG-PUSH",
+    "code": "084-ISOMETRIC-DEADBUG-PUSH",
     "title": "Isometric deadbug push",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "No pierdas la curvatura lumbar Empuja fuerte las piernas contra los brazos A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=brnCyj5cv2A"
   },
   {
-    "code": "089-CROSS-DEADBUG-PUSH",
+    "code": "085-CROSS-DEADBUG-PUSH",
     "title": "Cross deadbug push",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "No pierdas la curvatura lumbar Empuja fuerte las pierna contra el brazo contrario A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=Z8dTBrH7kN4"
   },
   {
-    "code": "090-PELVIC-TILT-BANDED-DEADBUG",
+    "code": "086-PELVIC-TILT-BANDED-DEADBUG",
     "title": "Pelvic tilt Banded deadbug",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "No pierdas la curvatura lumbar A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=wCwn7-Z-XjE&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=15"
   },
   {
-    "code": "091-WAITER-WALK-SINGLE-ARM-CARRY",
+    "code": "087-WAITER-WALK-SINGLE-ARM-CARRY",
     "title": "Waiter walk single arm carry",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "No pierdas la alineación del raquis Mantén todo el cuerpo, incluida cabeza en línea A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=j5ZoC9p6J-s"
   },
   {
-    "code": "092-ANTI",
+    "code": "088-ANTI",
     "title": "Anti",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Flex 1 leg glute bridge w tennis ball Coloca una pelota de tenis en tu cadera y sujétala flexionándola; realiza un puede glúteo a una pierna",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/UsmTEskgSR4"
   },
   {
-    "code": "093-KNEELING-SIDE-PLANK",
+    "code": "089-KNEELING-SIDE-PLANK",
     "title": "Kneeling Side Plank",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "No pierdas la alineación del raquis Mantén todo el cuerpo, incluida cabeza en línea A-core Side Plank No pierdas la alineación del raquis Mantén todo el cuerpo, incluida cabeza en línea A-core Star plank No pierdas la alineación del raquis; a-core Mantén todo el cuerpo, incluida cabeza en línea Half kneeling raised anti inclination No pierdas la alineación del raquis; a-core Mantén todo el cuerpo, incluida cabeza en línea",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=CnyKe8yQobo"
   },
   {
-    "code": "094-DA-VINCI-PLANK",
+    "code": "090-DA-VINCI-PLANK",
     "title": "Da vinci plank",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "No pierdas la alineación del raquis Mantén todo el cuerpo, incluida cabeza en línea A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=5THFGH7cYkU"
   },
   {
-    "code": "095-SEG-6",
+    "code": "091-SEG-6",
     "title": "(seg 6)",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Dynamic Pallof Press Piernas a altura de caderas; a-core; empuja brazos hacia delante y mantén 2 segundos antes de volver",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=-gWRA5FRYZU"
   },
   {
-    "code": "096-TALL-KNEELING-ANTI-ROT",
+    "code": "092-TALL-KNEELING-ANTI-ROT",
     "title": "Tall kneeling anti rot",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la espalda alineada, evita que el tronco rote No adelantar cabeza A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=5JbxHx9aqQ8&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=22"
   },
   {
-    "code": "097-INCLINACION",
+    "code": "093-INCLINACION",
     "title": "Inclinación",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "+ rotatión Plank KB Pull Through Mantén la espalda alineada A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=fKbu_2L94x8"
   },
   {
-    "code": "098-QUADRUPED-SHOULDER-EXT",
+    "code": "094-ASSITED-SHOULDER-FLEX-THORAC",
+    "title": "Assited shoulder flex+ thoracic rot",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "Mantener alineado el tronco No adelantar cabeza Movimiento lento y controlado",
+    "video_url": "https://www.youtube.com/watch?v=IG_Xn2ss3Cc&list=PLoFsFo4ifAEHRhaUodjrMY-HjJj3t0zx9&index=20"
+  },
+  {
+    "code": "095-QUADRUPED-SHOULDER-EXT",
     "title": "Quadruped shoulder ext",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Activar core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=-Ppddt_t2DY&list=PLoFsFo4ifAEHRhaUodjrMY-HjJj3t0zx9&index=9"
   },
   {
-    "code": "099-QUAD-SHOULDER-FLEX-CONTRALAT",
+    "code": "096-QUAD-SHOULDER-FLEX-CONTRALAT",
     "title": "Quad shoulder flex + contralateral hip ext",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener espalda alineada Evita que se rote el cuerpo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=-l-VFpHnKzo&list=PLoFsFo4ifAEEuJHbIM-pElaBVK1NfgLb5&index=7"
   },
   {
-    "code": "100-PUSH-UP-PLUS",
+    "code": "097-PUSH-UP-PLUS",
     "title": "Push up plus",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener espalda alineada Sin flexionar los codos acercarse y alejarse del suelo con los brazos",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=RR5xJ1mXEV4"
   },
   {
-    "code": "101-FRONTAL",
+    "code": "098-FRONTAL",
     "title": "Frontal",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "ER Side Lying Press Trata de elevar la pesa lo más “recta” posible",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=BtLZbS9e9Qw"
   },
   {
-    "code": "102-SIDE-PLANK-PRESS",
+    "code": "099-SIDE-PLANK-PRESS",
     "title": "Side plank press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener espalda alineada Trata de elevar la pesa lo más “recta” posible",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?app=desktop&v=WWVIrBvGxLY"
   },
   {
-    "code": "103-IR-SIDE-LYING-SHOULDER-EXTER",
-    "title": "IR Side Lying Shoulder external rotation",
+    "code": "100-SIDE-LYING-SHOULDER-EXTERNAL",
+    "title": "Side Lying Shoulder external rotation",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Lleva la pesa hacia tu pecho",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=m-41eHptImU"
   },
   {
-    "code": "104-HALF-KNEELING-KETTLEBELL-WIN",
+    "code": "101-HALF-KNEELING-KETTLEBELL-WIN",
     "title": "Half kneeling kettlebell windmill",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Activa core; realiza el movimientolento y controlado",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/Hm_wKbfMa28"
   },
   {
-    "code": "105-CADENA",
-    "title": "Cadena",
-    "description": "Apoyo Fase 1: CCC con carga/descarga ISO cross step wall drill",
-    "video_url": null
+    "code": "102-LATERAL-LMN-PRESS",
+    "title": "Lateral LMN press",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "Mantener alineado el tronco Mantener la rotación externa (puño va hacia atrás) Movimiento lento y controlado",
+    "video_url": "https://www.youtube.com/watch?v=YzupwpqXjbE"
+  },
+  {
+    "code": "103-CROSS-STEP-WALL-DRILL",
+    "title": "cross step wall drill",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": null,
+    "video_url": "https://www.youtube.com/watch?v=l2iiFWKIfFk&list=PLoFsFo4ifAEFL7pNL28zFYBqux3YJNpzN&index=15"
+  },
+  {
+    "code": "104-FOAM-ROLLER-HIP-HINGE",
+    "title": "Foam roller Hip hinge",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "Empuja el foam roller contra la pared mientras realizas la bisagra de cadera con el brazo contrario",
+    "video_url": "https://www.youtube.com/shorts/jkpunkLskGw"
+  },
+  {
+    "code": "105-BANDED-LUNGE",
+    "title": "Banded lunge",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "Debes vencer a la goma tratando que te deje separar las piernas a lo ancho Manten la espalda alineada Transv Rotational Landmine Press A diferencia del video, deja que los dos pies deslicen de manera que sus puntas apunten hacia la barra",
+    "video_url": "https://www.youtube.com/watch?v=ONDeomDVlbE"
   },
   {
     "code": "106-SPLIT-STANCE-ROTATIONAL-LAND",
     "title": "Split-Stance Rotational Landmine Press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=bXK-CIooUGM"
   },
   {
     "code": "107-2-LEGS-POGOS",
     "title": "2 legs pogos",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Suelo quema” debes tocar el suelo poco tiempo No llegues a tocar con el talón el suelo IMPORTANTE: en aire debes llevar las puntas hacia arriba",
-    "video_url": null
+    "video_url": "https://www.google.com/search?rlz=1C1CHBD_esES881ES881&q=pogo+exercise&tbm=isch&source=lnms&sa=X&ved=2ahUKEwis_8Or-ceAAxVIXaQEHd8tDmIQ0pQJegQIDBAB&biw=1242&bih=592&dpr=1.1"
   },
   {
     "code": "108-ANKLE-EXTENSIVE-LINEAR-POGOS",
     "title": "Ankle extensive linear pogos",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Suelo quema” debes tocar el suelo poco tiempo No llegues a tocar con el talón el suelo IMPORTANTE: en aire debes llevar las puntas hacia arriba",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=HXTai_ymRxc"
   },
   {
     "code": "109-FORWARD-BACKWARDS-POGO-JUMPS",
     "title": "Forward Backwards Pogo Jumps (delante detrás)",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Suelo quema” debes tocar el suelo poco tiempo No llegues a tocar con el talón el suelo IMPORTANTE: en aire debes llevar las puntas hacia arriba",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=O7qqW_Bij0U"
   },
   {
     "code": "110-FRONTAL-2-LEGS-SIDE-POGOS-DE",
     "title": "Frontal 2 legs side pogos ( de lado a lado)",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Suelo quema” debes tocar el suelo poco tiempo No llegues a tocar con el talón el suelo IMPORTANTE: en aire debes llevar puntas hacia arriba",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=tbiRLKBlxXA"
   },
   {
     "code": "111-ANKLE-AISMETRIC-EXTENSIVE-PO",
     "title": "Ankle aismetric extensive pogos",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Suelo quema” debes tocar el suelo poco tiempo No llegues a tocar con el talón el suelo IMPORTANTE: en aire debes llevar las puntas hacia arriba",
-    "video_url": null
+    "video_url": "https://youtu.be/jIWXEjZrHo4?feature=shared"
   },
   {
     "code": "112-KNEE-EXTENSIVE-PLYOS-1-LEG-B",
     "title": "Knee extensive plyos 1 leg box",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Haz saltos pequeños manteniendo alineados tobillo rodilla y cadera",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=TeA8mwvL7fo"
   },
   {
-    "code": "113-FARMER-WALK",
-    "title": "Farmer walk",
-    "description": "Trata de mantener activo core Hazlo relativamente lento Manipulaciones Fase 1: CCC con carga/descarga Fase 2: Estabilización transicional Turkish Get Up - Step 1-2",
-    "video_url": null
+    "code": "113-TURKISH-GET-UP-STEP-1-2",
+    "title": "Turkish Get Up - Step 1-2",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": null,
+    "video_url": "https://www.youtube.com/watch?v=dR61xk4jUoI"
   },
   {
     "code": "114-TURKISH-GET-UP-STEP-3",
     "title": "Turkish Get Up - Step 3",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=92UvbxSRUUU"
   },
   {
     "code": "115-TURKISH-GET-UP-STEP-4",
     "title": "Turkish Get Up - Step 4",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Manteniendo elevada la KB nos levantamos a-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=CCfr5f6FjPY"
   },
   {
     "code": "116-1-ARM-ROTATIONAL-TWX-ROW",
     "title": "1 arm rotational TWX row",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Realizar el movimiento lento a-core Durante la tracción realizar retracción escapular",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=ql_SDuQzcgY"
   },
   {
-    "code": "117-LMN-KNEELING-LATERAL-PRESS",
-    "title": "LMN Kneeling Lateral Press",
+    "code": "117-KNEELING-LATERAL-PRESS",
+    "title": "Kneeling Lateral Press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Tratar de mantener alineado el brazo con el tronco durante todo el movimiento A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=FFuiCgAbJgg"
   },
   {
-    "code": "118-1-LEG-RDL-ROTATION-4-POSITIO",
+    "code": "118-ANKLE-KNEELING-TO-STAND-DORS",
+    "title": "(Ankle) Kneeling to stand dorsiflexión",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "Con rodilla apoyada desplázate hacia delante adelantando la rodilla y después levántate deslizanado sobre el roller",
+    "video_url": "https://www.youtube.com/shorts/lwa-rA_xUkc"
+  },
+  {
+    "code": "119-1-LEG-RDL-ROTATION-4-POSITIO",
     "title": "1 leg RDL rotation + 4 position",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=CONJ0uAW2As"
   },
   {
-    "code": "119-1-LEG-KB-HALO",
+    "code": "120-1-LEG-KB-HALO",
     "title": "1 leg KB halo",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas Rodilla elevada a la altura de la cadera sin arquear zona lumbar",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=P8Wv46CjIs4"
   },
   {
-    "code": "120-KB-SINGLE-LEG-CALF-RAISE-ISO",
-    "title": "KB Single Leg Calf Raise Isometric Hold 90º",
-    "description": "Mantener el tobillo a 90º; con un brazo te sujetas a pared o Rack para estabilizar; sujeta una KB con el otro y mantén la posición - Movimiento libre o Mecánica Skippng Flow Seguir instrucciones",
-    "video_url": null
+    "code": "121-SKIPPNG-FLOW",
+    "title": "Skippng Flow",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "Seguir instrucciones",
+    "video_url": "https://www.youtube.com/watch?v=mW39uGDwawA&list=PLoFsFo4ifAEFL7pNL28zFYBqux3YJNpzN&index=19"
   },
   {
-    "code": "121-HIP",
+    "code": "122-HIP",
     "title": "Hip",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Ankle Wall hip lock Desde arriba con tobillo y caderas extendidas bajas llevando la cadera hacia atrás y llevando el tobillo al suelo dejando el espacio de una tarjeta de crédito del talón al suelo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/F56SlhzhI8A"
   },
   {
-    "code": "122-O-CONTEXTO",
-    "title": "o Contexto",
-    "description": "o Realidad PRINCIPALES Empuje horizontal One arm press elastic resitance Mantén el tronco alineado A-core Push up elastic resistance Mantén el tronco alineado; forma una “A” con los brazos; A-core Empuje horizontal Asegúrate de llegar a todo el rango con ambos brazos Mantén las muñecas “vivas”(que no se extiendan) DB Bench press Generar separación de codos respecto al tronco de 45º Muñecas rígidas y por encima de los codos y a-core Los brazos no se acercan demasiado al cuerpo",
-    "video_url": null
+    "code": "123-PLANOS",
+    "title": "PLANOS",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "One arm press elastic resitance Mantén el tronco alineado A-core Push up elastic resistance Mantén el tronco alineado; forma una “A” con los brazos; A-core Empuje horizontal Asegúrate de llegar a todo el rango con ambos brazos Mantén las muñecas “vivas”(que no se extiendan) DB Bench press Generar separación de codos respecto al tronco de 45º Muñecas rígidas y por encima de los codos y a-core Los brazos no se acercan demasiado al cuerpo",
+    "video_url": "https://www.youtube.com/watch?v=hm_TrCkhJgo"
   },
   {
-    "code": "123-INCLINED-DB-BENCH-PRESS",
+    "code": "124-INCLINED-DB-BENCH-PRESS",
     "title": "Inclined DB Bench press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Generar separación de codos respecto al tronco de 45º Muñecas rígidas y por encima de los codos y a-core Los brazos no se acercan demasiado al cuerpo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=Fv5EYoJfRt4"
   },
   {
-    "code": "124-BENCH-PRESS",
+    "code": "125-BENCH-PRESS",
     "title": "Bench press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Pierde poca velocidad en concéntrico a lo largo de las repeticiones Muñecas rígidas y directamente por encima de los codos y a-core Los brazos no se acercan demasiado al cuerpo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=m9tkuyWwH-I"
   },
   {
-    "code": "125-SEATED-1-ARM-CABLE-PRESS",
+    "code": "126-SEATED-1-ARM-CABLE-PRESS",
     "title": "Seated 1 arm cable press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Muñeca rígida, no se extiende Codo cercano al cuerpo No adelantar cabeza manteniendo espalda alineada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=za0atC4lm9E"
   },
   {
-    "code": "126-1-ARM-CABLE-PRESS-SPLIT-STAN",
+    "code": "127-1-ARM-CABLE-PRESS-SPLIT-STAN",
     "title": "1 arm cable press Split stance",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Muñeca rígida, no se extiende Codo cercano al cuerpo No adelantar cabeza manteniendo espalda alineada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=RaNrQRI9MFI"
   },
   {
-    "code": "127-HALF-KNEELING-LMN-PRESS",
+    "code": "128-HALF-KNEELING-LMN-PRESS",
     "title": "Half kneeling LMN press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "No adelantar cabeza manteniendo espalda alineada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=ORoOn93dnh4&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=60"
   },
   {
-    "code": "128-SPLIT-LMN-PRESS",
+    "code": "129-SPLIT-LMN-PRESS",
     "title": "Split LMN press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mover solo el brazo, manteniendo estable el resto del cuerpo",
-    "video_url": null
-  },
-  {
-    "code": "129-TRACCION-HORIZONTAL",
-    "title": "Tracción horizontal",
-    "description": "Bent over row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Stand row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución TRX row Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución 1arm plank row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Con mano apoyada sujeta la zona de la goma que necesites para alcanzar la intensidad necesaria Split stance cable row El tronco no se deja llevar hacia delante ni hacia atrás con el movimiento (controlar la carga para evitar) Al tirar realiza retracción escapular, A-core y mantén alineada la espalda",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=5KZF1xdgA-A"
   },
   {
     "code": "130-SINGLE-ARM-SINGLE-LEG-CABLE-",
     "title": "Single Arm Single Leg Cable Row",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "El tronco no se deja llevar hacia delante ni hacia atrás con el movimiento (controlar la carga para evitar)",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=-zInqbpYo50"
   },
   {
     "code": "131-TRACCION-HORIZONTAL-ASCENDEN",
     "title": "Tracción horizontal ascendente",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Haz la retracción escapular antes de tirar Al tirar el codo puede quedar a la altura del tronco A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=UN3HUxoOOa0"
   },
   {
     "code": "132-REMO-INVERTIDO-SUPINO",
     "title": "Remo invertido supino",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Haz la retracción escapular antes de tirar a-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=glyjer6nOjE"
   },
   {
     "code": "133-SEATED-ROW",
     "title": "Seated row",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la espalda alineada, a-core, no adelantar cabeza Al tirar acompaña el movimiento de una retracción escapular",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/fPbfYDgzIgA"
   },
   {
     "code": "134-1-ARM-BD-ROW",
     "title": "1 arm BD row",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la espalda alineada, a-core, no adelantar cabeza Al tirar acompaña el movimiento de una retracción escapular",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=xl1YiqQY2vA&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=34"
   },
   {
     "code": "135-DUAL-DB-PRONE-ROW",
     "title": "Dual DB prone row",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "No llevar los codos más arriba de la espalda",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=BcQbmFkcrRQ&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=68"
   },
   {
     "code": "136-INCLINED-DB-ROW",
     "title": "Inclined DB row",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la espalda alineada, a-core, no adelantar cabeza Al tirar acompaña el movimiento de una retracción escapular",
-    "video_url": null
+    "video_url": "https://www.facebook.com/watch/?v=535884134199365"
   },
   {
-    "code": "137-DB-BENT-OVER-ROW",
-    "title": "DB bent over row",
+    "code": "137-BENT-OVER-ROW",
+    "title": "bent over row",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la espalda alineada, a-core, no adelantar cabeza Al tirar acompaña el movimiento de una retracción escapular",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=VP_f9V854og&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=73"
   },
   {
     "code": "138-BANDED-BENT-OVER-ROW",
     "title": "Banded Bent over row",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la espalda alineada, a-core, no adelantar cabeza Al tirar acompaña el movimiento de una retracción escapular. Activa glúteos",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=V3uKfk5ETqU&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=16"
   },
   {
-    "code": "139-EMPUJE-VERTICAL",
-    "title": "Empuje vertical",
-    "description": "Kneeling shoulder press Mantén el tronco alineado; A-core Seated shoulder press Mantén el tronco alineado; A-core Vertical push Asegúrate de llegar a todo el rango con ambos brazos Mantén las muñecas “vivas”(que no se extiendan) Neutral grip DB shoulder press No pierdas la curvatura lumbar, contrae los abdominales para evitarlo No adelantar cabeza A-core",
-    "video_url": null
-  },
-  {
-    "code": "140-1-ARM-90-SHOULDER-PRESS",
+    "code": "139-1-ARM-90-SHOULDER-PRESS",
     "title": "1 arm 90º shoulder press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Posicionar el hombro y codo a 90º, no bajar de ahí Mantener espalda alineada No adelantar cabeza",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=_OYXclm_V40"
   },
   {
-    "code": "141-STANDING-NEUTRAL-GRIP-SHOULD",
+    "code": "140-STANDING-NEUTRAL-GRIP-SHOULD",
     "title": "Standing neutral grip shoulder press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "No pierdas la curvatura lumbar, contrae los abdominales para evitarlo No adelantar cabeza A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=LZImFJfg12Q"
   },
   {
-    "code": "142-SHOULDER-PRESS-BB",
+    "code": "141-SHOULDER-PRESS-BB",
     "title": "Shoulder press BB",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener espalda alineada (att. Cuando BB esta arriba) No adelantar cabeza Muñecas activas, no “caen hacia atrás” y A-Core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=5yWaNOvgFCM"
   },
   {
-    "code": "143-TRACCION-VERTICAL",
-    "title": "Tracción vertical",
-    "description": "Half Kneeling Inlined 1arm row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Half Kneeling Inlined row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Seated vertical row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Neutral grip vertical pull Inclínate un poco hacia atrás para realizar el ejercicio; no en cada repetición si no de manera continua Vertical pull Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Kneeling inclined single arm cable row Pierde poca velocidad en concéntrico a lo largo de las repeticiones Al tirar realiza retracción escapular, A-core y mantén alineada la espalda",
-    "video_url": null
+    "code": "142-HALF-KNEELING-INLINED-1ARM-R",
+    "title": "Half Kneeling Inlined 1arm row elastic resistance",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Half Kneeling Inlined row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Seated vertical row elastic resistance Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Neutral grip vertical pull Inclínate un poco hacia atrás para realizar el ejercicio; no en cada repetición si no de manera continua Vertical pull Mantén el tronco alineado; A-core Realiza retracción escapular durante la ejecución Kneeling inclined single arm cable row Pierde poca velocidad en concéntrico a lo largo de las repeticiones Al tirar realiza retracción escapular, A-core y mantén alineada la espalda",
+    "video_url": "https://www.youtube.com/watch?v=4QDCC2gU5_E"
   },
   {
-    "code": "144-BAND-ASISTED-PULL-UP",
+    "code": "143-BAND-ASISTED-PULL-UP",
     "title": "Band asisted pull up",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Pierde poca velocidad en concéntrico a lo largo de las repeticiones Si no hay máquina utilizar elástico como en el video Retracción escapular previa",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=5rR_bzBc1NA"
   },
   {
-    "code": "145-ECCENTRIC-ACENTUATED-CHIN-UP",
+    "code": "144-ECCENTRIC-ACENTUATED-CHIN-UP",
     "title": "Eccentric acentuated Chin Ups",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Elévate sobre una superficie para comenzar desde arriba en la barra y bajar poco a poco",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=nntYkA3YaHI"
   },
   {
-    "code": "146-DOMINANTES-RODILLA",
-    "title": "Dominantes rodilla",
-    "description": "Elastic Front squat elastic resistance Sujeta con los dedos al lado de los hombros, codos arriba Bajar hasta el punto previo a perder la curvatura lumbar A-core Front split squat elastic resistance Sujeta con los dedos al lado de los hombros, codos arriba Bajar hasta el punto previo a perder la curvatura lumbar A-core Triangle squat elastic resistance No hace falta subir la goma tanto como en la imagen Pese a la rotación tratar de mantener alineado tronco A-core Isometric press machine Posicionar rodillas a 90º y ejercer fuerza contra una carga que no puedas desplazar En este caso debes ejercer un empuje a una intensidad % Isometric hack machine Posicionar rodillas a XXº y ejercer fuerza contra una carga que no puedas desplazar En este caso debes ejercer un empuje a una intensidad %",
-    "video_url": null
+    "code": "145-ELASTIC-FRONT-SQUAT-ELASTIC-",
+    "title": "Elastic Front squat elastic resistance",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "Sujeta con los dedos al lado de los hombros, codos arriba Bajar hasta el punto previo a perder la curvatura lumbar A-core Front split squat elastic resistance Sujeta con los dedos al lado de los hombros, codos arriba Bajar hasta el punto previo a perder la curvatura lumbar A-core Triangle squat elastic resistance No hace falta subir la goma tanto como en la imagen Pese a la rotación tratar de mantener alineado tronco A-core Isometric press machine Posicionar rodillas a 90º y ejercer fuerza contra una carga que no puedas desplazar En este caso debes ejercer un empuje a una intensidad % Isometric hack machine Posicionar rodillas a XXº y ejercer fuerza contra una carga que no puedas desplazar En este caso debes ejercer un empuje a una intensidad %",
+    "video_url": "https://www.youtube.com/shorts/xEzjfowhpd4?time_continue=7&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Disometric%2Bhack%2Bmachine%26rlz%3D1C1CHBD_esES881ES881%26oq%3Disometric%2Bhack%2Bmachine%26aqs%3Dchrome..69i57j33i1&source_ve_path=MzY4NDIsMjg2NjY&feature=emb_logo"
   },
   {
-    "code": "147-ECCENTRIC-PRESS-MACHINE",
+    "code": "146-ECCENTRIC-PRESS-MACHINE",
     "title": "Eccentric press machine",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Concéntrate en tardar los … segundos de la dosis la bajar",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=CRz_nXFrBgI"
   },
   {
-    "code": "148-1-LEG-ACENTUATED-ECC-PRESS-M",
+    "code": "147-1-LEG-ACENTUATED-ECC-PRESS-M",
     "title": "1 leg acentuated ecc press machine",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mueve la carga con dos piernas y resiste en excéntrico con una sola pierna",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=4l7XFvGYo2I"
   },
   {
-    "code": "149-2-LEGS-PRESS-MACHINE",
+    "code": "148-2-LEGS-PRESS-MACHINE",
     "title": "2 legs press machine",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Isometric Rack Back Squat Pies simétricos, espalda alineada, A-Core Asegúrate de no perder curva lumbar",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=hELW5flU33E"
   },
   {
-    "code": "150-ISOMETRIC-SPANISH-SQUAT",
+    "code": "149-ISOMETRIC-SPANISH-SQUAT",
     "title": "Isometric spanish squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Colocar la goma en la parte posterior de las piernas Tomar la posición de la imagen (no hace falta adelantar brazos) Evita inclinar el tronco",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=mik90mAS6fU"
   },
   {
-    "code": "151-ISO-WEIGHTED-SPANISH-SQUAT",
+    "code": "150-ISO-WEIGHTED-SPANISH-SQUAT",
     "title": "Iso weighted Spanish squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Colocar la goma en la parte posterior de las piernas Tomar la posición de la imagen, evita inclinar el tronco USA UNA KB SOBRE CADERA PARA LOGRAR EL %",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=tXoULppb-U4"
   },
   {
-    "code": "152-WEIGHTED-SPANISH-SQUAT",
+    "code": "151-WEIGHTED-SPANISH-SQUAT",
     "title": "Weighted Spanish squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Colocar la goma en la parte posterior de las piernas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/wT4DjGCFmXU"
   },
   {
-    "code": "153-1-LEG-TRX-SQUAT",
+    "code": "152-1-LEG-TRX-SQUAT",
     "title": "1 leg TRX squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Trata de mantenerte erguido durante todo el ejercicio Procure que las rodillas no se acerquen la una a la otra",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=ySqmctMKce0"
   },
   {
-    "code": "154-KB-2-HANDS-CLEAN",
-    "title": "KB 2 hands clean",
+    "code": "153-2-HANDS-CLEAN",
+    "title": "2 hands clean",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Ve desplazando los glúteos hacia atrás manteniéndolos activos, cuando no avance más detén la bajada Ver como cambia el agarre durante la ejecución en el video, la KB cerca del cuerpo Activa glúteos y core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=5l9WeYcQGbg"
   },
   {
-    "code": "155-MIN-1-00",
+    "code": "154-MIN-1-00",
     "title": "min 1:00",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Single-leg squat Trata de mantenerte erguido durante todo el ejercicio; Procure que las rodillas no se acerquen la una a la otra; No hace falta que estiras la pierna adelantada, puedes flexionar la cadera elevando la rodilla",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/f9MoIXiz80s"
   },
   {
-    "code": "156-SPLIT-BACK-SQUAT",
+    "code": "155-SPLIT-BACK-SQUAT",
     "title": "Split back squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener en todo momento curvatura lumbar; a-core La mayor parte de la fuerza se realiza con la pierna adelantada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=uBW7qBmJbOo"
   },
   {
-    "code": "157-BACK-SQUAT",
+    "code": "156-BACK-SQUAT",
     "title": "Back squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Bajar hasta el punto previo a perder la curvatura lumbar A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=QmZAiBqPvZw"
   },
   {
-    "code": "158-GOBLET-SQUAT",
+    "code": "157-GOBLET-SQUAT",
     "title": "Goblet squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Bajar hasta el punto previo a perder la curvatura lumbar A-core y espalda alineada, vigila zona torácica",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=AgD7XRyH05o"
   },
   {
-    "code": "159-SLIP-FRONT-SQUAT",
+    "code": "158-SLIP-FRONT-SQUAT",
     "title": "Slip Front squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Sujeta con los dedos al lado de los hombros, codos arriba Bajar hasta el punto previo a perder la curvatura lumbar A-core. La fuerza la realizas con la pierna adelantada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=VsgCBIQE8gU"
   },
   {
-    "code": "160-FRONT-SQUAT",
+    "code": "159-FRONT-SQUAT",
     "title": "Front squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Sujeta con los dedos al lado de los hombros, codos arriba Bajar hasta el punto previo a perder la curvatura lumbar A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=uYumuL_G_V0"
   },
   {
-    "code": "161-HACK-MACHINE-SQUAT",
+    "code": "160-HACK-MACHINE-SQUAT",
     "title": "Hack machine squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Posicionar rodillas a la altura de las caderas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=scs5XcsZuc8"
   },
   {
-    "code": "162-FRONTAL-ISOMETRIC-LATERAL-SQ",
+    "code": "161-FRONTAL-ISOMETRIC-LATERAL-SQ",
     "title": "Frontal Isometric lateral squat + 2 KB",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Punta del pie alejado apunta hacia delante Mantener alineación del tronco a-core Lado",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=lTbIX9KlEL8"
   },
   {
-    "code": "163-GOBLET-TRIANGLE-SQUAT",
+    "code": "162-GOBLET-TRIANGLE-SQUAT",
     "title": "Goblet triangle squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Punta del pie alejado apunta hacia delante Mantener alineación del tronco a-core Lado",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=6DMXBtF_Spg"
   },
   {
-    "code": "164-DB-TRIANGLE-SQUAT",
-    "title": "DB triangle squat",
+    "code": "163-TRIANGLE-SQUAT",
+    "title": "triangle squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Punta del pie alejado apunta hacia delante Mantener alineación del tronco a-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=HLDhxSqMQyE"
   },
   {
-    "code": "165-LMN-LATERAL-REVERSE-LUNGE",
+    "code": "164-LMN-LATERAL-REVERSE-LUNGE",
     "title": "LMN Lateral Reverse Lunge",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "La pierna adelantada es la que produce la fuerza empujando el suelo; Mantener correcta alineación del tronco sin llevar la cadera hacia los lados Lado",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=OFR6idB32EE"
   },
   {
-    "code": "166-LMN-LATERAL-SQUAT",
+    "code": "165-LMN-LATERAL-SQUAT",
     "title": "LMN Lateral Squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "La pierna adelantada es la que produce la fuerza empujando el suelo; Mantener correcta alineación del tronco Lado",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=tDZF6p7iVWI"
   },
   {
-    "code": "167-LMN-TRIANGLE-SQUAT",
+    "code": "166-LMN-TRIANGLE-SQUAT",
     "title": "LMN triangle Squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Los pies siempre apuntando hacia delante; Mantener correcta alineación del tronco",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=pfWxmiK1vQw"
   },
   {
-    "code": "168-LMN-TRIANGLE-LUNGE-LOW-GRIP",
+    "code": "167-LMN-TRIANGLE-LUNGE-LOW-GRIP",
     "title": "LMN triangle Lunge Low grip",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Los pies siempre apuntando hacia delante; Mantener correcta alineación del tronco; Empuja el suelo fuerte para volver a posición inicial Lado",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=VTtLrBvHoJ8"
   },
   {
-    "code": "169-COSSACK-SQUAT",
+    "code": "168-COSSACK-SQUAT",
     "title": "Cossack squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Utiliza un rack para cargar la barra no como en el video",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=qrg1wZK2Fqg"
   },
   {
-    "code": "170-LMN-TRIANGLE-LUNGE-TO-PUSH-P",
+    "code": "169-LMN-TRIANGLE-LUNGE-TO-PUSH-P",
     "title": "LMN Triangle Lunge to Push Press Lado",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=eM2bdqoqFWs"
   },
   {
-    "code": "171-DOMINANTES-CADERA",
-    "title": "Dominantes cadera",
-    "description": "Romanian elastic resistance Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core Mantén la espalda alineada en todo el movimiento Deadlift elastic resistance Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core Mantén la espalda alineada en todo el movimiento KB romanian Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core Mantén la espalda alineada en todo el movimiento",
-    "video_url": null
-  },
-  {
-    "code": "172-SINGLE-ARM-KB-DEADLIFT",
+    "code": "170-SINGLE-ARM-KB-DEADLIFT",
     "title": "Single arm KB deadlift",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core,espalda alineada, evita rotar el tronco",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=FSAhSuPEfPU&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=33"
   },
   {
-    "code": "173-SINGLE-LEG-ROMANIAN-VIDEO-DE",
+    "code": "171-SINGLE-LEG-ROMANIAN-VIDEO-DE",
     "title": "Single leg romanian (video de la derecha)",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "La pierna que se desplaza hacia atrás lo hace como una pata de palo”. La apoyada desplaza el glúteo hacia atrás y delante con la rodilla algo flexionada. A-core Mantén la espalda alineada en todo el movimiento",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/651W-dzieS4"
   },
   {
-    "code": "174-SPLIT-ROMANIAN-VIDEO-DE-LA-D",
+    "code": "172-SPLIT-ROMANIAN-VIDEO-DE-LA-D",
     "title": "Split Romanian (video de la derecha)",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "En posición asimétrica el glúteo se desplaza hacia delante y atrás con rodilla algo flexionada, A-core Mantén la espalda alineada en todo el movimiento La fuerza la realizas con la pierna adelantada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/651W-dzieS4"
   },
   {
-    "code": "175-ROMANIAN-BAJAR-HASTA-EL-FINA",
+    "code": "173-ROMANIAN-BAJAR-HASTA-EL-FINA",
     "title": "Romanian (Bajar hasta el final de la rodilla)(En el video es el 2do ej)",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core Mantén la espalda alineada en todo el movimiento",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/vuKnZIjNgkA"
   },
   {
-    "code": "176-BANDED-DEALIFT",
+    "code": "174-BANDED-DEALIFT",
     "title": "Banded dealift",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Durante el movimiento los glúteos se desplazan hacia delante y atrás con rodillas algo flexionadas, A-core Mantén la espalda alineada en todo el movimiento",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=hKvgiDo7htM&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=14"
   },
   {
-    "code": "177-ISO-ISOMETRIC-KB-SUMO-SQUAT",
-    "title": "ISO Isometric KB sumo squat",
+    "code": "175-ISOMETRIC-KB-SUMO-SQUAT",
+    "title": "Isometric KB sumo squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Separar piernas y bajar quedando la KB por debajo de las rodillas Mantener alineada la espalda",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/xAKpxzaJDHk"
   },
   {
-    "code": "178-PIMA",
+    "code": "176-PIMA",
     "title": "PIMA",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Natera 1leg hip ISO push",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=h3wq8YZ7PNM"
   },
   {
-    "code": "179-ISO-1LEG-FLOOR-HIP-ISO-PUSH",
-    "title": "ISO 1leg floor hip iso push",
+    "code": "177-1LEG-FLOOR-HIP-ISO-PUSH",
+    "title": "1leg floor hip iso push",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Activar glúteo y core antes de iniciar el empuje Apoyar solo el talón del pie",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/3fFMR7vb1g8"
   },
   {
-    "code": "180-ISO-1-LEG-BENCH-ISO-HIP-THRU",
-    "title": "ISO 1 leg bench iso hip thrust",
+    "code": "178-1-LEG-BENCH-ISO-HIP-THRUST",
+    "title": "1 leg bench iso hip thrust",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Gluteo y core active durante todo el ejercicio USA UNA KB SOBRE CADERA PARA LOGRAR EL % Apoyar solo el talón y no elevar cabeza",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=OVgntWVSOCw"
   },
   {
-    "code": "181-ISO-ISOMETRIC-WALL-SINGLE-LE",
-    "title": "ISO Isometric Wall Single Leg RDL",
+    "code": "179-ISOMETRIC-WALL-SINGLE-LEG-RD",
+    "title": "Isometric Wall Single Leg RDL",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener espalda alineada y a-core Mantener glúteo de pierna apoyada activo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=80lnprHOr_0"
   },
   {
-    "code": "182-FLOOR-HIP-THRUST",
+    "code": "180-FLOOR-HIP-THRUST",
     "title": "Floor hip thrust",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Activa glúteos antes de iniciar ejercicio mantenlos ac A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=0piTWBMVYxQ"
   },
   {
-    "code": "183-HIP-THRUST",
+    "code": "181-HIP-THRUST",
     "title": "Hip thrust",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener alineada la espalda durante todo el ejercicio A-Core y glúteos; “subir y bajar como una bisagra",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=1lNuXVeJ1X8"
   },
   {
-    "code": "184-1LEG-HIP-THRUST",
+    "code": "182-1LEG-HIP-THRUST",
     "title": "1leg Hip thrust",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener alineada la espalda durante todo el ejercicio A-Core y glúteos; “subir y bajar como una bisagra",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=J3qfu-rQgus"
   },
   {
-    "code": "185-HEXA-BAR-SQUAT",
+    "code": "183-HEXA-BAR-SQUAT",
     "title": "Hexa bar squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Pies a la altura de las caderas Mantener alineada la espalda, cabeza incluida en todo momento, a-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=M-3wmzwsUxc"
   },
   {
-    "code": "186-KANG-SQUAT",
+    "code": "184-KANG-SQUAT",
     "title": "Kang squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Pies a la altura de las caderas Mantener alineada la espalda, Llevar glúteos hacia atrás, abajo, atrás y arriba",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=p2cQp1aAWjc&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=53"
   },
   {
-    "code": "187-LUNGES",
-    "title": "Lunges",
-    "description": "Lunge crossed elastic resistance Mantén la posición de la espalda alineada Al bajar para mantener la posición hacerlo como un ascensor, de manera que no nos inclinemos Lunge crossed elastic resistance Mantén la posición de la espalda alineada Al bajar para mantener la posición hacerlo como un ascensor, de manera que no nos inclinemos Isometric lunge Mantén la posición de la espalda alineada",
-    "video_url": null
-  },
-  {
-    "code": "188-ISOMETRIC-BULGARIAN",
+    "code": "185-ISOMETRIC-BULGARIAN",
     "title": "Isometric Bulgarian",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la posición de la espalda alineada Al bajar para mantener la posición hacerlo como un ascensor, de manera que te nos inclinemos Bulgarian Smith machine Mantén la posición de la espalda alineada Al bajar para mantener la posición hacerlo como un ascensor, de manera que no te inclinemos",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=_1C7eW1zQRQ"
   },
   {
-    "code": "189-ISOMETRIC-STEP-UP",
+    "code": "186-ISOMETRIC-STEP-UP",
     "title": "Isometric step up",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "SUJETA UN PESO QUE TE PERMITA ALCANZAR LA DOSIS",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=iEr0fWByQhM"
   },
   {
-    "code": "190-TIBA",
+    "code": "187-TIBA",
     "title": "Tiba",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "neutral Static lunge Evita que la rodilla adelantada de desplace hacia delante",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/HIM0GrawvAU"
   },
   {
-    "code": "191-DB-LUNGE",
-    "title": "DB Lunge",
+    "code": "188-LUNGE",
+    "title": "Lunge",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas durante la zancada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=9gglI77Kzq8"
   },
   {
-    "code": "192-TALL-KNEELING-TO-STANDING-KB",
+    "code": "189-TALL-KNEELING-TO-STANDING-KB",
     "title": "Tall kneeling to standing KB rack",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas durante la zancada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=gzNHWAOVcH0&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=51"
   },
   {
-    "code": "193-REVERSE-LUNGE-KB-RACK",
+    "code": "190-REVERSE-LUNGE-KB-RACK",
     "title": "Reverse lunge KB rack",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=EjGByhYeO-Q&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=52"
   },
   {
-    "code": "194-CURTSY-SQUAT",
+    "code": "191-CURTSY-SQUAT",
     "title": "Curtsy squat",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=xClhGjz7p0A&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=74"
   },
   {
-    "code": "195-STEP",
+    "code": "192-STEP",
     "title": "Step",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "ups Alternating step ups Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=lUSmIRNqt9w&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=23"
   },
   {
-    "code": "196-DB-STEP-UP",
-    "title": "DB step up",
+    "code": "193-STEP-UP",
+    "title": "step up",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén la posición de la espalda alineada Pie-rodilla-cadera alineadas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=37tVohr7LcE"
   },
   {
-    "code": "197-SIDE-STEP-UP",
+    "code": "194-SIDE-STEP-UP",
     "title": "Side step up",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=Qg-JG7QFnbA"
   },
   {
-    "code": "198-FRONTAL-LMN-LATERAL",
+    "code": "195-FRONTAL-LMN-LATERAL",
     "title": "Frontal LMN lateral",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=tDZF6p7iVWI"
   },
   {
-    "code": "199-OLIMPICOS-DERIVADOS-E-ISO-RF",
-    "title": "OLIMPICOS, derivados e iso(RFD)",
-    "description": "Pime Natera knee iso push Parte MEDIA pie bajo barra con hombros caderas- tobillos alineados, barra sobre trapecios Rodilla flex 140-145º Caderas flex 160-165º Ángulo tronco entre 10-15º",
-    "video_url": null
+    "code": "196-PIME",
+    "title": "Pime",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "Natera knee iso push Parte MEDIA pie bajo barra con hombros caderas- tobillos alineados, barra sobre trapecios Rodilla flex 140-145º Caderas flex 160-165º Ángulo tronco entre 10-15º",
+    "video_url": "https://www.youtube.com/shorts/5MSm1JOidKQ"
   },
   {
-    "code": "200-NATERA-ANKLE-ISO-PUSH",
+    "code": "197-NATERA-ANKLE-ISO-PUSH",
     "title": "Natera ankle iso push",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Parte delantera pie bajo barra, rodilla extendida Ligera inclinación tronco hacia delante 5º Tobillo ligeramente dorsiflex 5º CDM hacia delante Ligera elevación del talón, 5º plantar flex",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/ZhOmx3j2Ywc"
   },
   {
-    "code": "201-CLEAN-KB-2-HANDS-CLEAN",
+    "code": "198-CLEAN-KB-2-HANDS-CLEAN",
     "title": "Clean KB 2 hands clean",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Ve desplazando los glúteos hacia atrás manteniéndolos activos, cuando no avance más detén la bajada Ver como cambia el agarre durante la ejecución en el video, la KB cerca del cuerpo Activa glúteos y core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=5l9WeYcQGbg"
   },
   {
-    "code": "202-SNATCH-DB-SPLIT-LUNGE-SNATCH",
+    "code": "199-SNATCH-DB-SPLIT-LUNGE-SNATCH",
     "title": "Snatch DB split lunge snatch",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=Y2zACcd2cMc"
   },
   {
-    "code": "203-DB-SNATCH",
-    "title": "DB snatch",
+    "code": "200-SNATCH",
+    "title": "snatch",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Supe la mancuerna cerca del cuerpo como si quisieras quitarte la camiseta A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=3mlhF3dptAo"
   },
   {
-    "code": "204-PUSHPRES-DB-PUSH-OFF-PRESS",
+    "code": "201-PUSHPRES-DB-PUSH-OFF-PRESS",
     "title": "PushPres DB push off press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Aprovecha el impulso empujando con las piernas Cuando este DB arriba estas descansan sobre los hombros No adelantar cabeza, mantener espalda alineada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=MqvN10OF5fo"
   },
   {
-    "code": "205-BB-JUMPS",
-    "title": "BB jumps",
+    "code": "202-JUMPS",
+    "title": "jumps",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Sujeta bien la barra contra los trapecios asegurando que no se “despegue” durante el salto para evitar que esta nos golpee",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=-e6JWa6cjVM&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=18"
   },
   {
-    "code": "206-HEXABAR-HIGH-PULL",
+    "code": "203-HEXABAR-HIGH-PULL",
     "title": "Hexabar high pull",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantener alineada la espalda durante todo el ejercicio A-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/30A-it4VAj8"
   },
   {
-    "code": "207-BOX-JUMP",
+    "code": "204-BOX-JUMP",
     "title": "Box jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Salta hacia el cajón cayendo sobre este con las rodillas y caderas extendidas como en la muestra 2 del video, NO la uno",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/cHLYZljID5c"
   },
   {
-    "code": "208-JUMP-FLEX-OVER-BOX",
+    "code": "205-JUMP-FLEX-OVER-BOX",
     "title": "Jump flex over box",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=gI1L_T8sBpM&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=3"
   },
   {
-    "code": "209-WEIGHTED-BOX-JUMP",
+    "code": "206-WEIGHTED-BOX-JUMP",
     "title": "Weighted box jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Utiliza un peso que te permita saltar sobre un cajón de 20cm. Trata de llegar al cajón con las piernas extendidas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/8SZdzVL0LR8"
   },
   {
-    "code": "210-FRONT-CMJ-STOP",
+    "code": "207-FRONT-CMJ-STOP",
     "title": "Front CMJ & stop",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=vPQv1gmrfUo&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=78"
   },
   {
-    "code": "211-STEP-UP-JUMP",
+    "code": "208-STEP-UP-JUMP",
     "title": "Step up jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Salta lo más alto que puedas frontal Lateral box jump Salta hacia el cajón cayendo sobre este con las rodillas y caderas extendidas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/RA3szevB8pg"
   },
   {
-    "code": "212-SIDE-TO-SIDE-FLEX-BOX-JUMP",
+    "code": "209-SIDE-TO-SIDE-FLEX-BOX-JUMP",
     "title": "Side to side flex box jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=f6AR27I-DwU&list=PLtzeqj0zQWd_QHAZbdKYqhYW4O3t16abN&index=4"
   },
   {
-    "code": "213-KB-LATERAL-DROP-CATCH-TO-LUN",
-    "title": "KB Lateral Drop-Catch to Lunge",
+    "code": "210-LATERAL-DROP-CATCH-TO-LUNGE",
+    "title": "Lateral Drop-Catch to Lunge",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Mantén alineada la espalda a-core",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=1XTKu6bO_nU"
   },
   {
-    "code": "214-TRANSVERS-SIDE-TO-SIDE-1LEG-",
+    "code": "211-TRANSVERS-SIDE-TO-SIDE-1LEG-",
     "title": "transvers Side to side 1leg box jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Controla la alineación del tronco, NO utilizar un cajón demasiado alto",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=93PTwfvdO5A"
   },
   {
-    "code": "215-WALLBALL-PUNCH-THROW",
+    "code": "212-WALLBALL-PUNCH-THROW",
     "title": "Wallball punch throw",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Concéntrate en transmitir la fuerza empujando contra el suelo Máxima velocidad",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=9gyQOsRK-8k"
   },
   {
-    "code": "216-LMN-PUSH-PRESS",
-    "title": "LMN push press",
+    "code": "213-PUSH-PRESS",
+    "title": "push press",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Empuja el suelo fuerte para llevar la barra arriba",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=DwNlhAXA7Zg"
   },
   {
-    "code": "217-STEP-BACK-1-ARM-CABLE-ROW",
+    "code": "214-STEP-BACK-1-ARM-CABLE-ROW",
     "title": "Step back 1 arm cable row",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Manten la espalda alineada Empuja el suelo con la pierna adelantada",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=sgTkBZH69k0"
   },
   {
-    "code": "218-SHOCK-DROP-JUMP",
+    "code": "215-SHOCK-DROP-JUMP",
     "title": "Shock Drop jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Trata de pasar el mínimo tiempo en el suelo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=LrZuW-sJPBo"
   },
   {
-    "code": "219-INFRA-ASSISTED-JUMPS",
+    "code": "216-INFRA-ASSISTED-JUMPS",
     "title": "Infra Assisted jumps",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Ayúdate de un elástico para saltar más Elevate rápido al tocar el suelo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/Y4iU5j2VQBE"
   },
   {
-    "code": "220-SALTOS",
-    "title": "Saltos",
-    "description": "Mecanic Decelerations 2:2 Colócate de puntillas con los brazos arriba; después baja fuerte ayudándote de los brazos para bajar más rápido",
-    "video_url": null
-  },
-  {
-    "code": "221-DECELERATIONS-2-1",
+    "code": "217-DECELERATIONS-2-1",
     "title": "Decelerations 2:1",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Colócate de puntillas con los brazos arriba; después baja fuerte ayudándote de los brazos para bajar más rápido",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=AqZhrJqE8Fk&list=PLS22ClHp6ziCV1LJHk1G2eSjrELWsO59m&index=5"
   },
   {
-    "code": "222-DROP-JUMP-DECELERATION",
+    "code": "218-DROP-JUMP-DECELERATION",
     "title": "Drop jump deceleration",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Déjate caer, no hace falta que extiendas la pierna tanto come el video, amortigua y quédate como una estatua",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=deBpHKW2o78&list=PLS22ClHp6ziCV1LJHk1G2eSjrELWsO59m&index=4"
   },
   {
-    "code": "223-CMJ-DECELERATION",
-    "title": "CMJ deceleration",
+    "code": "219-DECELERATION",
+    "title": "deceleration",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Salta ayudándote de los brazos y al caer vas amortiguando la caída hasta quedar como una estatua",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=yU511_SdgB8&list=PLS22ClHp6ziCV1LJHk1G2eSjrELWsO59m&index=1"
   },
   {
-    "code": "224-1-2-FRONT-JUMP",
+    "code": "220-1-2-FRONT-JUMP",
     "title": "1:2 front jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Realiza un salto a una pierna; vigila estabilizar el cuerpo tras amortiguar la caída",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=F9_YyuP1dX0&list=PLtGV4MaQl1MMtUEzExqzwjl-JP9Aom9aL&index=3"
   },
   {
-    "code": "225-1-1-FRONT-JUMP",
+    "code": "221-1-1-FRONT-JUMP",
     "title": "1:1 front jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Realiza un salto a una pierna; vigila estabilizar el cuerpo tras amortiguar la caída",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=3MQ9y2GnkUI&list=PLtGV4MaQl1MOoOZObkWMXN1aOYtRMo0vD&index=8"
   },
   {
-    "code": "226-REVERSE-LUNGE-TO-JUMP",
+    "code": "222-REVERSE-LUNGE-TO-JUMP",
     "title": "Reverse lunge to jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/5QG5gi3Xx3w"
   },
   {
-    "code": "227-1-1-SIDE-JUMP",
+    "code": "223-1-1-SIDE-JUMP",
     "title": "1:1 Side jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Al aterrizar aguantar 3 segundos antes de volver a salta",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=jpVgRwnOUkw"
   },
   {
-    "code": "228-1-1-90-JUMP",
+    "code": "224-1-1-90-JUMP",
     "title": "1:1 90º jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Al aterrizar aguantar 3 segundos antes de volver a salta",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/ePZqXU3r3M8"
   },
   {
-    "code": "229-DROPS-SPLIT-REACTIVE-JUMP",
+    "code": "225-DROPS-SPLIT-REACTIVE-JUMP",
     "title": "Drops Split Reactive jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/CxjriOksCQs"
   },
   {
-    "code": "230-SPLIT-BOX-DROP-JUMP",
+    "code": "226-SPLIT-BOX-DROP-JUMP",
     "title": "Split Box Drop jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/cJZ7syTADnI"
   },
   {
-    "code": "231-SINGLE-LEG-DROP-JUMP",
+    "code": "227-SINGLE-LEG-DROP-JUMP",
     "title": "Single leg drop jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": null,
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/COJ_H8zeCQo"
   },
   {
-    "code": "232-PLYO-EXTENSIVA",
-    "title": "PLYO Extensiva",
-    "description": "Off load cocontration Foam roller glute brige Apoya la parte media y delantera del pie sobre el roller; ponlo a una distancia que te permita alcanzar bien la dosis",
-    "video_url": null
+    "code": "228-OFF-LOAD",
+    "title": "Off load",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "cocontration Foam roller glute brige Apoya la parte media y delantera del pie sobre el roller; ponlo a una distancia que te permita alcanzar bien la dosis",
+    "video_url": "https://www.youtube.com/shorts/yWxKVXSAgk8"
   },
   {
-    "code": "233-ISOMETRIC-1LEG-FOAM-ROLLER-G",
+    "code": "229-ISOMETRIC-1LEG-FOAM-ROLLER-G",
     "title": "Isometric 1leg Foam roller glute brige",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Apoya la parte media y delantera del pie sobre el roller; ponlo a una distancia que te permita alcanzar bien la dosis",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/IWjbxCUhfnw"
   },
   {
-    "code": "234-FOAM-ROLLER-BRIGE-MARCH",
+    "code": "230-FOAM-ROLLER-BRIGE-MARCH",
     "title": "Foam roller brige march",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Apoya la parte media y delantera del pie sobre el roller; ponlo a una distancia que te permita alcanzar bien la dosis",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/sxITMb7CEP8"
   },
   {
-    "code": "235-AQUILLES",
+    "code": "231-AQUILLES",
     "title": "Aquilles",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "tolerance store & reléase energy Calf Pulses - Straight Knee Apoya la parte delantera del pie sobre el disco y comienza a hacer subidas y bajas con ritmo",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=vEjhflIxVBY"
   },
   {
-    "code": "236-LOW-LOAD",
+    "code": "232-LOW-LOAD",
     "title": "Low load",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "cocontration Penguin march Trata de llevar pa punta del pie lo más al techo posible mientras con la otra apoyas todo el pie a excepción del talón; golpeas el suelo para elevarte",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=T4mc6AZEnRA"
   },
   {
-    "code": "237-0-32",
+    "code": "233-0-32",
     "title": "0:32",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "90/90 single leg pogo Trata de llevar la punta del pie “hacia tu cabeza Golpea el suelo rápido “la pared quema",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/sDDzvlr-HHA"
   },
   {
-    "code": "238-ASSISTED-1LEG-POGO",
+    "code": "234-ASSISTED-1LEG-POGO",
     "title": "Assisted 1leg pogo",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Sujétate a algo con el brazo, concéntrate en sacar la fuerza del tobillo, deja espacio de “tarjeta crédito Trata de llevar la punta del pie “hacia arriba Golpea el suelo rápido “el suelo quema",
-    "video_url": null
+    "video_url": "https://youtu.be/Mhuna4Plw8g"
   },
   {
-    "code": "239-ASSISTED-1LEG-FRONT-BACK-POG",
+    "code": "235-ASSISTED-1LEG-FRONT-BACK-POG",
     "title": "Assisted 1leg front & back pogo",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Sujétate a algo con el brazo, concéntrate en sacar la fuerza del tobillo, deja espacio de “tarjeta crédito Trata de llevar la punta del pie “hacia arriba Golpea el suelo rápido “el suelo quema",
-    "video_url": null
+    "video_url": "https://youtu.be/ai_Nm46U7E8"
   },
   {
-    "code": "240-SPLIT-STANCE-POGO-HOPS",
+    "code": "236-SPLIT-STANCE-POGO-HOPS",
     "title": "Split stance pogo hops",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Realizar los saltos a MENOR ALTURA QUE EL VIDEO Saltos cortos muy reactivos",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=D9uc2rvu1Bk"
   },
   {
-    "code": "241-LATERAL-DROP-JUMP-20CM",
+    "code": "237-LATERAL-DROP-JUMP-20CM",
     "title": "Lateral Drop Jump 20cm",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Al caer se debe subir muy rápidamente “el suelo quema",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=cZ5WnytYC8U"
   },
   {
-    "code": "242-STEP-BACK-UP-2-LEGS",
+    "code": "238-STEP-BACK-UP-2-LEGS",
     "title": "Step back&up 2 legs",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Al caer se debe subir muy rápidamente “el suelo quema",
-    "video_url": null
+    "video_url": "https://youtu.be/2ZOcRkHJ1js"
   },
   {
-    "code": "243-KNEE-STEP-UP-DOWN",
+    "code": "239-KNEE-STEP-UP-DOWN",
     "title": "knee Step up&down",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Al caer se debe subir muy rápidamente “el suelo quema",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=CurzzO_p1Zs"
   },
   {
-    "code": "244-STEP-SIDE-DOWN-UP-1LEG",
+    "code": "240-STEP-SIDE-DOWN-UP-1LEG",
     "title": "Step side down&up 1leg",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Al caer se debe subir muy rápidamente “el suelo quema",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=OsRuEiEX8SY"
   },
   {
-    "code": "245-KNEE-PREP-OVER-STEP-KNEE",
+    "code": "241-KNEE-PREP-OVER-STEP-KNEE",
     "title": "Knee Prep over step knee",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Con rodilla flexionada tratar de “golpear” el suelo rápidamente “el suelo quema",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=x-KHoqgb8os"
   },
   {
-    "code": "246-PLYO-INTENSIVA",
-    "title": "PLYO Intensiva",
-    "description": "Box 40cm CMJ depth jump 2egs side CONTINUOUS Al caer puedes amortiguar un poco la caída, no es totalmente reactivo",
-    "video_url": null
+    "code": "242-BOX-40CM-CMJ-DEPTH-JUMP-2EGS",
+    "title": "Box 40cm CMJ depth jump 2egs side CONTINUOUS",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "Al caer puedes amortiguar un poco la caída, no es totalmente reactivo",
+    "video_url": "https://www.youtube.com/watch?v=2yCCGObWH5c&list=PLtGV4MaQl1MOoOZObkWMXN1aOYtRMo0vD&index=9"
   },
   {
-    "code": "247-MED-TUCK-JUMP",
+    "code": "243-MED-TUCK-JUMP",
     "title": "Med Tuck jump",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "Estar poco tiempo en el suelo Saltar lo + alto posible flexionando las caderas",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=WtoX_-KCevs"
   },
   {
-    "code": "248-MED",
+    "code": "244-MED",
     "title": "Med-",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "high Lateral skater hops",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=gS4F_YrwZVs"
   },
   {
-    "code": "249-HIGH",
+    "code": "245-HIGH",
     "title": "High-",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "very H ?? Massai jumps No bloquear completamente la rodilla Concentrarse en saltar LO + ALTO POSIBLE con los tobillos",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=yJRyLTo8ZhQ"
   },
   {
-    "code": "250-VERY",
+    "code": "246-VERY",
     "title": "Very",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "high 1 leg hop jumps",
-    "video_url": null
+    "video_url": "https://www.youtube.com/watch?v=BsN1qx4ybbs"
   },
   {
-    "code": "251-MECANICAS",
-    "title": "MECÁNICAS",
-    "description": "Empuje lento de trineo A-core; empuja desde el suelo extendiendo pierna sin mover brazos",
-    "video_url": null
+    "code": "247-EMPUJE-LENTO-DE-TRINEO",
+    "title": "Empuje lento de trineo",
+    "group_name": "ANALÍTICOS · Hombro",
+    "description": "A-core; empuja desde el suelo extendiendo pierna sin mover brazos",
+    "video_url": "https://www.youtube.com/shorts/rNxSK8Fo_Ok"
   },
   {
-    "code": "252-EMPUJE-PESADO-INTENCION-RAPI",
+    "code": "248-EMPUJE-PESADO-INTENCION-RAPI",
     "title": "Empuje pesado intención rápida",
+    "group_name": "ANALÍTICOS · Hombro",
     "description": "A-core; concéntrate en empujar suelo sin mover brazos",
-    "video_url": null
+    "video_url": "https://www.youtube.com/shorts/81TS335Yi6g"
   }
 ]

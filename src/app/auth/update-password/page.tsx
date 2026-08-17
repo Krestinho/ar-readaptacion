@@ -82,16 +82,16 @@ export default function UpdatePasswordPage() {
   }
 
   return (
-    <div className="flex min-h-full flex-1 items-center justify-center px-4 py-10">
+    <div className="flex min-h-full flex-1 items-center justify-center px-4 py-8 sm:py-10">
       <Card className="w-full max-w-md">
-        <CardHeader>
+        <CardHeader className="px-4 sm:px-6">
           <CardTitle>Cambia tu contraseña</CardTitle>
           <CardDescription>
             Es tu primer acceso (o tu clínica ha reiniciado la contraseña).
             Elige una nueva para continuar.
           </CardDescription>
         </CardHeader>
-        <CardContent>
+        <CardContent className="px-4 sm:px-6">
           <form onSubmit={handleSubmit} className="grid gap-4">
             <div className="grid gap-2">
               <Label htmlFor="password">Nueva contraseña</Label>
@@ -122,7 +122,7 @@ export default function UpdatePasswordPage() {
                 {error}
               </p>
             ) : null}
-            <Button type="submit" disabled={loading}>
+            <Button type="submit" disabled={loading} className="w-full">
               {loading ? "Guardando…" : "Guardar y continuar"}
             </Button>
           </form>

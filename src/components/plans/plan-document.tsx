@@ -83,11 +83,11 @@ export function PlanDocument({
   return (
     <div className="space-y-4">
       {showExport ? (
-        <div className="flex justify-end">
+        <div className="flex justify-stretch sm:justify-end">
           <Button
             type="button"
             variant="outline"
-            className="gap-1.5"
+            className="w-full gap-1.5 sm:w-auto"
             onClick={handleExportPdf}
             disabled={exporting}
           >
@@ -99,7 +99,7 @@ export function PlanDocument({
 
       <div
         ref={printRef}
-        className="rounded-xl border border-border p-4 sm:p-6"
+        className="overflow-hidden rounded-xl border border-border p-3 sm:p-6"
       >
         <PlanView plan={plan} patientName={patientName} />
       </div>

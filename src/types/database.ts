@@ -56,6 +56,7 @@ export type Database = {
           code: string | null;
           title: string;
           description: string | null;
+          group_name: string | null;
           video_url: string | null;
           created_at: string;
         };
@@ -64,6 +65,7 @@ export type Database = {
           code?: string | null;
           title: string;
           description?: string | null;
+          group_name?: string | null;
           video_url?: string | null;
           created_at?: string;
         };
@@ -72,6 +74,7 @@ export type Database = {
           code?: string | null;
           title?: string;
           description?: string | null;
+          group_name?: string | null;
           video_url?: string | null;
           created_at?: string;
         };
@@ -119,7 +122,9 @@ export type Database = {
         Row: {
           id: string;
           plan_id: string;
-          exercise_id: string;
+          exercise_id: string | null;
+          item_type: "exercise" | "separator";
+          label: string | null;
           custom_instructions: string | null;
           section_name: string | null;
           block_name: string | null;
@@ -128,7 +133,9 @@ export type Database = {
         Insert: {
           id?: string;
           plan_id: string;
-          exercise_id: string;
+          exercise_id?: string | null;
+          item_type?: "exercise" | "separator";
+          label?: string | null;
           custom_instructions?: string | null;
           section_name?: string | null;
           block_name?: string | null;
@@ -137,7 +144,9 @@ export type Database = {
         Update: {
           id?: string;
           plan_id?: string;
-          exercise_id?: string;
+          exercise_id?: string | null;
+          item_type?: "exercise" | "separator";
+          label?: string | null;
           custom_instructions?: string | null;
           section_name?: string | null;
           block_name?: string | null;
@@ -204,7 +213,10 @@ export type PlanExercise = Tables<"plan_exercises">;
 
 /** Plan exercise con el ejercicio base embebido (joins típicos) */
 export type PlanExerciseWithExercise = PlanExercise & {
-  exercises: Pick<Exercise, "id" | "code" | "title" | "description" | "video_url">;
+  exercises: Pick<
+    Exercise,
+    "id" | "code" | "title" | "description" | "video_url"
+  > | null;
 };
 
 /** Plan completo para vistas de lectura / PDF */

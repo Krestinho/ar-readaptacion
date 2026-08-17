@@ -5,8 +5,10 @@ import { Plus, Search, UserPlus, Wrench } from "lucide-react";
 import { toast } from "sonner";
 
 import { CreatePatientDialog } from "@/components/patients/create-patient-dialog";
+import { PageHeader } from "@/components/layout/page-header";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { EmptyPanel } from "@/components/ui/empty-panel";
 import { Input } from "@/components/ui/input";
 import { Switch } from "@/components/ui/switch";
 import {
@@ -26,6 +28,100 @@ import {
 type PatientsManagerProps = {
   patients: PatientRow[];
 };
+
+function PatientActions({
+  patient,
+  needsMigration,
+  isPending,
+  pendingId,
+  onAssign,
+  onToggle,
+}: {
+  patient: PatientRow;
+  needsMigration: boolean;
+  isPending: boolean;
+  pendingId: string | null;
+  onAssign: () => void;
+  onToggle: () => void;
+}) {
+  return (
+    <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-end">
+      <Button
+        type="button"
+        variant="outline"
+        size="sm"
+        className="w-full gap-1.5 sm:w-auto"
+        disabled={isPending}
+        onClick={onAssign}
+      >
+        <Wrench className="size-3.5" />
+        {needsMigration ? "Asignar usuario" : "Resetear acceso"}
+      </Button>
+      <div className="flex items-center justify-between gap-3 rounded-lg border border-border px-3 py-2 sm:justify-end sm:border-0 sm:p-0">
+        <span className="text-xs text-muted-foreground">
+          Acceso {patient.is_active ? "activo" : "inactivo"}
+        </span>
+        <Switch
+          checked={patient.is_active}
+          disabled={isPending && pendingId === patient.id}
+          onCheckedChange={onToggle}
+          aria-label={`Cambiar acceso de ${patient.full_name ?? "paciente"}`}
+        />
+      </div>
+    </div>
+  );
+}
+
+function PatientCard({
+  patient,
+  needsMigration,
+  isPending,
+  pendingId,
+  onAssign,
+  onToggle,
+}: {
+  patient: PatientRow;
+  needsMigration: boolean;
+  isPending: boolean;
+  pendingId: string | null;
+  onAssign: () => void;
+  onToggle: () => void;
+}) {
+  return (
+    <div
+      className={`rounded-xl border border-border bg-card p-4 ${
+        !patient.is_active ? "opacity-60" : ""
+      }`}
+    >
+      <div className="space-y-3">
+        <div>
+          <p className="font-medium break-words">
+            {patient.full_name || "Sin nombre"}
+          </p>
+          <p className="mt-1 font-mono text-sm break-all text-muted-foreground">
+            {patient.username || "—"}
+          </p>
+          <div className="mt-2 flex flex-wrap gap-2">
+            <Badge variant={patient.is_active ? "default" : "secondary"}>
+              {patient.is_active ? "Activo" : "Deshabilitado"}
+            </Badge>
+            {patient.must_change_password ? (
+              <Badge variant="secondary">Cambiar pass</Badge>
+            ) : null}
+          </div>
+        </div>
+        <PatientActions
+          patient={patient}
+          needsMigration={needsMigration}
+          isPending={isPending}
+          pendingId={pendingId}
+          onAssign={onAssign}
+          onToggle={onToggle}
+        />
+      </div>
+    </div>
+  );
+}
 
 export function PatientsManager({ patients }: PatientsManagerProps) {
   const [query, setQuery] = useState("");
@@ -107,26 +203,43 @@ export function PatientsManager({ patients }: PatientsManagerProps) {
     });
   }
 
-  return (
-    <div className="space-y-6">
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <div>
-          <h1 className="text-2xl font-semibold tracking-tight">Pacientes</h1>
-          <p className="text-muted-foreground">
-            Alta con usuario (nombre.apellido) y contraseña provisional.
-          </p>
-        </div>
+  const emptyMessage =
+    patients.length === 0 ? (
+      <span className="inline-flex flex-col items-center gap-2">
+        Todavía no hay pacientes.
         <Button
           type="button"
-          onClick={() => setCreateOpen(true)}
+          variant="outline"
+          size="sm"
           className="gap-1.5"
+          onClick={() => setCreateOpen(true)}
         >
-          <UserPlus className="size-4" />
-          Crear paciente
+          <Plus className="size-3.5" />
+          Crear el primero
         </Button>
-      </div>
+      </span>
+    ) : (
+      "Ningún paciente coincide con la búsqueda."
+    );
 
-      <div className="relative max-w-md">
+  return (
+    <div className="space-y-6">
+      <PageHeader
+        title="Pacientes"
+        description="Alta con usuario (nombre.apellido) y contraseña provisional."
+        actions={
+          <Button
+            type="button"
+            onClick={() => setCreateOpen(true)}
+            className="w-full gap-1.5 sm:w-auto"
+          >
+            <UserPlus className="size-4" />
+            Crear paciente
+          </Button>
+        }
+      />
+
+      <div className="relative w-full max-w-md">
         <Search className="pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2 text-muted-foreground" />
         <Input
           value={query}
@@ -136,7 +249,31 @@ export function PatientsManager({ patients }: PatientsManagerProps) {
         />
       </div>
 
-      <div className="overflow-hidden rounded-xl border border-border bg-card">
+      <div className="space-y-3 md:hidden">
+        {filtered.length === 0 ? (
+          <EmptyPanel>{emptyMessage}</EmptyPanel>
+        ) : (
+          filtered.map((patient) => {
+            const needsMigration =
+              !patient.username ||
+              (patient.full_name?.includes("@") ?? false);
+
+            return (
+              <PatientCard
+                key={patient.id}
+                patient={patient}
+                needsMigration={needsMigration}
+                isPending={isPending}
+                pendingId={pendingId}
+                onAssign={() => assignUsername(patient)}
+                onToggle={() => toggleActive(patient)}
+              />
+            );
+          })
+        )}
+      </div>
+
+      <div className="hidden overflow-hidden rounded-xl border border-border bg-card md:block">
         <Table>
           <TableHeader>
             <TableRow>
@@ -153,23 +290,7 @@ export function PatientsManager({ patients }: PatientsManagerProps) {
                   colSpan={4}
                   className="h-24 text-center text-muted-foreground"
                 >
-                  {patients.length === 0 ? (
-                    <span className="inline-flex flex-col items-center gap-2">
-                      Todavía no hay pacientes.
-                      <Button
-                        type="button"
-                        variant="outline"
-                        size="sm"
-                        className="gap-1.5"
-                        onClick={() => setCreateOpen(true)}
-                      >
-                        <Plus className="size-3.5" />
-                        Crear el primero
-                      </Button>
-                    </span>
-                  ) : (
-                    "Ningún paciente coincide con la búsqueda."
-                  )}
+                  {emptyMessage}
                 </TableCell>
               </TableRow>
             ) : (
@@ -183,10 +304,10 @@ export function PatientsManager({ patients }: PatientsManagerProps) {
                     key={patient.id}
                     className={!patient.is_active ? "opacity-60" : undefined}
                   >
-                    <TableCell className="font-medium">
+                    <TableCell className="max-w-xs font-medium whitespace-normal break-words">
                       {patient.full_name || "Sin nombre"}
                     </TableCell>
-                    <TableCell className="font-mono text-sm">
+                    <TableCell className="max-w-xs whitespace-normal break-all font-mono text-sm">
                       {patient.username || "—"}
                       {patient.must_change_password ? (
                         <Badge variant="secondary" className="ml-2">
@@ -202,28 +323,14 @@ export function PatientsManager({ patients }: PatientsManagerProps) {
                       </Badge>
                     </TableCell>
                     <TableCell className="text-right">
-                      <div className="inline-flex items-center justify-end gap-2">
-                        <Button
-                          type="button"
-                          variant="outline"
-                          size="sm"
-                          className="gap-1.5"
-                          disabled={isPending}
-                          onClick={() => assignUsername(patient)}
-                        >
-                          <Wrench className="size-3.5" />
-                          {needsMigration ? "Asignar usuario" : "Resetear acceso"}
-                        </Button>
-                        <span className="text-xs text-muted-foreground">
-                          {patient.is_active ? "On" : "Off"}
-                        </span>
-                        <Switch
-                          checked={patient.is_active}
-                          disabled={isPending && pendingId === patient.id}
-                          onCheckedChange={() => toggleActive(patient)}
-                          aria-label={`Cambiar acceso de ${patient.full_name ?? "paciente"}`}
-                        />
-                      </div>
+                      <PatientActions
+                        patient={patient}
+                        needsMigration={needsMigration}
+                        isPending={isPending}
+                        pendingId={pendingId}
+                        onAssign={() => assignUsername(patient)}
+                        onToggle={() => toggleActive(patient)}
+                      />
                     </TableCell>
                   </TableRow>
                 );

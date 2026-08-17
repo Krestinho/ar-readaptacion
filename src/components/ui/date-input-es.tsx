@@ -132,7 +132,9 @@ export function DateInputES({
         )}
       >
         <CalendarDays className="size-4 shrink-0 opacity-70" />
-        <span className="truncate">{label}</span>
+        <span className="min-w-0 flex-1 whitespace-normal break-words text-left">
+          {label}
+        </span>
       </PopoverTrigger>
 
       <PopoverContent align="start" className="w-[288px] p-3">

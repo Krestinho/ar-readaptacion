@@ -10,6 +10,8 @@ const PLAN_SELECT = `
     id,
     plan_id,
     exercise_id,
+    item_type,
+    label,
     custom_instructions,
     section_name,
     block_name,

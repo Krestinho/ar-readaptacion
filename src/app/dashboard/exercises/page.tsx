@@ -1,4 +1,5 @@
 import { ExercisesManager } from "@/components/exercises/exercises-manager";
+import { buildGroupSelectOptions } from "@/lib/exercises/groups";
 import { createClient } from "@/lib/supabase/server";
 
 export default async function ExercisesPage() {
@@ -16,12 +17,18 @@ export default async function ExercisesPage() {
           No se pudieron cargar los ejercicios: {error.message}
         </p>
         <p className="text-sm text-muted-foreground">
-          Si falta la columna <code>code</code>, ejecuta en Supabase la
-          migración <code>003_exercises_code.sql</code>.
+          Si falta la columna <code>group_name</code>, ejecuta en Supabase la
+          migración <code>007_exercise_groups.sql</code>.
         </p>
       </div>
     );
   }
 
-  return <ExercisesManager exercises={data ?? []} />;
+  const groupOptions = buildGroupSelectOptions(
+    (data ?? []).map((exercise) => exercise.group_name)
+  );
+
+  return (
+    <ExercisesManager exercises={data ?? []} groupOptions={groupOptions} />
+  );
 }

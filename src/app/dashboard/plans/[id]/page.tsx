@@ -53,18 +53,21 @@ export default async function EditPlanPage({ params }: EditPlanPageProps) {
       <Separator />
 
       <section className="space-y-4">
-        <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <h2 className="text-xl font-semibold tracking-tight">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div className="min-w-0">
+            <h2 className="text-lg font-semibold tracking-tight sm:text-xl">
               Vista previa / PDF
             </h2>
-            <p className="text-sm text-muted-foreground">
+            <p className="mt-1 text-sm text-muted-foreground">
               Así lo verá el paciente. Puedes exportar el mismo formato a PDF.
             </p>
           </div>
           <Link
             href="/dashboard/plans"
-            className={cn(buttonVariants({ variant: "outline" }))}
+            className={cn(
+              buttonVariants({ variant: "outline" }),
+              "w-full sm:w-auto"
+            )}
           >
             Volver al listado
           </Link>

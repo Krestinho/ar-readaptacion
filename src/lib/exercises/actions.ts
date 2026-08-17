@@ -39,6 +39,7 @@ export async function createExercise(
   const payload: TablesInsert<"exercises"> = {
     code: cleanOptional(formData.get("code")),
     title,
+    group_name: cleanOptional(formData.get("group_name")),
     description: cleanOptional(formData.get("description")),
     video_url: cleanOptional(formData.get("video_url")),
   };
@@ -76,6 +77,7 @@ export async function updateExercise(
   const payload: TablesUpdate<"exercises"> = {
     code: cleanOptional(formData.get("code")),
     title,
+    group_name: cleanOptional(formData.get("group_name")),
     description: cleanOptional(formData.get("description")),
     video_url: cleanOptional(formData.get("video_url")),
   };
@@ -143,4 +145,20 @@ export async function importSeedExercises(): Promise<ExerciseActionResult> {
 
   revalidatePath("/dashboard/exercises");
   return { ok: true, count: inserted };
+}
+
+export async function getExerciseGroupOptions(): Promise<string[]> {
+  const auth = await requireAdmin();
+  if (!auth.ok) return [];
+
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("exercises")
+    .select("group_name")
+    .not("group_name", "is", null);
+
+  if (error) return [];
+
+  const { buildGroupSelectOptions } = await import("@/lib/exercises/groups");
+  return buildGroupSelectOptions((data ?? []).map((row) => row.group_name));
 }

@@ -29,7 +29,7 @@ export default async function HomePage() {
       />
 
       <Card className="relative z-10 w-full max-w-md border-border/70 bg-card/95 shadow-sm backdrop-blur">
-        <CardHeader className="items-center space-y-4 pb-2 text-center">
+        <CardHeader className="items-center space-y-4 px-4 pb-2 text-center sm:px-6">
           <div className="flex w-full justify-center pt-2">
             <Image
               src="/logo.jpg"
@@ -37,7 +37,7 @@ export default async function HomePage() {
               width={250}
               height={100}
               priority
-              className="h-auto w-[250px] object-contain"
+              className="h-auto w-full max-w-[250px] object-contain"
             />
           </div>
           <div className="space-y-1.5">
@@ -50,7 +50,7 @@ export default async function HomePage() {
             </CardDescription>
           </div>
         </CardHeader>
-        <CardContent className="pt-2">
+        <CardContent className="px-4 pt-2 sm:px-6">
           <LoginForm />
         </CardContent>
       </Card>

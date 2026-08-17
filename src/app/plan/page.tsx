@@ -15,18 +15,20 @@ export default async function PatientPlanPage() {
   const result = await getLatestPlanForCurrentPatient();
 
   return (
-    <div className="mx-auto flex min-h-full w-full max-w-3xl flex-1 flex-col px-4 py-6 sm:py-8">
-      <header className="mb-6 flex items-start justify-between gap-4">
-        <div>
+    <div className="mx-auto flex min-h-full w-full max-w-3xl flex-1 flex-col px-4 py-4 sm:py-8">
+      <header className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div className="min-w-0">
           <p className="text-xs font-medium tracking-[0.16em] text-muted-foreground uppercase">
             Área del paciente
           </p>
-          <h1 className="mt-1 text-2xl font-semibold tracking-tight">Mi plan</h1>
-          <p className="mt-1 text-muted-foreground">
+          <h1 className="mt-1 text-xl font-semibold tracking-tight sm:text-2xl">
+            Mi plan
+          </h1>
+          <p className="mt-1 text-sm text-muted-foreground break-words sm:text-base">
             Hola{profile.full_name ? `, ${profile.full_name}` : ""}.
           </p>
         </div>
-        <SignOutButton />
+        <SignOutButton className="self-start" />
       </header>
 
       {!result.ok ? (

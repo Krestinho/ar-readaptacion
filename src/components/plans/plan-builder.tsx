@@ -24,7 +24,7 @@ import {
   Copy,
   FilePlus2,
   GripVertical,
-  Plus,
+  Minus,
   Trash2,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -34,6 +34,7 @@ import {
   SearchableSelect,
   type SearchableOption,
 } from "@/components/plans/searchable-select";
+import { PageHeader } from "@/components/layout/page-header";
 import { Button } from "@/components/ui/button";
 import { DateInputES } from "@/components/ui/date-input-es";
 import {
@@ -57,8 +58,9 @@ import {
 } from "@/lib/plans/actions";
 import type { PlanWithExercises } from "@/types/database";
 
-type DraftItem = {
+type DraftExerciseItem = {
   localId: string;
+  item_type: "exercise";
   exercise_id: string;
   exercise_code: string | null;
   exercise_title: string;
@@ -66,6 +68,15 @@ type DraftItem = {
   section_name: string;
   block_name: string;
 };
+
+type DraftSeparatorItem = {
+  localId: string;
+  item_type: "separator";
+  label: string;
+  section_name: string;
+};
+
+type DraftItem = DraftExerciseItem | DraftSeparatorItem;
 
 type PlanBuilderProps = {
   patients: PlanPatientOption[];
@@ -81,15 +92,152 @@ function mapPlanToDraftItems(plan: PlanWithExercises): DraftItem[] {
   return (plan.plan_exercises ?? [])
     .slice()
     .sort((a, b) => a.order_index - b.order_index)
-    .map((row) => ({
-      localId: createLocalId(),
-      exercise_id: row.exercise_id,
-      exercise_code: row.exercises?.code ?? null,
-      exercise_title: row.exercises?.title ?? "Ejercicio",
-      custom_instructions: row.custom_instructions ?? "",
-      section_name: row.section_name ?? "",
-      block_name: row.block_name ?? "",
-    }));
+    .map((row) => {
+      const isSeparator =
+        row.item_type === "separator" || (!row.exercise_id && row.label);
+
+      if (isSeparator) {
+        return {
+          localId: createLocalId(),
+          item_type: "separator" as const,
+          label: row.label ?? "",
+          section_name: row.section_name ?? "",
+        };
+      }
+
+      return {
+        localId: createLocalId(),
+        item_type: "exercise" as const,
+        exercise_id: row.exercise_id ?? "",
+        exercise_code: row.exercises?.code ?? null,
+        exercise_title: row.exercises?.title ?? "Ejercicio",
+        custom_instructions: row.custom_instructions ?? "",
+        section_name: row.section_name ?? "",
+        block_name: row.block_name ?? "",
+      };
+    });
+}
+
+function SortableDragHandle({
+  dragAttributes,
+  dragListeners,
+}: {
+  dragAttributes: ReturnType<typeof useSortable>["attributes"];
+  dragListeners: ReturnType<typeof useSortable>["listeners"];
+}) {
+  return (
+    <button
+      type="button"
+      className="mt-1 cursor-grab touch-none text-muted-foreground hover:text-foreground active:cursor-grabbing"
+      aria-label="Arrastrar para reordenar"
+      {...dragAttributes}
+      {...dragListeners}
+    >
+      <GripVertical className="size-4" />
+    </button>
+  );
+}
+
+function SortableSeparatorRow({
+  item,
+  index,
+  total,
+  onChange,
+  onRemove,
+  onMove,
+}: {
+  item: DraftSeparatorItem;
+  index: number;
+  total: number;
+  onChange: (localId: string, patch: Partial<DraftSeparatorItem>) => void;
+  onRemove: (localId: string) => void;
+  onMove: (localId: string, direction: -1 | 1) => void;
+}) {
+  const { attributes, listeners, setNodeRef, transform, transition, isDragging } =
+    useSortable({ id: item.localId });
+
+  return (
+    <div
+      ref={setNodeRef}
+      style={{
+        transform: CSS.Transform.toString(transform),
+        transition,
+      }}
+      className={`rounded-xl border border-dashed border-[#a67c52]/50 bg-[#faf6f0] p-4 ${
+        isDragging ? "z-10 shadow-md opacity-95" : ""
+      }`}
+    >
+      <div className="flex items-start gap-3">
+        <SortableDragHandle
+          dragAttributes={attributes}
+          dragListeners={listeners}
+        />
+        <div className="min-w-0 flex-1 space-y-3">
+          <div className="flex flex-wrap items-start justify-between gap-2">
+            <div className="flex items-center gap-2 text-sm font-medium text-[#a67c52]">
+              <Minus className="size-4 shrink-0" />
+              Separador
+            </div>
+            <div className="flex items-center gap-1">
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon-sm"
+                disabled={index === 0}
+                onClick={() => onMove(item.localId, -1)}
+                aria-label="Subir"
+              >
+                <ArrowUp className="size-3.5" />
+              </Button>
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon-sm"
+                disabled={index === total - 1}
+                onClick={() => onMove(item.localId, 1)}
+                aria-label="Bajar"
+              >
+                <ArrowDown className="size-3.5" />
+              </Button>
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon-sm"
+                onClick={() => onRemove(item.localId)}
+                aria-label="Eliminar"
+              >
+                <Trash2 className="size-3.5 text-destructive" />
+              </Button>
+            </div>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2">
+            <div className="grid gap-1.5 sm:col-span-2">
+              <Label htmlFor={`sep-label-${item.localId}`}>Texto del separador</Label>
+              <Input
+                id={`sep-label-${item.localId}`}
+                value={item.label}
+                onChange={(e) =>
+                  onChange(item.localId, { label: e.target.value })
+                }
+                placeholder="Ej. Masaje miofascial, AE/ANAE…"
+              />
+            </div>
+            <div className="grid gap-1.5">
+              <Label htmlFor={`sep-section-${item.localId}`}>Día / grupo</Label>
+              <Input
+                id={`sep-section-${item.localId}`}
+                value={item.section_name}
+                onChange={(e) =>
+                  onChange(item.localId, { section_name: e.target.value })
+                }
+                placeholder="D_1, D_2…"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function SortableExerciseRow({
@@ -100,10 +248,10 @@ function SortableExerciseRow({
   onRemove,
   onMove,
 }: {
-  item: DraftItem;
+  item: DraftExerciseItem;
   index: number;
   total: number;
-  onChange: (localId: string, patch: Partial<DraftItem>) => void;
+  onChange: (localId: string, patch: Partial<DraftExerciseItem>) => void;
   onRemove: (localId: string) => void;
   onMove: (localId: string, direction: -1 | 1) => void;
 }) {
@@ -124,21 +272,16 @@ function SortableExerciseRow({
       }`}
     >
       <div className="flex items-start gap-3">
-        <button
-          type="button"
-          className="mt-1 cursor-grab touch-none text-muted-foreground hover:text-foreground active:cursor-grabbing"
-          aria-label="Arrastrar para reordenar"
-          {...attributes}
-          {...listeners}
-        >
-          <GripVertical className="size-4" />
-        </button>
+        <SortableDragHandle
+          dragAttributes={attributes}
+          dragListeners={listeners}
+        />
 
         <div className="min-w-0 flex-1 space-y-3">
-          <div className="flex flex-wrap items-center justify-between gap-2">
-            <div>
-              <p className="font-medium">{item.exercise_title}</p>
-              <p className="font-mono text-xs text-muted-foreground">
+          <div className="flex flex-wrap items-start justify-between gap-2">
+            <div className="min-w-0">
+              <p className="font-medium break-words">{item.exercise_title}</p>
+              <p className="font-mono text-xs break-all text-muted-foreground">
                 {item.exercise_code || item.exercise_id.slice(0, 8)}
               </p>
             </div>
@@ -175,7 +318,7 @@ function SortableExerciseRow({
             </div>
           </div>
 
-          <div className="grid gap-3 md:grid-cols-3">
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             <div className="grid gap-1.5">
               <Label htmlFor={`section-${item.localId}`}>Día / grupo</Label>
               <Input
@@ -236,7 +379,7 @@ export function PlanBuilder({
   const [trainingDays, setTrainingDays] = useState<string[]>(
     () => initialPlan?.training_days ?? []
   );
-  const [selectedExerciseId, setSelectedExerciseId] = useState<string | null>(
+  const [selectedGroupFilter, setSelectedGroupFilter] = useState<string | null>(
     null
   );
   const [items, setItems] = useState<DraftItem[]>(() =>
@@ -258,16 +401,46 @@ export function PlanBuilder({
     [patients]
   );
 
-  const exerciseOptions: SearchableOption[] = useMemo(
+  const groupFilterOptions: SearchableOption[] = useMemo(() => {
+    const groups = new Set<string>();
+    for (const exercise of exercises) {
+      if (exercise.group_name?.trim()) groups.add(exercise.group_name.trim());
+    }
+    return Array.from(groups)
+      .sort((a, b) => a.localeCompare(b, "es"))
+      .map((group) => ({
+        value: group,
+        label: group,
+      }));
+  }, [exercises]);
+
+  const filteredExercises = useMemo(() => {
+    if (!selectedGroupFilter) return exercises;
+    return exercises.filter(
+      (exercise) => exercise.group_name === selectedGroupFilter
+    );
+  }, [exercises, selectedGroupFilter]);
+
+  const exerciseCodeOptions: SearchableOption[] = useMemo(
     () =>
-      exercises.map((exercise) => ({
+      filteredExercises
+        .filter((exercise) => exercise.code?.trim())
+        .map((exercise) => ({
+          value: exercise.id,
+          label: exercise.code!,
+          keywords: `${exercise.title} ${exercise.group_name ?? ""}`,
+        })),
+    [filteredExercises]
+  );
+
+  const exerciseTitleOptions: SearchableOption[] = useMemo(
+    () =>
+      filteredExercises.map((exercise) => ({
         value: exercise.id,
-        label: exercise.code
-          ? `${exercise.code} · ${exercise.title}`
-          : exercise.title,
-        keywords: `${exercise.code ?? ""} ${exercise.title} ${exercise.id}`,
+        label: exercise.title,
+        keywords: `${exercise.code ?? ""} ${exercise.group_name ?? ""}`,
       })),
-    [exercises]
+    [filteredExercises]
   );
 
   const sensors = useSensors(
@@ -356,18 +529,15 @@ export function PlanBuilder({
     toast.message("Empiezas un plan desde cero.");
   }
 
-  function addExercise() {
-    if (!selectedExerciseId) {
-      toast.error("Selecciona un ejercicio para añadir.");
-      return;
-    }
-    const exercise = exercises.find((e) => e.id === selectedExerciseId);
+  function addExerciseById(exerciseId: string) {
+    const exercise = exercises.find((e) => e.id === exerciseId);
     if (!exercise) return;
 
     setItems((prev) => [
       ...prev,
       {
         localId: createLocalId(),
+        item_type: "exercise",
         exercise_id: exercise.id,
         exercise_code: exercise.code,
         exercise_title: exercise.title,
@@ -376,12 +546,27 @@ export function PlanBuilder({
         block_name: "",
       },
     ]);
-    setSelectedExerciseId(null);
+    toast.success(`Añadido: ${exercise.title}`);
+  }
+
+  function addSeparator() {
+    setItems((prev) => [
+      ...prev,
+      {
+        localId: createLocalId(),
+        item_type: "separator",
+        label: "",
+        section_name: "",
+      },
+    ]);
   }
 
   function updateItem(localId: string, patch: Partial<DraftItem>) {
     setItems((prev) =>
-      prev.map((item) => (item.localId === localId ? { ...item, ...patch } : item))
+      prev.map((item) => {
+        if (item.localId !== localId) return item;
+        return { ...item, ...patch } as DraftItem;
+      })
     );
   }
 
@@ -419,13 +604,27 @@ export function PlanBuilder({
       start_date: startDate || null,
       end_date: endDate || null,
       training_days: trainingDays,
-      exercises: items.map((item, index) => ({
-        exercise_id: item.exercise_id,
-        custom_instructions: item.custom_instructions,
-        section_name: item.section_name,
-        block_name: item.block_name,
-        order_index: index,
-      })),
+      exercises: items.map((item, index) =>
+        item.item_type === "separator"
+          ? {
+              item_type: "separator" as const,
+              exercise_id: null,
+              label: item.label,
+              custom_instructions: null,
+              section_name: item.section_name,
+              block_name: null,
+              order_index: index,
+            }
+          : {
+              item_type: "exercise" as const,
+              exercise_id: item.exercise_id,
+              label: null,
+              custom_instructions: item.custom_instructions,
+              section_name: item.section_name,
+              block_name: item.block_name,
+              order_index: index,
+            }
+      ),
     });
     setSaving(false);
 
@@ -440,32 +639,41 @@ export function PlanBuilder({
   }
 
   const groupedPreview = useMemo(() => {
-    const groups: { section: string; count: number }[] = [];
+    const groups: { section: string; exercises: number; separators: number }[] =
+      [];
     for (const item of items) {
       const section = item.section_name.trim() || "Sin sección";
       const last = groups[groups.length - 1];
-      if (last && last.section === section) last.count += 1;
-      else groups.push({ section, count: 1 });
+      if (last && last.section === section) {
+        if (item.item_type === "separator") last.separators += 1;
+        else last.exercises += 1;
+      } else {
+        groups.push({
+          section,
+          exercises: item.item_type === "separator" ? 0 : 1,
+          separators: item.item_type === "separator" ? 1 : 0,
+        });
+      }
     }
     return groups;
   }, [items]);
 
   return (
-    <div className="space-y-8">
-      <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
-        <div>
-          <h1 className="text-2xl font-semibold tracking-tight">
-            {isEdit ? "Editar plan" : "Crear plan"}
-          </h1>
-          <p className="text-muted-foreground">
-            Selecciona paciente, añade ejercicios, organiza por secciones y
-            guarda. Puedes editar la fecha de fin para extender el plan.
-          </p>
-        </div>
-        <Button type="button" onClick={handleSave} disabled={saving}>
-          {saving ? "Guardando…" : isEdit ? "Guardar cambios" : "Guardar plan"}
-        </Button>
-      </div>
+    <div className="space-y-8 pb-24 md:pb-0">
+      <PageHeader
+        title={isEdit ? "Editar plan" : "Crear plan"}
+        description="Selecciona paciente, añade ejercicios o separadores, organiza por días y guarda."
+        actions={
+          <Button
+            type="button"
+            onClick={handleSave}
+            disabled={saving}
+            className="hidden w-full sm:w-auto md:inline-flex"
+          >
+            {saving ? "Guardando…" : isEdit ? "Guardar cambios" : "Guardar plan"}
+          </Button>
+        }
+      />
 
       <section className="grid gap-4 rounded-xl border border-border bg-card p-4 md:grid-cols-2">
         <div className="grid gap-2 md:col-span-2">
@@ -553,36 +761,114 @@ export function PlanBuilder({
 
       <section className="space-y-4 rounded-xl border border-border bg-card p-4">
         <div>
-          <h2 className="font-medium">Añadir ejercicio</h2>
+          <h2 className="font-medium">Añadir al plan</h2>
           <p className="text-sm text-muted-foreground">
-            Busca por identificador o nombre.
+            Filtra por grupo clínico y elige un ejercicio por identificador o
+            nombre; se añadirá al plan al seleccionarlo. El bloque (A+M, PE…)
+            lo rellenas en cada fila del plan. También puedes insertar un
+            separador con texto.
           </p>
         </div>
+
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-2 sm:col-span-2 lg:col-span-1">
+            <Label htmlFor="exercise-group-filter">Grupo</Label>
+            <SearchableSelect
+              id="exercise-group-filter"
+              className="min-w-0"
+              options={groupFilterOptions}
+              value={selectedGroupFilter}
+              onChange={setSelectedGroupFilter}
+              placeholder="Todos los grupos"
+              searchPlaceholder="Filtrar grupo…"
+              emptyMessage="Ningún grupo coincide."
+            />
+            {selectedGroupFilter ? (
+              <button
+                type="button"
+                className="text-left text-xs text-muted-foreground underline-offset-2 hover:underline"
+                onClick={() => setSelectedGroupFilter(null)}
+              >
+                Quitar filtro de grupo
+              </button>
+            ) : null}
+          </div>
+          <div className="grid gap-2">
+            <Label htmlFor="exercise-code-select">Identificador</Label>
+            <SearchableSelect
+              id="exercise-code-select"
+              className="min-w-0"
+              options={exerciseCodeOptions}
+              value={null}
+              onChange={(exerciseId) => {
+                if (exerciseId) addExerciseById(exerciseId);
+              }}
+              placeholder="Buscar por código…"
+              searchPlaceholder="Identificador…"
+              emptyMessage={
+                selectedGroupFilter
+                  ? "Ningún identificador en este grupo."
+                  : "Ningún identificador coincide."
+              }
+            />
+          </div>
+          <div className="grid gap-2">
+            <Label htmlFor="exercise-title-select">Nombre</Label>
+            <SearchableSelect
+              id="exercise-title-select"
+              className="min-w-0"
+              options={exerciseTitleOptions}
+              value={null}
+              onChange={(exerciseId) => {
+                if (exerciseId) addExerciseById(exerciseId);
+              }}
+              placeholder="Buscar por nombre…"
+              searchPlaceholder="Nombre del ejercicio…"
+              emptyMessage={
+                selectedGroupFilter
+                  ? "Ningún ejercicio en este grupo."
+                  : "Ningún ejercicio coincide."
+              }
+            />
+          </div>
+        </div>
+
+        {selectedGroupFilter ? (
+          <p className="text-xs text-muted-foreground">
+            Mostrando {filteredExercises.length} ejercicio
+            {filteredExercises.length === 1 ? "" : "s"} del grupo{" "}
+            <span className="font-medium">{selectedGroupFilter}</span>
+          </p>
+        ) : null}
+
         <div className="flex flex-col gap-2 sm:flex-row">
-          <SearchableSelect
-            className="flex-1"
-            options={exerciseOptions}
-            value={selectedExerciseId}
-            onChange={setSelectedExerciseId}
-            placeholder="Buscar ejercicio…"
-            searchPlaceholder="Código o título…"
-            emptyMessage="No se encontraron ejercicios."
-          />
-          <Button type="button" onClick={addExercise} className="gap-1.5">
-            <Plus className="size-4" />
-            Añadir
+          <Button
+            type="button"
+            variant="outline"
+            onClick={addSeparator}
+            className="gap-1.5 sm:w-auto"
+          >
+            <Minus className="size-4" />
+            Añadir separador
           </Button>
         </div>
       </section>
 
       <section className="space-y-3">
-        <div className="flex items-center justify-between gap-3">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <h2 className="font-medium">
             Ejercicios del plan ({items.length})
           </h2>
           {groupedPreview.length > 0 ? (
-            <p className="text-xs text-muted-foreground">
-              {groupedPreview.map((g) => `${g.section} (${g.count})`).join(" · ")}
+            <p className="text-xs text-muted-foreground break-words sm:max-w-[60%] sm:text-right">
+              {groupedPreview
+                .map((g) => {
+                  const parts = [];
+                  if (g.exercises) parts.push(`${g.exercises} ej.`);
+                  if (g.separators) parts.push(`${g.separators} sep.`);
+                  return `${g.section} (${parts.join(", ")})`;
+                })
+                .join(" · ")}
             </p>
           ) : null}
         </div>
@@ -602,17 +888,29 @@ export function PlanBuilder({
               strategy={verticalListSortingStrategy}
             >
               <div className="space-y-3">
-                {items.map((item, index) => (
-                  <SortableExerciseRow
-                    key={item.localId}
-                    item={item}
-                    index={index}
-                    total={items.length}
-                    onChange={updateItem}
-                    onRemove={removeItem}
-                    onMove={moveItem}
-                  />
-                ))}
+                {items.map((item, index) =>
+                  item.item_type === "separator" ? (
+                    <SortableSeparatorRow
+                      key={item.localId}
+                      item={item}
+                      index={index}
+                      total={items.length}
+                      onChange={updateItem}
+                      onRemove={removeItem}
+                      onMove={moveItem}
+                    />
+                  ) : (
+                    <SortableExerciseRow
+                      key={item.localId}
+                      item={item}
+                      index={index}
+                      total={items.length}
+                      onChange={updateItem}
+                      onRemove={removeItem}
+                      onMove={moveItem}
+                    />
+                  )
+                )}
               </div>
             </SortableContext>
           </DndContext>
@@ -620,7 +918,7 @@ export function PlanBuilder({
       </section>
 
       <Dialog open={cloneOpen} onOpenChange={setCloneOpen}>
-        <DialogContent className="sm:max-w-md">
+        <DialogContent className="w-[calc(100vw-2rem)] max-w-md sm:max-w-md">
           <DialogHeader>
             <DialogTitle>Plan anterior encontrado</DialogTitle>
             <DialogDescription>
@@ -639,14 +937,14 @@ export function PlanBuilder({
             </DialogDescription>
           </DialogHeader>
           <DialogFooter className="gap-2 sm:flex-col">
-            <Button type="button" className="gap-1.5" onClick={applyClone}>
+            <Button type="button" className="w-full gap-1.5" onClick={applyClone}>
               <Copy className="size-4" />
               Usar plan anterior y modificarlo
             </Button>
             <Button
               type="button"
               variant="outline"
-              className="gap-1.5"
+              className="w-full gap-1.5"
               onClick={startFromScratch}
             >
               <FilePlus2 className="size-4" />
@@ -654,13 +952,25 @@ export function PlanBuilder({
             </Button>
             <DialogClose
               nativeButton
-              className="inline-flex h-8 items-center justify-center rounded-lg px-2.5 text-sm text-muted-foreground hover:bg-muted"
+              className="inline-flex h-9 w-full items-center justify-center rounded-lg px-2.5 text-sm text-muted-foreground hover:bg-muted"
             >
               Cancelar
             </DialogClose>
           </DialogFooter>
         </DialogContent>
       </Dialog>
+
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-background/95 p-4 backdrop-blur md:hidden">
+        <Button
+          type="button"
+          onClick={handleSave}
+          disabled={saving}
+          className="w-full"
+          size="lg"
+        >
+          {saving ? "Guardando…" : isEdit ? "Guardar cambios" : "Guardar plan"}
+        </Button>
+      </div>
     </div>
   );
 }

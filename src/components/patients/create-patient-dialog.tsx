@@ -59,7 +59,7 @@ export function CreatePatientDialog({
         if (!pending) onOpenChange(nextOpen);
       }}
     >
-      <DialogContent className="sm:max-w-md">
+      <DialogContent className="w-[calc(100vw-2rem)] max-w-md sm:max-w-md">
         <DialogHeader>
           <DialogTitle>Crear paciente</DialogTitle>
           <DialogDescription>
@@ -107,15 +107,15 @@ export function CreatePatientDialog({
             />
           </div>
 
-          <DialogFooter>
+          <DialogFooter className="flex-col gap-2 sm:flex-row">
             <DialogClose
               disabled={pending}
               nativeButton
-              className="inline-flex h-8 items-center justify-center rounded-lg border border-border bg-background px-2.5 text-sm font-medium transition-colors hover:bg-muted disabled:pointer-events-none disabled:opacity-50"
+              className="inline-flex h-9 w-full items-center justify-center rounded-lg border border-border bg-background px-2.5 text-sm font-medium transition-colors hover:bg-muted disabled:pointer-events-none disabled:opacity-50 sm:w-auto"
             >
               Cancelar
             </DialogClose>
-            <Button type="submit" disabled={pending}>
+            <Button type="submit" disabled={pending} className="w-full sm:w-auto">
               {pending ? "Creando…" : "Crear paciente"}
             </Button>
           </DialogFooter>

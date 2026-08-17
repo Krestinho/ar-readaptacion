@@ -41,7 +41,7 @@ export function PlanView({ plan, patientName, className }: PlanViewProps) {
         >
           Plan de rehabilitación
         </p>
-        <h1 className="mt-1 text-2xl font-semibold tracking-tight">
+        <h1 className="mt-1 text-xl font-semibold tracking-tight break-words sm:text-2xl">
           {plan.title}
         </h1>
         <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm text-[#6b7280]">
@@ -62,10 +62,14 @@ export function PlanView({ plan, patientName, className }: PlanViewProps) {
               <div key={week.weekIndex}>
                 <h2 className="mb-2 text-base font-semibold">{week.label}</h2>
                 <div className="overflow-hidden rounded-lg border border-[#e2d6c8]">
-                  <div className="grid grid-cols-7 bg-[#f3ebe2] text-center text-[11px] font-medium sm:text-xs">
+                  <div className="grid grid-cols-7 bg-[#f3ebe2] text-center text-[10px] font-medium sm:text-xs">
                     {WEEKDAY_HEADERS_ES.map((day) => (
-                      <div key={day} className="border-r border-[#e2d6c8] px-1 py-1.5 last:border-r-0">
-                        {day}
+                      <div
+                        key={day}
+                        className="border-r border-[#e2d6c8] px-0.5 py-1.5 last:border-r-0 sm:px-1"
+                      >
+                        <span className="sm:hidden">{day.slice(0, 2)}</span>
+                        <span className="hidden sm:inline">{day}</span>
                       </div>
                     ))}
                   </div>
@@ -93,10 +97,10 @@ export function PlanView({ plan, patientName, className }: PlanViewProps) {
           </div>
         ) : null}
 
-        <div className="rounded-lg border border-[#e2d6c8] bg-white p-4 text-sm leading-relaxed">
+        <div className="rounded-lg border border-[#e2d6c8] bg-white p-3 text-sm leading-relaxed sm:p-4">
           <ul className="space-y-1.5">
             {PLAN_TERMINOLOGY.legend.map((item) => (
-              <li key={item.code}>
+              <li key={item.code} className="break-words">
                 <span className="font-semibold" style={{ color: "#a67c52" }}>
                   {item.code}
                 </span>
@@ -109,12 +113,14 @@ export function PlanView({ plan, patientName, className }: PlanViewProps) {
           <h3 className="mt-4 font-semibold tracking-wide uppercase">Dosis</h3>
           <ul className="mt-1.5 list-disc space-y-1.5 pl-5 text-[#4b5563]">
             {PLAN_TERMINOLOGY.dose.map((line) => (
-              <li key={line}>{line}</li>
+              <li key={line} className="break-words">
+                {line}
+              </li>
             ))}
           </ul>
 
           <h3 className="mt-4 font-semibold tracking-wide uppercase">Orden</h3>
-          <p className="mt-1.5 text-[#4b5563]">{PLAN_TERMINOLOGY.order}</p>
+          <p className="mt-1.5 break-words text-[#4b5563]">{PLAN_TERMINOLOGY.order}</p>
         </div>
       </section>
 
@@ -136,7 +142,7 @@ export function PlanView({ plan, patientName, className }: PlanViewProps) {
 
               <div className="overflow-hidden rounded-lg border border-[#e2d6c8]">
                 <div
-                  className="grid grid-cols-[72px_1fr_110px_64px] gap-0 bg-[#f3ebe2] text-xs font-semibold tracking-wide uppercase sm:grid-cols-[88px_1fr_140px_72px] sm:text-sm"
+                  className="hidden bg-[#f3ebe2] text-xs font-semibold tracking-wide uppercase sm:grid sm:grid-cols-[88px_1fr_140px_72px] sm:text-sm"
                   style={{ color: "#2a3340" }}
                 >
                   <div className="border-r border-[#e2d6c8] px-2 py-2">Bloque</div>
@@ -146,45 +152,104 @@ export function PlanView({ plan, patientName, className }: PlanViewProps) {
                 </div>
 
                 {group.items.map((item) => {
+                  const isSeparator =
+                    item.item_type === "separator" ||
+                    (!item.exercise_id && item.label);
+
+                  if (isSeparator) {
+                    return (
+                      <div
+                        key={item.id}
+                        className="border-t border-[#e2d6c8] bg-[#f3ebe2] px-3 py-2 text-sm font-semibold tracking-wide uppercase"
+                        style={{ color: "#2a3340" }}
+                      >
+                        {item.label}
+                      </div>
+                    );
+                  }
+
                   const videoUrl = item.exercises?.video_url?.trim();
                   return (
-                    <div
-                      key={item.id}
-                      className="grid grid-cols-[72px_1fr_110px_64px] border-t border-[#e2d6c8] bg-white text-sm sm:grid-cols-[88px_1fr_140px_72px]"
-                    >
-                      <div className="border-r border-[#e2d6c8] px-2 py-3 font-medium">
-                        {item.block_name || "—"}
-                      </div>
-                      <div className="border-r border-[#e2d6c8] px-2 py-3">
-                        <p className="font-medium leading-snug">
+                    <div key={item.id} className="border-t border-[#e2d6c8] bg-white">
+                      {/* Móvil: tarjeta apilada */}
+                      <div className="space-y-2 p-3 text-sm sm:hidden">
+                        <div className="flex flex-wrap items-start justify-between gap-2">
+                          <span className="rounded bg-[#efe6da] px-2 py-0.5 text-xs font-semibold">
+                            {item.block_name || "—"}
+                          </span>
+                          <span className="text-xs text-[#9ca3af]">
+                            {VIDEO_LINK_PLACEHOLDER}
+                          </span>
+                        </div>
+                        <p className="font-medium leading-snug break-words">
                           {item.exercises?.title ?? "Ejercicio"}
                         </p>
                         {item.exercises?.description ? (
-                          <p className="mt-1 text-xs whitespace-pre-wrap text-[#6b7280]">
+                          <p className="text-xs whitespace-pre-wrap break-words text-[#6b7280]">
                             {item.exercises.description}
                           </p>
                         ) : null}
-                      </div>
-                      <div className="border-r border-[#e2d6c8] px-2 py-3 whitespace-pre-wrap">
-                        {item.custom_instructions || "—"}
-                      </div>
-                      <div className="px-2 py-3">
+                        {item.custom_instructions ? (
+                          <p className="whitespace-pre-wrap break-words">
+                            <span
+                              className="font-medium"
+                              style={{ color: "#a67c52" }}
+                            >
+                              Dosis:{" "}
+                            </span>
+                            {item.custom_instructions}
+                          </p>
+                        ) : null}
                         {videoUrl ? (
                           <a
                             href={videoUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1 font-medium"
+                            className="inline-flex items-center gap-1 text-sm font-medium"
                             style={{ color: "#a67c52" }}
                           >
                             {VIDEO_LINK_PLACEHOLDER}
                             <ExternalLink className="size-3" />
                           </a>
-                        ) : (
-                          <span className="text-[#9ca3af]">
-                            {VIDEO_LINK_PLACEHOLDER}
-                          </span>
-                        )}
+                        ) : null}
+                      </div>
+
+                      {/* Escritorio: tabla */}
+                      <div className="hidden grid-cols-[88px_1fr_140px_72px] sm:grid">
+                        <div className="border-r border-[#e2d6c8] px-2 py-3 font-medium">
+                          {item.block_name || "—"}
+                        </div>
+                        <div className="border-r border-[#e2d6c8] px-2 py-3">
+                          <p className="font-medium leading-snug break-words">
+                            {item.exercises?.title ?? "Ejercicio"}
+                          </p>
+                          {item.exercises?.description ? (
+                            <p className="mt-1 text-xs whitespace-pre-wrap break-words text-[#6b7280]">
+                              {item.exercises.description}
+                            </p>
+                          ) : null}
+                        </div>
+                        <div className="border-r border-[#e2d6c8] px-2 py-3 whitespace-pre-wrap break-words">
+                          {item.custom_instructions || "—"}
+                        </div>
+                        <div className="px-2 py-3">
+                          {videoUrl ? (
+                            <a
+                              href={videoUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 font-medium"
+                              style={{ color: "#a67c52" }}
+                            >
+                              {VIDEO_LINK_PLACEHOLDER}
+                              <ExternalLink className="size-3" />
+                            </a>
+                          ) : (
+                            <span className="text-[#9ca3af]">
+                              {VIDEO_LINK_PLACEHOLDER}
+                            </span>
+                          )}
+                        </div>
                       </div>
                     </div>
                   );

@@ -22,10 +22,13 @@ export type PlanExerciseOption = {
   id: string;
   code: string | null;
   title: string;
+  group_name: string | null;
 };
 
 export type PlanExerciseInput = {
-  exercise_id: string;
+  item_type: "exercise" | "separator";
+  exercise_id: string | null;
+  label: string | null;
   custom_instructions: string | null;
   section_name: string | null;
   block_name: string | null;
@@ -79,7 +82,7 @@ export async function getPlanBuilderOptions(): Promise<
         .order("full_name", { ascending: true }),
       supabase
         .from("exercises")
-        .select("id, code, title")
+        .select("id, code, title, group_name")
         .order("title", { ascending: true }),
     ]);
 
@@ -93,7 +96,12 @@ export async function getPlanBuilderOptions(): Promise<
       full_name: p.full_name,
       email: null,
     })),
-    exercises: exercises ?? [],
+    exercises: (exercises ?? []).map((exercise) => ({
+      id: exercise.id,
+      code: exercise.code,
+      title: exercise.title,
+      group_name: exercise.group_name,
+    })),
   };
 }
 
@@ -115,6 +123,8 @@ export async function getPlanById(
         id,
         plan_id,
         exercise_id,
+        item_type,
+        label,
         custom_instructions,
         section_name,
         block_name,
@@ -196,7 +206,25 @@ export async function savePlan(input: SavePlanInput): Promise<PlanActionResult> 
     return { ok: false, error: "Selecciona un paciente." };
   }
   if (!input.exercises.length) {
-    return { ok: false, error: "Añade al menos un ejercicio al plan." };
+    return { ok: false, error: "Añade al menos un ejercicio o separador al plan." };
+  }
+
+  const exerciseCount = input.exercises.filter(
+    (item) => item.item_type === "exercise"
+  ).length;
+  if (exerciseCount === 0) {
+    return { ok: false, error: "El plan debe incluir al menos un ejercicio." };
+  }
+
+  for (const item of input.exercises) {
+    if (item.item_type === "separator") {
+      const label = item.label?.trim();
+      if (!label) {
+        return { ok: false, error: "Cada separador debe tener un texto." };
+      }
+    } else if (!item.exercise_id) {
+      return { ok: false, error: "Hay un ejercicio sin seleccionar." };
+    }
   }
 
   const supabase = await createClient();
@@ -236,7 +264,10 @@ export async function savePlan(input: SavePlanInput): Promise<PlanActionResult> 
 
   const rows = input.exercises.map((item, index) => ({
     plan_id: planId!,
-    exercise_id: item.exercise_id,
+    item_type: item.item_type,
+    exercise_id: item.item_type === "exercise" ? item.exercise_id : null,
+    label:
+      item.item_type === "separator" ? cleanOptionalText(item.label) : null,
     custom_instructions: cleanOptionalText(item.custom_instructions),
     section_name: cleanOptionalText(item.section_name),
     block_name: cleanOptionalText(item.block_name),
@@ -290,6 +321,8 @@ export async function getLatestPlanForPatient(
         id,
         plan_id,
         exercise_id,
+        item_type,
+        label,
         custom_instructions,
         section_name,
         block_name,
