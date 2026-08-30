@@ -1,7 +1,6 @@
 import { createClient } from "@supabase/supabase-js";
 import { config } from "dotenv";
 import fs from "fs";
-import { PDFParse } from "pdf-parse";
 import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf.mjs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -14,117 +13,14 @@ const PDF_PATH = path.join(
   "../../public/Carga inicial de ejercicios.pdf"
 );
 
-const TOP_EXERCISE_GROUPS = ["NEURODINÁMIA", "ANALÍTICOS"];
+const GROUP_NAME_SEPARATOR = " · ";
+const HEADING_LEVELS = 5;
 
-const EXERCISE_SUB_GROUPS = [
-  "Estructura",
-  "Foam",
-  "Movilizar",
-  "Estiramiento estático activo",
-  "Estiramiento dinámico",
-  'AIS "Active isolated stretching"',
-  "PNF",
-  "PNF/CrAc (distracción)",
-  "Estabilidad (bajo carga)> fuerza analítica",
-  "Tobillo",
-  "Rodilla",
-  "Cadera",
-  "Hombro",
-  "Columna",
-  "Cervical",
-  "Lumbar",
-  "Muñeca",
-  "Codo",
-  "Mano",
-  "Pie",
-  "Core",
-];
-
-const TOP_GROUP_LOOKUP = new Map(
-  TOP_EXERCISE_GROUPS.map((g) => [normalizeGroupKey(g), g])
-);
-const SUB_GROUP_LOOKUP = new Map(
-  EXERCISE_SUB_GROUPS.map((g) => [normalizeGroupKey(g), g])
-);
-const GROUP_CONTEXT_SKIP = new Set(
-  ["1er meta", "plano", "planos"].map(normalizeGroupKey)
-);
-
-/** Códigos de la columna «Bloque» del PDF (PLANOS, ECC, …). No son grupos. */
-const PDF_BLOCK_CODES = new Set(
-  [
-    "PLANOS",
-    "PE",
-    "ECC",
-    "ADD",
-    "IR",
-    "ER",
-    "EXT",
-    "FLEX",
-    "ABD",
-    "DB",
-    "KB",
-    "ISO",
-    "LMN",
-    "LS",
-    "PIMA",
-    "BB",
-    "CMJ",
-  ].map(normalizeGroupKey)
-);
-
-function normalizeGroupKey(value) {
-  return value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function matchTopGroup(line) {
-  return TOP_GROUP_LOOKUP.get(normalizeGroupKey(line)) ?? null;
-}
-
-function matchSubGroup(line) {
-  const key = normalizeGroupKey(line);
-  if (GROUP_CONTEXT_SKIP.has(key)) return null;
-  return SUB_GROUP_LOOKUP.get(key) ?? null;
-}
-
-function formatExerciseGroupName(topGroup, subGroup) {
-  if (subGroup && topGroup) return `${topGroup} · ${subGroup}`;
-  if (topGroup) return topGroup;
-  if (subGroup) return subGroup;
-  return null;
-}
-
-function isNoiseLine(line) {
-  const l = line.trim();
-  if (!l) return true;
-  if (/^-- \d+ of \d+ --$/.test(l)) return true;
-  if (/^[Xx.\s]+$/.test(l)) return true;
-  if (/bloque\s+ejercicio\s+dosis\s+video/i.test(l)) return true;
-  if (/^(bloque|ejercicio|dosis|video)$/i.test(l)) return true;
-
-  if (matchTopGroup(l) || matchSubGroup(l)) return true;
-
-  const categories = [
-    "1er meta",
-    "iso",
-    "ecc",
-    "cuadric",
-    "l.corta",
-    "isquio",
-    "tibial",
-    "posteri",
-    "perone",
-    "soleo",
-    "gemelo",
-  ];
-
-  const normalized = normalizeGroupKey(l);
-  return categories.some((c) => normalized === normalizeGroupKey(c));
+function formatExerciseGroupName(headings) {
+  const parts = headings
+    .map((heading) => heading?.replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+  return parts.length > 0 ? parts.join(GROUP_NAME_SEPARATOR) : null;
 }
 
 function sqlEscape(value) {
@@ -143,142 +39,218 @@ function slugCode(title, index) {
   return `${String(index).padStart(3, "0")}-${base || "EXE"}`;
 }
 
-function cleanTitle(raw) {
-  return raw
-    .replace(/^PLANOS?\s+/i, "")
-    .replace(/^[“"']+|[”"']+$/g, "")
-    .replace(/^["]+/, "")
+function collectContentIds(node, ids = []) {
+  if (!node) return ids;
+  if (node.type === "content" && node.id) ids.push(node.id);
+  for (const child of node.children || []) collectContentIds(child, ids);
+  return ids;
+}
+
+function collectObjectIds(node, ids = []) {
+  if (!node) return ids;
+  if (node.type === "object" && node.id) ids.push(node.id);
+  for (const child of node.children || []) collectObjectIds(child, ids);
+  return ids;
+}
+
+function findRoles(node, role, acc = []) {
+  if (!node) return acc;
+  if (node.role === role) acc.push(node);
+  for (const child of node.children || []) findRoles(child, role, acc);
+  return acc;
+}
+
+function nodeText(node, textByMcid) {
+  return collectContentIds(node)
+    .map((id) => (textByMcid[id] || "").trim())
+    .filter(Boolean)
+    .join(" ")
+    .replace(/\s+/g, " ")
     .trim();
 }
 
-function isPdfBlockCode(token) {
-  return PDF_BLOCK_CODES.has(normalizeGroupKey(token));
-}
+function cellLines(node, itemsByMcid) {
+  const items = collectContentIds(node)
+    .flatMap((id) => itemsByMcid[id] || [])
+    .filter((item) => item.str);
 
-function updateGroupContext(line, state) {
-  const top = matchTopGroup(line);
-  if (top) {
-    state.topGroup = top;
-    state.subGroup = null;
-    return;
+  if (!items.length) return [];
+
+  const lines = [];
+  let currentY = items[0].y;
+  let current = "";
+
+  for (const item of items) {
+    if (item.y != null && currentY != null && Math.abs(item.y - currentY) > 2) {
+      const line = current.replace(/\s+/g, " ").trim();
+      if (line) lines.push(line);
+      current = item.str;
+      currentY = item.y;
+    } else {
+      current += item.str;
+      if (item.y != null) currentY = item.y;
+    }
   }
 
-  const sub = matchSubGroup(line);
-  if (sub) {
-    state.subGroup = sub;
-  }
+  const line = current.replace(/\s+/g, " ").trim();
+  if (line) lines.push(line);
+  return lines;
 }
 
-function parseExercisesWithGroups(text, linkUrls) {
-  const chunks = text.split(/\bLink\b/i);
+function extractTitleAndDescription(cell, textByMcid, itemsByMcid) {
+  const lines = cellLines(cell, itemsByMcid).filter(
+    (line) => !isPlaceholderTitle(line)
+  );
+  if (lines.length > 0) {
+    return {
+      title: lines[0],
+      description: lines.slice(1).join(" ") || null,
+    };
+  }
+
+  const fallback = nodeText(cell, textByMcid);
+  return { title: fallback, description: null };
+}
+
+function isPlaceholderTitle(title) {
+  const compact = title.replace(/\s+/g, "").trim();
+  return !compact || /^[Xx.]+$/.test(compact);
+}
+
+function cleanTitle(raw) {
+  return raw
+    .replace(/^[“"']+|[”"']+$/g, "")
+    .replace(/^["]+/, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function applyHeading(headings, level, title) {
+  const text = title?.replace(/\s+/g, " ").trim();
+  if (!text) return;
+  headings[level - 1] = text;
+  for (let i = level; i < HEADING_LEVELS; i++) headings[i] = null;
+}
+
+function buildPageIndex(textContent) {
+  const textByMcid = {};
+  const itemsByMcid = {};
+  let currentId = null;
+
+  for (const item of textContent.items) {
+    if (item.type === "beginMarkedContentProps" && item.id) {
+      currentId = item.id;
+      if (!textByMcid[currentId]) textByMcid[currentId] = "";
+      if (!itemsByMcid[currentId]) itemsByMcid[currentId] = [];
+    } else if (item.type === "endMarkedContent") {
+      currentId = null;
+    } else if (currentId && item.str != null) {
+      textByMcid[currentId] += item.str;
+      itemsByMcid[currentId].push({
+        str: item.str,
+        hasEOL: item.hasEOL,
+        y: item.transform?.[5] ?? null,
+      });
+    }
+  }
+
+  return { textByMcid, itemsByMcid };
+}
+
+function annotationUrlMap(annotations) {
+  const map = new Map();
+  for (const annotation of annotations || []) {
+    if (annotation?.subtype === "Link" && annotation.url && annotation.id) {
+      map.set(annotation.id, annotation.url);
+    }
+  }
+  return map;
+}
+
+function videoUrlForRow(row, urlByAnnotId) {
+  for (const link of findRoles(row, "Link")) {
+    for (const objectId of collectObjectIds(link)) {
+      const url = urlByAnnotId.get(objectId);
+      if (url) return url;
+    }
+  }
+  return null;
+}
+
+/**
+ * Recorre el PDF etiquetado (Word) y asigna `group_name` con los
+ * encabezados H1–H5 vigentes en cada ejercicio.
+ */
+async function parseExercisesFromPdf(pdfPath) {
+  const buf = fs.readFileSync(pdfPath);
+  const pdf = await pdfjsLib.getDocument({ data: new Uint8Array(buf) }).promise;
+  const headings = Array(HEADING_LEVELS).fill(null);
   const exercises = [];
   const seen = new Set();
-  const groupState = { topGroup: null, subGroup: null };
 
-  const headerRe = /bloque\s+ejercicio\s+dosis\s+video/i;
+  for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber++) {
+    const page = await pdf.getPage(pageNumber);
+    const structTree = await page.getStructTree();
+    if (!structTree) continue;
 
-  for (let chunkIndex = 0; chunkIndex < chunks.length; chunkIndex++) {
-    const chunk = chunks[chunkIndex];
-    const rawLines = chunk
-      .split(/\r?\n/)
-      .map((l) => l.trim())
-      .filter(Boolean);
+    const textContent = await page.getTextContent({ includeMarkedContent: true });
+    const { textByMcid, itemsByMcid } = buildPageIndex(textContent);
+    const urlByAnnotId = annotationUrlMap(await page.getAnnotations());
 
-    if (!rawLines.length) continue;
+    function walk(node) {
+      if (!node) return;
 
-    const headerIdx = rawLines.findIndex((l) => headerRe.test(l));
-
-    for (const line of headerIdx >= 0 ? rawLines.slice(0, headerIdx) : rawLines) {
-      updateGroupContext(line, groupState);
-    }
-
-    const contentLines = headerIdx >= 0 ? rawLines.slice(headerIdx + 1) : rawLines;
-    if (!contentLines.length) continue;
-
-    const content = contentLines
-      .filter((l) => !/^--\s*\d+\s+of\s+\d+\s*--$/i.test(l))
-      .filter((l) => !/^(x|X)$/i.test(l))
-      .filter((l) => !isNoiseLine(l));
-
-    if (!content.length) continue;
-
-    let titleLine = content[0];
-    let titleLineIndex = 0;
-    const possibleBlockAndTitle = content[0].match(
-      /^([A-ZÁÉÍÓÚÜÑ0-9\/]{2,})\s+(.+)$/
-    );
-
-    if (possibleBlockAndTitle && isPdfBlockCode(possibleBlockAndTitle[1])) {
-      titleLine = possibleBlockAndTitle[2];
-      titleLineIndex = 0;
-    }
-
-    const title = cleanTitle(titleLine);
-    if (!title || title.length < 3) continue;
-    if (isNoiseLine(title)) continue;
-
-    let description =
-      content
-        .slice(titleLineIndex + 1)
-        .map(cleanTitle)
-        .filter((l) => !isNoiseLine(l))
-        .join(" ")
-        .replace(/\s+/g, " ")
-        .trim() || null;
-
-    if (description) {
-      const titleNorm = title.toLowerCase();
-      const descNorm = description.toLowerCase();
-      if (descNorm.startsWith(titleNorm)) {
-        description =
-          description.slice(title.length).replace(/^[\s:.-]+/, "").trim() || null;
+      const headingMatch = node.role && /^H([1-5])$/.exec(node.role);
+      if (headingMatch) {
+        applyHeading(headings, Number(headingMatch[1]), nodeText(node, textByMcid));
+        return;
       }
+
+      if (node.role === "Table") {
+        for (const tbody of findRoles(node, "TBody")) {
+          for (const row of (tbody.children || []).filter((child) => child.role === "TR")) {
+            const cells = (row.children || []).filter(
+              (child) => child.role === "TH" || child.role === "TD"
+            );
+            if (cells.length < 2) continue;
+
+            const { title: rawTitle, description: rawDescription } =
+              extractTitleAndDescription(cells[1], textByMcid, itemsByMcid);
+            const title = cleanTitle(rawTitle);
+            if (isPlaceholderTitle(title) || title.length < 3) continue;
+
+            const description =
+              rawDescription?.replace(/\s+/g, " ").trim() || null;
+            const groupName = formatExerciseGroupName(headings);
+            const key = `${groupName || ""}|${title}`.toLowerCase();
+            if (seen.has(key)) continue;
+            seen.add(key);
+
+            exercises.push({
+              title,
+              description,
+              group_name: groupName,
+              videoUrl: videoUrlForRow(row, urlByAnnotId),
+            });
+          }
+        }
+        return;
+      }
+
+      for (const child of node.children || []) walk(child);
     }
 
-    const groupName = formatExerciseGroupName(
-      groupState.topGroup,
-      groupState.subGroup
-    );
-
-    const key = `${groupName || ""}|${title}`.toLowerCase();
-    if (seen.has(key)) continue;
-    seen.add(key);
-
-    const videoUrl = linkUrls?.[chunkIndex] ?? null;
-
-    exercises.push({ title, description, group_name: groupName, videoUrl });
+    walk(structTree);
   }
 
   return exercises;
-}
-
-async function extractLinkUrlsFromPdf(pdfPath) {
-  const buf = fs.readFileSync(pdfPath);
-  const data = new Uint8Array(buf);
-  const pdf = await pdfjsLib.getDocument({ data }).promise;
-
-  const urls = [];
-  for (let p = 1; p <= pdf.numPages; p++) {
-    const page = await pdf.getPage(p);
-    const annots = await page.getAnnotations();
-    for (const a of annots || []) {
-      if (a?.subtype === "Link" && a.url) {
-        urls.push(a.url);
-      }
-    }
-  }
-  return urls;
 }
 
 async function main() {
   const dryRun = process.argv.includes("--dry-run");
   const sqlOnly = process.argv.includes("--sql");
 
-  const buf = fs.readFileSync(PDF_PATH);
-  const parser = new PDFParse({ data: buf });
-  const { text } = await parser.getText();
-  const linkUrls = await extractLinkUrlsFromPdf(PDF_PATH);
-  const parsed = parseExercisesWithGroups(text, linkUrls);
+  const parsed = await parseExercisesFromPdf(PDF_PATH);
 
   if (!dryRun && !sqlOnly) {
     const supabase = createClient(
@@ -309,38 +281,38 @@ async function main() {
     }
   }
 
-  const rows = parsed.map((e, i) => ({
-    code: slugCode(e.title, i + 1),
-    title: e.title,
-    group_name: e.group_name ?? null,
-    description: e.description ?? null,
-    video_url: e.videoUrl ?? null,
+  const rows = parsed.map((exercise, index) => ({
+    code: slugCode(exercise.title, index + 1),
+    title: exercise.title,
+    group_name: exercise.group_name ?? null,
+    description: exercise.description ?? null,
+    video_url: exercise.videoUrl ?? null,
   }));
 
   console.log(`Ejercicios detectados: ${rows.length}`);
   const groupCounts = {};
   for (const row of rows) {
-    const g = row.group_name || "(sin grupo)";
-    groupCounts[g] = (groupCounts[g] || 0) + 1;
+    const group = row.group_name || "(sin grupo)";
+    groupCounts[group] = (groupCounts[group] || 0) + 1;
   }
   console.log("Grupos:", groupCounts);
-  for (const e of rows.slice(0, 10)) {
-    console.log(`- [${e.group_name ?? "—"}] ${e.title}`);
+  for (const exercise of rows.slice(0, 12)) {
+    console.log(`- [${exercise.group_name ?? "—"}] ${exercise.title}`);
   }
-  if (rows.length > 10) console.log(`… y ${rows.length - 10} más`);
+  if (rows.length > 12) console.log(`… y ${rows.length - 12} más`);
 
   if (dryRun) return;
 
   if (sqlOnly) {
     const values = rows
       .map(
-        (r) =>
-          `(${sqlEscape(r.code)}, ${sqlEscape(r.title)}, ${sqlEscape(
-            r.group_name
-          )}, ${sqlEscape(r.description)}, ${sqlEscape(r.video_url)})`
+        (row) =>
+          `(${sqlEscape(row.code)}, ${sqlEscape(row.title)}, ${sqlEscape(
+            row.group_name
+          )}, ${sqlEscape(row.description)}, ${sqlEscape(row.video_url)})`
       )
       .join(",\n  ");
-    const sql = `-- Carga inicial de ejercicios desde PDF
+    const sql = `-- Carga inicial de ejercicios desde PDF (group_name = encabezados 1–5)
 insert into public.exercises (code, title, group_name, description, video_url)
 values
   ${values};
